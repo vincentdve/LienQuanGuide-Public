@@ -1,0 +1,107 @@
+[
+  {
+    "id": "purple_assassin",
+    "color": "purple",
+    "description": "Công vật lý +1.6 · Tốc chạy +1%"
+  },
+  {
+    "id": "purple_cleric",
+    "color": "purple",
+    "description": "Hút máu phép +1.6%"
+  },
+  {
+    "id": "purple_colossus",
+    "color": "purple",
+    "description": "Máu tối đa +75"
+  },
+  {
+    "id": "purple_fairy",
+    "color": "purple",
+    "description": "Tốc đánh +1% · Tốc chạy +1%"
+  },
+  {
+    "id": "purple_reaper",
+    "color": "purple",
+    "description": "Hút máu +1.6%"
+  },
+  {
+    "id": "purple_reliever",
+    "color": "purple",
+    "description": "Máu tối đa +45 · Hồi máu/5 giây +5.2 · Tốc chạy +0.4%"
+  },
+  {
+    "id": "purple_vampire",
+    "color": "purple",
+    "description": "Công phép +2.4 · Hút máu phép +1%"
+  },
+  {
+    "id": "red_berserker",
+    "color": "red",
+    "description": "Công vật lý +2 · Xuyên giáp +3.6"
+  },
+  {
+    "id": "red_blitz",
+    "color": "red",
+    "description": "Tốc đánh +1.6% · Tỉ lệ chí mạng +0.5%"
+  },
+  {
+    "id": "red_guardian",
+    "color": "red",
+    "description": "Tốc đánh +1% · Giáp +2.3 · Máu tối đa +33.7"
+  },
+  {
+    "id": "red_nomad",
+    "color": "red",
+    "description": "Công phép +4.2 · Xuyên giáp phép +2.4"
+  },
+  {
+    "id": "red_rampage",
+    "color": "red",
+    "description": "Tỉ lệ chí mạng +0.7% · Sát thương chí mạng +3.6%"
+  },
+  {
+    "id": "red_samurai",
+    "color": "red",
+    "description": "Công vật lý +3.2"
+  },
+  {
+    "id": "red_savage",
+    "color": "red",
+    "description": "Tỉ lệ chí mạng +1.6%"
+  },
+  {
+    "id": "red_wise",
+    "color": "red",
+    "description": "Công phép +5.3"
+  },
+  {
+    "id": "teal_crusader",
+    "color": "teal",
+    "description": "Giáp +2.7 · Giáp phép +2.7 · Giảm hồi chiêu +0.6%"
+  },
+  {
+    "id": "teal_degenerate",
+    "color": "teal",
+    "description": "Tốc đánh +0.6% · Xuyên giáp phép +6.4"
+  },
+  {
+    "id": "teal_dragoon",
+    "color": "teal",
+    "description": "Công vật lý +0.9 · Xuyên giáp +6.4"
+  },
+  {
+    "id": "teal_hexer",
+    "color": "teal",
+    "description": "Công phép +2.4 · Giảm hồi chiêu +0.7%"
+  },
+  {
+    "id": "teal_paladin",
+    "color": "teal",
+    "description": "Máu tối đa +37.5 · Giảm hồi chiêu +0.6%"
+  },
+  {
+    "id": "teal_templar",
+    "color": "teal",
+    "description": "Giảm hồi chiêu +1%"
+  }
+]

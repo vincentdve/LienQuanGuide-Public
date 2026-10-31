@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Bộ trang bị - Liên Quân Guide</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="js/game-data-loader.js" defer></script>
+    <script src="js/heroes-json.js" defer></script>
+    <script src="js/items.js" defer></script>
+    <script src="js/shop-order.js" defer></script>
+    <script src="js/builds.js" defer></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1>LIÊN QUÂN GUIDE</h1>
+        <p>Thiết lập bộ trang bị</p>
+      </div>
+    </header>
+
+    <main class="container build-page">
+      <a id="build-back" class="build-page-back" href="index.html">
+        ← Quay lại tướng
+      </a>
+
+      <div id="build-hero" class="build-page-hero"></div>
+
+      <section class="detail-section">
+        <h2>Bộ trang bị</h2>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Liên Quân Guide - Dự án cá nhân</p>
+    </footer>
+
+    <script>
+      document.addEventListener("lqg:data-ready", () => {
+        const params = new URLSearchParams(location.search);
+        const hero = getHeroById(params.get("id"));
+
+        const profile = document.getElementById("build-hero");
+        const back = document.getElementById("build-back");
+
+        if (!hero) {
+          profile.textContent = "Không tìm thấy tướng.";
+          return;
+        }
+
+        back.href = `hero.html?id=${encodeURIComponent(hero.id)}&page=${params.get("page") === "2" ? 2 : 1}`;
+
+        document.title = `Trang bị - ${hero.name}`;
+
+        const image = document.createElement("img");
+
+        image.src = `images/heroes/${
+          hero.id === "flowborn" ? "flowborn-ad" : hero.id
+        }.webp`;
+
+        image.alt = hero.name;
+
+        const name = document.createElement("h2");
+        name.textContent = hero.name;
+
+        profile.append(image, name);
+      });
+    </script>
+  </body>
+</html>

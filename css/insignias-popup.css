@@ -1,0 +1,125 @@
+/* =====================================
+   PHÙ HIỆU - HỘP CHỌN NỔI
+===================================== */
+
+.insignias-board {
+  position: relative;
+  overflow: visible;
+}
+
+.insignias-choice-popover {
+  position: absolute;
+  z-index: 30;
+  box-sizing: border-box;
+
+  padding: 16px;
+
+  border: 1px solid var(--primary);
+  border-radius: 14px;
+
+  background: #181e30;
+
+  box-shadow: 0 16px 42px rgba(0, 0, 0, 0.48);
+}
+
+.insignias-choice-popover[hidden] {
+  display: none !important;
+}
+
+/* Tiêu đề danh sách */
+.insignias-choice-popover #options-title {
+  color: var(--primary);
+  margin: 0 0 12px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+/* Lưới phù hiệu */
+.insignias-choice-popover .insignias-options {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 9px;
+
+  max-height: 310px;
+  overflow-y: auto;
+  margin: 0;
+}
+
+/* Từng ô chọn */
+.insignias-choice-popover .insignias-options button {
+  min-width: 0;
+  padding: 9px 4px;
+
+  border: 1px solid var(--border);
+  border-radius: 10px;
+
+  background: #222940;
+  color: var(--text);
+  cursor: pointer;
+}
+
+/* Hiệu ứng */
+.insignias-choice-popover .insignias-options button:hover,
+.insignias-choice-popover .insignias-options button.selected {
+  border-color: var(--primary);
+  background: #30374e;
+}
+
+/* Hình phù hiệu */
+.insignias-choice-popover .insignias-options img {
+  width: 52px;
+  height: 52px;
+}
+
+/* Tên phù hiệu */
+.insignias-choice-popover .insignias-options span {
+  font-size: 11px;
+  overflow-wrap: anywhere;
+}
+
+/* =====================================
+   SƠ ĐỒ NHÁNH PHÙ HIỆU
+===================================== */
+
+.insignias-path.main-path,
+.insignias-path.secondary-path {
+  min-height: 136px;
+
+  background: radial-gradient(ellipse at center, #2c2a43 0%, #151a28 85%);
+
+  border-color: var(--path-color, var(--border));
+}
+
+/* Đường nối */
+.insignias-path .path-line {
+  background: var(--path-color);
+  box-shadow: 0 0 8px var(--path-color);
+}
+
+/* Hiệu ứng rê chuột */
+.insignias-path .insignia-node {
+  transition: transform 0.15s ease;
+}
+
+.insignias-path .insignia-node:hover {
+  transform: translateY(-3px);
+}
+
+/* =====================================
+   RESPONSIVE
+===================================== */
+
+@media (max-width: 650px) {
+  .insignias-choice-popover {
+    padding: 10px;
+  }
+
+  .insignias-choice-popover .insignias-options {
+    gap: 5px;
+  }
+
+  .insignias-choice-popover .insignias-options img {
+    width: 43px;
+    height: 43px;
+  }
+}

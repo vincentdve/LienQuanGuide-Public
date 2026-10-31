@@ -1,0 +1,62 @@
+[
+  {
+    "id": "daze",
+    "name": "Ngất Ngư",
+    "description": "Làm choáng tất cả kẻ địch lân cận trong 0.75 giây và làm chậm chúng 20% đồng thời giảm 30-58 giáp, 15-29 giáp phép trong 2.5 giây."
+  },
+  {
+    "id": "enfeeble",
+    "name": "Suy Nhược",
+    "description": "Giảm 20% sát thương của kẻ địch lân cận gây ra đồng thời tăng 20% miễn thương cho bản thân trong 4 giây."
+  },
+  {
+    "id": "execute",
+    "name": "Bộc Phá",
+    "description": "Chuyển 16% máu đã mất của tướng địch thành sát thương chuẩn lên chúng trong phạm vi."
+  },
+  {
+    "id": "flicker",
+    "name": "Tốc Biến",
+    "description": "Lập tức biến theo hướng chỉ định một khoảng ngắn."
+  },
+  {
+    "id": "heal",
+    "name": "Cấp Cứu",
+    "description": "Hồi 15% máu cho bản thân và những đồng minh xung quanh, đồng thời tăng 15% tốc chạy cho cả nhóm trong 2 giây."
+  },
+  {
+    "id": "punish",
+    "name": "Trừng Trị",
+    "description": "Gây 1350 sát thương chuẩn lên lính và quái rừng xung quanh đồng thời làm choáng chúng trong 1 giây. Lưu trữ mỗi 45 giây, tối đa lưu trữ 2 lần."
+  },
+  {
+    "id": "purify",
+    "name": "Thanh Tẩy",
+    "description": "Hóa giải tất cả hiệu ứng bất lợi và khống chế, đồng thời miễn dịch với khống chế trong 1.5 giây."
+  },
+  {
+    "id": "roar",
+    "name": "Gầm Thét",
+    "description": "Tăng 15% kháng hiệu ứng, 10% sát thương và 15% hút máu, 30% hút máu phép, kéo dài 7 giây."
+  },
+  {
+    "id": "sprint",
+    "name": "Tốc Hành",
+    "description": "Tăng 30% tốc chạy trong 10 giây. Kích hoạt lập tức xoá trạng thái bị làm chậm đang gánh chịu đồng thời giảm 50% hiệu ứng bị làm chậm khi đang chạy nhanh. Ngoài ra khi rời giao tranh được tăng 20% tốc chạy."
+  },
+  {
+    "id": "teleport",
+    "name": "Dịch Chuyển",
+    "description": "Hồi chiêu 90 giây. Sau 2 giây niệm, dịch chuyển đến công trình đồng minh hoặc lính. Đơn vị được chọn miễn sát thương trong thời gian dịch chuyển. Hủy niệm hoặc sử dụng trong 30 giây sau Cổng dịch chuyển sẽ giảm 30 giây hồi chiêu."
+  },
+  {
+    "id": "dark-demon",
+    "name": "Ma Chủng Hắc Ám (Giới hạn mùa)",
+    "description": "Hồi chiêu 100 giây. Giảm 50% thời gian hồi còn lại của tất cả kỹ năng. Nhận lá chắn 280 + 20 mỗi cấp tướng, triệu hồi Ma vật gây sát thương phép tương đương và làm chậm 30% trong 1 giây."
+  },
+  {
+    "id": "phankhich",
+    "name": "Phấn Khích",
+    "description": "giải khống chế"
+  }
+]

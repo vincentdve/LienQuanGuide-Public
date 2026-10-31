@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Bảng khắc chế - Liên Quân Guide</title>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="js/game-data-loader.js" defer></script>
+    <script src="js/heroes-json.js" defer></script>
+    <script src="js/matchups.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1>LIÊN QUÂN GUIDE</h1>
+        <p>Quản lý bảng khắc chế</p>
+      </div>
+    </header>
+
+    <main class="container matchup-page">
+      <a id="matchup-back" href="index.html" class="matchup-back">
+        ← Quay lại tướng
+      </a>
+
+      <div id="matchup-profile" class="matchup-page-profile"></div>
+
+      <section class="detail-section">
+        <h2>Bảng khắc chế</h2>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Liên Quân Guide - Dự án cá nhân</p>
+    </footer>
+
+    <script>
+      document.addEventListener("lqg:data-ready", () => {
+        const params = new URLSearchParams(location.search);
+        const heroId = params.get("id");
+        const page = params.get("page") === "2" ? 2 : 1;
+
+        const hero = getHeroById(heroId);
+
+        if (!hero) {
+          document.getElementById("matchup-profile").textContent =
+            "Không tìm thấy tướng.";
+          return;
+        }
+
+        document.getElementById("matchup-back").href =
+          `hero.html?id=${encodeURIComponent(hero.id)}&page=${page}`;
+
+        document.title = `Bảng khắc chế ${hero.name} - Liên Quân Guide`;
+
+        const profile = document.getElementById("matchup-profile");
+
+        const img = document.createElement("img");
+        const imageId = hero.id === "flowborn" ? "flowborn-ad" : hero.id;
+
+        img.src = `images/heroes/${imageId}.webp`;
+        img.alt = hero.name;
+
+        const info = document.createElement("div");
+
+        const name = document.createElement("h2");
+        name.textContent = hero.name;
+
+        const role = document.createElement("p");
+        role.textContent =
+          `${ROLES[hero.role]} · ` +
+          hero.lanes.map((id) => LANES[id]).join(", ");
+
+        info.append(name, role);
+        profile.append(img, info);
+      });
+    </script>
+  </body>
+</html>

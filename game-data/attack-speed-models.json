@@ -1,0 +1,1129 @@
+{
+  "source": "Bảng Breakpoint tốc đánh và phân loại tướng do người dùng cung cấp (ảnh tham khảo); chưa xác minh với phiên bản game hiện tại.",
+  "models": {
+    "C": [
+      {
+        "frame": 17,
+        "percent": 0,
+        "attacksPerSecond": 0.88
+      },
+      {
+        "frame": 16,
+        "percent": 1,
+        "attacksPerSecond": 0.94
+      },
+      {
+        "frame": 15,
+        "percent": 8.2,
+        "attacksPerSecond": 1
+      },
+      {
+        "frame": 14,
+        "percent": 16.6,
+        "attacksPerSecond": 1.07
+      },
+      {
+        "frame": 13,
+        "percent": 26.2,
+        "attacksPerSecond": 1.15
+      },
+      {
+        "frame": 12,
+        "percent": 37.6,
+        "attacksPerSecond": 1.25
+      },
+      {
+        "frame": 11,
+        "percent": 51.4,
+        "attacksPerSecond": 1.36
+      },
+      {
+        "frame": 10,
+        "percent": 68.2,
+        "attacksPerSecond": 1.5
+      },
+      {
+        "frame": 9,
+        "percent": 89.2,
+        "attacksPerSecond": 1.67
+      },
+      {
+        "frame": 8,
+        "percent": 116,
+        "attacksPerSecond": 1.88
+      },
+      {
+        "frame": 7,
+        "percent": 152,
+        "attacksPerSecond": 2.14
+      }
+    ],
+    "E": [
+      {
+        "frame": 15,
+        "percent": 0,
+        "attacksPerSecond": 1
+      },
+      {
+        "frame": 14,
+        "percent": 1,
+        "attacksPerSecond": 1.07
+      },
+      {
+        "frame": 13,
+        "percent": 10.2,
+        "attacksPerSecond": 1.15
+      },
+      {
+        "frame": 12,
+        "percent": 21.2,
+        "attacksPerSecond": 1.25
+      },
+      {
+        "frame": 11,
+        "percent": 34.6,
+        "attacksPerSecond": 1.36
+      },
+      {
+        "frame": 10,
+        "percent": 51.4,
+        "attacksPerSecond": 1.5
+      },
+      {
+        "frame": 9,
+        "percent": 72.8,
+        "attacksPerSecond": 1.67
+      },
+      {
+        "frame": 8,
+        "percent": 101.6,
+        "attacksPerSecond": 1.88
+      },
+      {
+        "frame": 7,
+        "percent": 141.8,
+        "attacksPerSecond": 2.14
+      }
+    ],
+    "F": [
+      {
+        "frame": 19,
+        "percent": 33.6,
+        "attacksPerSecond": 0.79
+      },
+      {
+        "frame": 18,
+        "percent": 42,
+        "attacksPerSecond": 0.83
+      },
+      {
+        "frame": 17,
+        "percent": 51.4,
+        "attacksPerSecond": 0.88
+      },
+      {
+        "frame": 16,
+        "percent": 62.2,
+        "attacksPerSecond": 0.94
+      },
+      {
+        "frame": 15,
+        "percent": 74.8,
+        "attacksPerSecond": 1
+      },
+      {
+        "frame": 14,
+        "percent": 89.2,
+        "attacksPerSecond": 1.07
+      },
+      {
+        "frame": 13,
+        "percent": 106.4,
+        "attacksPerSecond": 1.15
+      },
+      {
+        "frame": 12,
+        "percent": 127,
+        "attacksPerSecond": 1.25
+      },
+      {
+        "frame": 11,
+        "percent": 152.2,
+        "attacksPerSecond": 1.36
+      },
+      {
+        "frame": 10,
+        "percent": 183.6,
+        "attacksPerSecond": 1.5
+      }
+    ],
+    "G": [
+      {
+        "frame": 16,
+        "percent": 0,
+        "attacksPerSecond": 0.94
+      },
+      {
+        "frame": 15,
+        "percent": 1.6,
+        "attacksPerSecond": 1
+      },
+      {
+        "frame": 14,
+        "percent": 9.2,
+        "attacksPerSecond": 1.07
+      },
+      {
+        "frame": 13,
+        "percent": 16.8,
+        "attacksPerSecond": 1.15
+      },
+      {
+        "frame": 12,
+        "percent": 27.4,
+        "attacksPerSecond": 1.25
+      },
+      {
+        "frame": 11,
+        "percent": 38,
+        "attacksPerSecond": 1.36
+      },
+      {
+        "frame": 10,
+        "percent": 53.2,
+        "attacksPerSecond": 1.5
+      },
+      {
+        "frame": 9,
+        "percent": 69.8,
+        "attacksPerSecond": 1.67
+      },
+      {
+        "frame": 8,
+        "percent": 91,
+        "attacksPerSecond": 1.88
+      },
+      {
+        "frame": 7,
+        "percent": 116.8,
+        "attacksPerSecond": 2.14
+      },
+      {
+        "frame": 6,
+        "percent": 153.2,
+        "attacksPerSecond": 2.5
+      }
+    ],
+    "H": [
+      {
+        "frame": 14,
+        "percent": 0,
+        "attacksPerSecond": 1.07
+      },
+      {
+        "frame": 13,
+        "percent": 1,
+        "attacksPerSecond": 1.15
+      },
+      {
+        "frame": 12,
+        "percent": 10.2,
+        "attacksPerSecond": 1.25
+      },
+      {
+        "frame": 11,
+        "percent": 21.2,
+        "attacksPerSecond": 1.36
+      },
+      {
+        "frame": 10,
+        "percent": 34.6,
+        "attacksPerSecond": 1.5
+      },
+      {
+        "frame": 9,
+        "percent": 51.4,
+        "attacksPerSecond": 1.67
+      },
+      {
+        "frame": 8,
+        "percent": 72.8,
+        "attacksPerSecond": 1.88
+      },
+      {
+        "frame": 7,
+        "percent": 101.6,
+        "attacksPerSecond": 2.14
+      },
+      {
+        "frame": 6,
+        "percent": 141.8,
+        "attacksPerSecond": 2.5
+      }
+    ],
+    "H-1f": [
+      {
+        "frame": 13,
+        "percent": 0,
+        "attacksPerSecond": 1.15
+      },
+      {
+        "frame": 12,
+        "percent": 1,
+        "attacksPerSecond": 1.25
+      },
+      {
+        "frame": 11,
+        "percent": 10.2,
+        "attacksPerSecond": 1.36
+      },
+      {
+        "frame": 10,
+        "percent": 21.2,
+        "attacksPerSecond": 1.5
+      },
+      {
+        "frame": 9,
+        "percent": 34.6,
+        "attacksPerSecond": 1.67
+      },
+      {
+        "frame": 8,
+        "percent": 51.4,
+        "attacksPerSecond": 1.88
+      },
+      {
+        "frame": 7,
+        "percent": 72.8,
+        "attacksPerSecond": 2.14
+      },
+      {
+        "frame": 6,
+        "percent": 101.6,
+        "attacksPerSecond": 2.5
+      },
+      {
+        "frame": 5,
+        "percent": 141.8,
+        "attacksPerSecond": 3
+      }
+    ]
+  },
+  "heroes": {
+    "airi": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "aleister": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "alice": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "amily": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "annette": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "aoi": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "arduin": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "arthur": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "arum": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "astrid": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "ata": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "aya": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "azzenka": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "baldum": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "bijan": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "bonnie": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "butterfly": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "chaugnar": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "cresht": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "dextra": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "dirak": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "darcy": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "enzo": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "erin": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "errol": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "florentino": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "gildur": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "grakk": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "hayate": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "helen": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "iggy": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "ignis": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "ilumia": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "ishar": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "jinna": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "kahlii": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "kaine": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "keera": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "kilgroth": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "kriknak": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "krixi": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "krizzix": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "lauriel": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "laville": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "lindis": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "lorion": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "lumburr": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "lubo": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "maloch": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "marja": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "max": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "mganga": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "mina": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "ming": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "natalya": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "ngokhong": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "omega": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "omen": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "ormarr": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "paine": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "qi": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "quillen": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "richter": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "rouie": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "rourke": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "roxie": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "ryoma": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "sephera": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "skud": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "slimz": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "stuart": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "superman": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "taara": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "tachi": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "teemee": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "thane": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "theflash": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "toro": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "trieuvan": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "tulen": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "veera": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "veres": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "wiro": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "wonderwoman": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "xeniel": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "yan": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "yue": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "ybneth": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "zata": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "zephys": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "zill": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "zip": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "zuka": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "dieuthuyen": [
+      {
+        "name": "Mặc định",
+        "model": "C",
+        "note": ""
+      }
+    ],
+    "elandorr": [
+      {
+        "name": "Mặc định",
+        "model": "E",
+        "note": ""
+      }
+    ],
+    "preyta": [
+      {
+        "name": "Mặc định",
+        "model": "E",
+        "note": ""
+      }
+    ],
+    "elsu": [
+      {
+        "name": "Mặc định",
+        "model": "F",
+        "note": ""
+      }
+    ],
+    "bright": [
+      {
+        "name": "Mặc định",
+        "model": "G",
+        "note": ""
+      }
+    ],
+    "boltbaron": [
+      {
+        "name": "Mặc định",
+        "model": "H",
+        "note": ""
+      }
+    ],
+    "teeri": [
+      {
+        "name": "Mặc định",
+        "model": "H",
+        "note": ""
+      }
+    ],
+    "sinestrea": [
+      {
+        "name": "Mặc định",
+        "model": "H",
+        "note": ""
+      }
+    ],
+    "thorne": [
+      {
+        "name": "Mặc định",
+        "model": "H",
+        "note": ""
+      }
+    ],
+    "wisp": [
+      {
+        "name": "Mặc định",
+        "model": "H",
+        "note": ""
+      }
+    ],
+    "moren": [
+      {
+        "name": "Mặc định",
+        "model": "H",
+        "note": ""
+      }
+    ],
+    "telannas": [
+      {
+        "name": "Mặc định",
+        "model": "H",
+        "note": ""
+      }
+    ],
+    "murad": [
+      {
+        "name": "Mặc định",
+        "model": "H",
+        "note": ""
+      }
+    ],
+    "nakroth": [
+      {
+        "name": "Mặc định",
+        "model": "H",
+        "note": ""
+      }
+    ],
+    "yorn": [
+      {
+        "name": "Mặc định",
+        "model": "H",
+        "note": ""
+      }
+    ],
+    "violet": [
+      {
+        "name": "Mặc định",
+        "model": "H",
+        "note": ""
+      }
+    ],
+    "valhein": [
+      {
+        "name": "Mặc định",
+        "model": "H",
+        "note": ""
+      }
+    ],
+    "liliana": [
+      {
+        "name": "Dạng người",
+        "model": null,
+        "note": "Chưa có Model được xác minh trong bảng tham khảo."
+      },
+      {
+        "name": "Dạng cáo",
+        "model": "H-1f",
+        "note": ""
+      }
+    ],
+    "raz": [
+      {
+        "name": "Cơ chế đặc biệt",
+        "model": null,
+        "note": "Không hưởng tốc đánh theo kiểu thông thường trong bảng tham khảo."
+      }
+    ],
+    "capheny": [
+      {
+        "name": "Cơ chế đặc biệt",
+        "model": null,
+        "note": "Không hưởng tốc đánh theo kiểu thông thường trong bảng tham khảo."
+      }
+    ],
+    "allain": [
+      {
+        "name": "Cơ chế đặc biệt",
+        "model": null,
+        "note": "Không hưởng tốc đánh theo kiểu thông thường trong bảng tham khảo."
+      }
+    ],
+    "volkath": [
+      {
+        "name": "Dạng thường",
+        "model": null,
+        "note": "Chưa xác minh Model."
+      },
+      {
+        "name": "Dạng cưỡi ngựa",
+        "model": null,
+        "note": "Không hưởng tốc đánh theo kiểu thông thường trong bảng tham khảo."
+      }
+    ]
+  }
+}

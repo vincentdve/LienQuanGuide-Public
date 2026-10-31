@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Liên Quân Guide - Sổ tay tướng</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="js/game-data-loader.js" defer></script>
+    <script src="js/heroes-json.js" defer></script>
+    <script src="js/app.js" defer></script>
+    <script src="js/storage.js" defer></script>
+    <script src="js/backup.js" defer></script>
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="container">
+        <h1>LIÊN QUÂN GUIDE</h1>
+        <p>Sổ tay chiến thuật Liên Quân Mobile</p>
+      </div>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+      <div class="container">
+        <a href="index.html" class="active"> Danh sách tướng </a>
+
+        <a href="#" id="import-data"> Nhập cấu hình </a>
+
+        <a href="#" id="export-data"> Xuất cấu hình </a>
+
+        <input
+          type="file"
+          id="import-file"
+          accept=".json,application/json"
+          hidden
+        />
+      </div>
+    </nav>
+
+    <!-- MAIN -->
+    <main class="container">
+      <section class="hero-section">
+        <h2>Danh sách tướng</h2>
+
+        <!-- SEARCH -->
+        <div class="search-box">
+          <input
+            type="search"
+            id="hero-search"
+            placeholder="Tìm kiếm tướng..."
+            autocomplete="off"
+          />
+        </div>
+
+        <!-- LANE FILTER -->
+        <div class="lane-filters">
+          <button class="filter-btn active" data-lane="all">Tất cả</button>
+
+          <button class="filter-btn" data-lane="top">Tà Thần</button>
+
+          <button class="filter-btn" data-lane="jg">Đi rừng</button>
+
+          <button class="filter-btn" data-lane="mid">Đường giữa</button>
+
+          <button class="filter-btn" data-lane="ad">Đường Rồng</button>
+
+          <button class="filter-btn" data-lane="sp">Trợ thủ</button>
+        </div>
+
+        <!-- HERO COUNT -->
+        <p id="hero-count"></p>
+
+        <!-- HERO LIST -->
+        <div id="hero-list" class="hero-grid">
+          <!-- JavaScript sẽ hiển thị tướng tại đây -->
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p>Liên Quân Guide - Dự án cá nhân</p>
+    </footer>
+  </body>
+</html>

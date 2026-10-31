@@ -1,0 +1,5627 @@
+{
+  "branchNames": {
+    "leagueofhumans": "Thành khởi nguyên",
+    "veda": "Tháp quang minh",
+    "lokheim": "Vực hỗn mang",
+    "afata": "Rừng nguyên sinh"
+  },
+  "buildSources": {
+    "aov-builds.com": "AOV-Builds",
+    "gamezingmobile.com": "GameZing Mobile",
+    "lienquanmobile.gg": "LienquanMobile.GG",
+    "www.finhay.com.vn": "Finhay",
+    "cellphones.com.vn": "Sforum CellphoneS"
+  },
+  "builds": {
+    "airi@jg": {
+      "i": [
+        "soulreaver",
+        "gilded-greaves",
+        "fenrirs-tooth",
+        "omni-arms",
+        "death-sickle",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_samurai",
+          10
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "punish"
+      ],
+      "l": "https://aov-builds.com/tuong/airi/",
+      "e": [
+        "shadowblade",
+        "deadlyclaw",
+        "curseofdeath",
+        "markoffrost",
+        "gunslinger"
+      ]
+    },
+    "airi@top": {
+      "i": [
+        "gilded-greaves",
+        "death-curse",
+        "omni-arms",
+        "fenrirs-tooth",
+        "death-sickle",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_samurai",
+          10
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/airi/",
+      "e": [
+        "shadowblade",
+        "deadlyclaw",
+        "curseofdeath",
+        "markoffrost",
+        "gunslinger"
+      ]
+    },
+    "aleister@mid": {
+      "i": [
+        "gilded-greaves",
+        "beriths-agony",
+        "tome-of-the-reaper",
+        "frostys-revenge",
+        "medallion-of-troy",
+        "arctic-orb"
+      ],
+      "r": [
+        [
+          "red_nomad",
+          10
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_hexer",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/aleister/",
+      "e": [
+        "manarefill",
+        "holyverdict",
+        "sacredprotection",
+        "raginginferno",
+        "deadlyclaw"
+      ]
+    },
+    "alice@sp": {
+      "i": [
+        "wildfire-spout",
+        "flashy-boots",
+        "boomstick",
+        "spooky-mask",
+        "hecates-diadem",
+        "holy-of-holies"
+      ],
+      "r": [
+        [
+          "red_nomad",
+          10
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_degenerate",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/alice/",
+      "e": [
+        "rivertreader",
+        "regrowth",
+        "forestwanderer",
+        "enhancedrestore",
+        "devourer"
+      ]
+    },
+    "allain@top": {
+      "i": [
+        "gilded-greaves",
+        "claves-sancti",
+        "devils-handshake",
+        "the-beast",
+        "fenrirs-tooth",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_rampage",
+          10
+        ],
+        [
+          "purple_assassin",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "flicker",
+        "execute"
+      ],
+      "l": "https://aov-builds.com/tuong/allain/",
+      "e": [
+        "shadowblade",
+        "deadlyclaw",
+        "desperateduel",
+        "axeofsacrifice",
+        "blessing"
+      ]
+    },
+    "amily@top": {
+      "i": [
+        "longinus-spear",
+        "gilded-greaves",
+        "omni-arms",
+        "claves-sancti",
+        "muramasa",
+        "fenrirs-tooth"
+      ],
+      "r": [
+        [
+          "red_savage",
+          10
+        ],
+        [
+          "purple_assassin",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/amily/",
+      "e": [
+        "shadowblade",
+        "deadlyclaw",
+        "devilsawakening",
+        "enhancedrestore",
+        "gunslinger"
+      ]
+    },
+    "annette@mid": {
+      "i": [
+        "gilded-greaves",
+        "beriths-agony",
+        "frostys-revenge",
+        "frost-guard",
+        "soaring-aura",
+        "arctic-orb"
+      ],
+      "r": [
+        [
+          "red_nomad",
+          10
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_degenerate",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/annette/",
+      "e": [
+        "sacredbead",
+        "holyverdict",
+        "holythunder",
+        "raginginferno",
+        "deadlyclaw"
+      ]
+    },
+    "annette@sp": {
+      "i": [
+        "wildfire-cleansing",
+        "gilded-greaves",
+        "beriths-agony",
+        "frostys-revenge",
+        "frost-guard",
+        "soaring-aura"
+      ],
+      "r": [
+        [
+          "red_nomad",
+          10
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_degenerate",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/annette/",
+      "e": [
+        "rivertreader",
+        "regrowth",
+        "forestwanderer",
+        "sacredbead",
+        "arcanewhisper"
+      ]
+    },
+    "aoi@jg": {
+      "i": [
+        "soulreaver",
+        "gilded-greaves",
+        "rankbreaker",
+        "omni-arms",
+        "fenrirs-tooth",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_berserker",
+          10
+        ],
+        [
+          "purple_reaper",
+          5
+        ],
+        [
+          "purple_assassin",
+          5
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "punish"
+      ],
+      "l": "https://aov-builds.com/tuong/aoi/",
+      "e": [
+        "shadowblade",
+        "deadlyclaw",
+        "curseofdeath",
+        "axeofsacrifice",
+        "holyverdict"
+      ],
+      "n": "Chưa quen tay thì đổi Kiếm Truy Hồn lấy Rìu Leviathan cho trâu hơn."
+    },
+    "arduin@sp": {
+      "i": [
+        "mother-earth-spout",
+        "gilded-greaves",
+        "shield-of-the-lost",
+        "medallion-of-troy",
+        "mail-of-pain",
+        "rock-shield"
+      ],
+      "r": [
+        [
+          "red_guardian",
+          10
+        ],
+        [
+          "purple_reliever",
+          10
+        ],
+        [
+          "teal_paladin",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/arduin/",
+      "e": [
+        "towerblessing",
+        "regrowth",
+        "naturesrage",
+        "enhancedrestore",
+        "devourer"
+      ]
+    },
+    "arduin@top": {
+      "i": [
+        "gilded-greaves",
+        "longinus-spear",
+        "frost-cape",
+        "medallion-of-troy",
+        "shield-of-the-lost",
+        "rock-shield"
+      ],
+      "r": [
+        [
+          "red_guardian",
+          10
+        ],
+        [
+          "purple_reliever",
+          10
+        ],
+        [
+          "teal_paladin",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/arduin/",
+      "e": [
+        "towerblessing",
+        "regrowth",
+        "naturesrage",
+        "enhancedrestore",
+        "devourer"
+      ]
+    },
+    "arthur@sp": {
+      "i": [
+        "mother-earth-cleansing",
+        "gilded-greaves",
+        "mail-of-pain",
+        "medallion-of-troy",
+        "shield-of-the-lost",
+        "rock-shield"
+      ],
+      "r": [
+        [
+          "red_guardian",
+          10
+        ],
+        [
+          "purple_reliever",
+          10
+        ],
+        [
+          "teal_paladin",
+          10
+        ]
+      ],
+      "s": [
+        "sprint",
+        "execute"
+      ],
+      "l": "https://aov-builds.com/tuong/arthur/",
+      "e": [
+        "towerblessing",
+        "naturesgift",
+        "explosiveshield",
+        "devourer",
+        "bonecutter"
+      ]
+    },
+    "arthur@top": {
+      "i": [
+        "gilded-greaves",
+        "mantle-of-ra",
+        "shield-of-the-lost",
+        "medallion-of-troy",
+        "rock-shield",
+        "mail-of-pain"
+      ],
+      "r": [
+        [
+          "red_guardian",
+          10
+        ],
+        [
+          "purple_reliever",
+          10
+        ],
+        [
+          "teal_paladin",
+          10
+        ]
+      ],
+      "s": [
+        "sprint",
+        "execute"
+      ],
+      "l": "https://aov-builds.com/tuong/arthur/",
+      "e": [
+        "towerblessing",
+        "naturesgift",
+        "explosiveshield",
+        "devourer",
+        "bonecutter"
+      ]
+    },
+    "arum@sp": {
+      "i": [
+        "mother-earth-cleansing",
+        "gilded-greaves",
+        "gaias-standard",
+        "shield-of-the-lost",
+        "mail-of-pain",
+        "amulet-of-longetivity"
+      ],
+      "r": [
+        [
+          "red_guardian",
+          10
+        ],
+        [
+          "purple_reliever",
+          10
+        ],
+        [
+          "teal_paladin",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/arum/",
+      "e": [
+        "towerblessing",
+        "regrowth",
+        "explosiveshield",
+        "enhancedrestore",
+        "devourer"
+      ]
+    },
+    "astrid@jg": {
+      "i": [
+        "soulreaver",
+        "gilded-greaves",
+        "longinus-spear",
+        "omni-arms",
+        "fenrirs-tooth",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_blitz",
+          5
+        ],
+        [
+          "red_berserker",
+          5
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "punish"
+      ],
+      "l": "https://aov-builds.com/tuong/astrid/",
+      "e": [
+        "shadowblade",
+        "deadlyclaw",
+        "devilsawakening",
+        "sacredbead",
+        "holyverdict"
+      ]
+    },
+    "astrid@top": {
+      "i": [
+        "gilded-greaves",
+        "longinus-spear",
+        "omni-arms",
+        "the-diminisher",
+        "fenrirs-tooth",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_blitz",
+          5
+        ],
+        [
+          "red_berserker",
+          5
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/astrid/",
+      "e": [
+        "shadowblade",
+        "deadlyclaw",
+        "devilsawakening",
+        "sacredbead",
+        "holyverdict"
+      ]
+    },
+    "ata@sp": {
+      "i": [
+        "mother-earth-cleansing",
+        "gilded-greaves",
+        "mantle-of-ra",
+        "medallion-of-troy",
+        "shield-of-the-lost",
+        "rock-shield"
+      ],
+      "r": [
+        [
+          "red_guardian",
+          10
+        ],
+        [
+          "purple_reliever",
+          10
+        ],
+        [
+          "teal_paladin",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/ata/",
+      "e": [
+        "rivertreader",
+        "naturesgift",
+        "explosiveshield",
+        "devourer",
+        "bonecutter"
+      ]
+    },
+    "ata@top": {
+      "i": [
+        "gilded-greaves",
+        "mantle-of-ra",
+        "mail-of-pain",
+        "medallion-of-troy",
+        "shield-of-the-lost",
+        "rock-shield"
+      ],
+      "r": [
+        [
+          "red_guardian",
+          10
+        ],
+        [
+          "purple_reliever",
+          10
+        ],
+        [
+          "teal_paladin",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/ata/",
+      "e": [
+        "rivertreader",
+        "naturesgift",
+        "explosiveshield",
+        "devourer",
+        "bonecutter"
+      ]
+    },
+    "aya@sp": {
+      "i": [
+        "wildfire-cleansing",
+        "tome-of-the-reaper",
+        "beriths-agony",
+        "frostys-revenge",
+        "staff-of-nuul",
+        "holy-of-holies"
+      ],
+      "r": [
+        [
+          "red_nomad",
+          10
+        ],
+        [
+          "purple_reliever",
+          10
+        ],
+        [
+          "teal_degenerate",
+          10
+        ]
+      ],
+      "s": [
+        "enfeeble",
+        "daze",
+        "purify"
+      ],
+      "l": "https://aov-builds.com/tuong/aya/",
+      "e": [
+        "raginginferno",
+        "deadlyclaw",
+        "devilsawakening",
+        "enhancedrestore",
+        "sacredbead"
+      ],
+      "n": "Nguồn không ghi ngọc và phép riêng cho bộ đồ này, ở đây dùng ngọc và phép của bộ Full phép cùng trang."
+    },
+    "azzenka@mid": {
+      "i": [
+        "gilded-greaves",
+        "beriths-agony",
+        "frostys-revenge",
+        "hecates-diadem",
+        "staff-of-nuul",
+        "arctic-orb"
+      ],
+      "r": [
+        [
+          "red_nomad",
+          10
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_degenerate",
+          5
+        ],
+        [
+          "teal_hexer",
+          5
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/azzenka/",
+      "e": [
+        "raginginferno",
+        "deadlyclaw",
+        "devilsawakening",
+        "manarefill",
+        "holyverdict"
+      ]
+    },
+    "baldum@sp": {
+      "i": [
+        "mother-earth-cleansing",
+        "gilded-greaves",
+        "shield-of-the-lost",
+        "medallion-of-troy",
+        "amulet-of-longetivity",
+        "mail-of-pain"
+      ],
+      "r": [
+        [
+          "red_guardian",
+          10
+        ],
+        [
+          "purple_reliever",
+          10
+        ],
+        [
+          "teal_paladin",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/baldum/",
+      "e": [
+        "rivertreader",
+        "naturesgift",
+        "naturesrage",
+        "devourer",
+        "enhancedrestore"
+      ]
+    },
+    "bijan@top": {
+      "i": [
+        "gilded-greaves",
+        "rankbreaker",
+        "omni-arms",
+        "longinus-spear",
+        "fenrirs-tooth",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_savage",
+          2
+        ],
+        [
+          "red_berserker",
+          8
+        ],
+        [
+          "purple_assassin",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/bijan/",
+      "e": [
+        "shadowblade",
+        "deadlyclaw",
+        "curseofdeath",
+        "axeofsacrifice",
+        "holyverdict"
+      ]
+    },
+    "billow@jg": {
+      "i": [
+        "soulreaver",
+        "flashy-boots",
+        "rankbreaker",
+        "the-diminisher",
+        "fenrirs-tooth",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_berserker",
+          10
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "punish"
+      ],
+      "l": "https://aov-builds.com/tuong/billow/",
+      "e": [
+        "shadowblade",
+        "deadlyclaw",
+        "curseofdeath",
+        "axeofsacrifice",
+        "gunslinger"
+      ]
+    },
+    "billow@top": {
+      "i": [
+        "flashy-boots",
+        "longinus-spear",
+        "the-diminisher",
+        "medallion-of-troy",
+        "fenrirs-tooth",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_berserker",
+          10
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/billow/",
+      "e": [
+        "shadowblade",
+        "deadlyclaw",
+        "curseofdeath",
+        "axeofsacrifice",
+        "gunslinger"
+      ]
+    },
+    "biron@top": {
+      "i": [
+        "gilded-greaves",
+        "rankbreaker",
+        "the-diminisher",
+        "omni-arms",
+        "fenrirs-tooth",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_savage",
+          2
+        ],
+        [
+          "red_berserker",
+          8
+        ],
+        [
+          "purple_assassin",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/biron/",
+      "e": [
+        "shadowblade",
+        "deadlyclaw",
+        "devilsawakening",
+        "axeofsacrifice",
+        "holyverdict"
+      ]
+    },
+    "boltbaron@ad": {
+      "i": [
+        "war-boots",
+        "zweihander",
+        "the-diminisher",
+        "carano-robe",
+        "holy-of-holies",
+        "soaring-aura"
+      ],
+      "r": [
+        [
+          "red_nomad",
+          10
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_degenerate",
+          10
+        ]
+      ],
+      "s": [
+        "flicker",
+        "roar"
+      ],
+      "l": "https://aov-builds.com/tuong/bolt-baron/",
+      "e": [
+        "sacredbead",
+        "holyverdict",
+        "holysummoner",
+        "raginginferno",
+        "deadlyclaw"
+      ],
+      "n": "Nguồn chưa có build riêng cho đường Rồng, ở đây dùng build đi đường (Top/Mid) cùng trang."
+    },
+    "boltbaron@top": {
+      "i": [
+        "war-boots",
+        "zweihander",
+        "the-diminisher",
+        "carano-robe",
+        "holy-of-holies",
+        "soaring-aura"
+      ],
+      "r": [
+        [
+          "red_nomad",
+          10
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_degenerate",
+          10
+        ]
+      ],
+      "s": [
+        "flicker",
+        "roar"
+      ],
+      "l": "https://aov-builds.com/tuong/bolt-baron/",
+      "e": [
+        "sacredbead",
+        "holyverdict",
+        "holysummoner",
+        "raginginferno",
+        "deadlyclaw"
+      ]
+    },
+    "bonnie@mid": {
+      "i": [
+        "flashy-boots",
+        "beriths-agony",
+        "hecates-diadem",
+        "staff-of-nuul",
+        "arctic-orb",
+        "holy-of-holies"
+      ],
+      "r": [
+        [
+          "red_nomad",
+          10
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_degenerate",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/bonnie/",
+      "e": [
+        "axeofsacrifice",
+        "holyverdict",
+        "holythunder",
+        "raginginferno",
+        "deadlyclaw"
+      ]
+    },
+    "bright@jg": {
+      "i": [
+        "scorching-wind",
+        "gilded-greaves",
+        "claves-sancti",
+        "dawning-star",
+        "fenrirs-tooth",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_rampage",
+          10
+        ],
+        [
+          "purple_fairy",
+          8
+        ],
+        [
+          "purple_reaper",
+          2
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "punish"
+      ],
+      "l": "https://aov-builds.com/tuong/bright/",
+      "e": [
+        "shadowblade",
+        "bonecutter",
+        "curseofdeath",
+        "axeofsacrifice",
+        "blessing"
+      ]
+    },
+    "butterfly@jg": {
+      "i": [
+        "soulreaver",
+        "gilded-greaves",
+        "rankbreaker",
+        "omni-arms",
+        "fenrirs-tooth",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_berserker",
+          10
+        ],
+        [
+          "purple_assassin",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "punish"
+      ],
+      "l": "https://aov-builds.com/tuong/butterfly/",
+      "e": [
+        "devourer",
+        "deadlyclaw",
+        "curseofdeath",
+        "axeofsacrifice",
+        "holyverdict"
+      ]
+    },
+    "capheny@ad": {
+      "i": [
+        "gilded-greaves",
+        "claves-sancti",
+        "devils-handshake",
+        "bow-of-slaughter",
+        "dawning-star",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_rampage",
+          10
+        ],
+        [
+          "purple_fairy",
+          7
+        ],
+        [
+          "purple_reaper",
+          3
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "flicker",
+        "sprint"
+      ],
+      "l": "https://aov-builds.com/tuong/capheny/",
+      "e": [
+        "axeofsacrifice",
+        "holyverdict",
+        "holysummoner",
+        "enhancedrestore",
+        "minionkill"
+      ]
+    },
+    "celica@ad": {
+      "i": [
+        "war-boots",
+        "claves-sancti",
+        "devils-handshake",
+        "dawning-star",
+        "fenrirs-tooth",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_rampage",
+          10
+        ],
+        [
+          "purple_fairy",
+          7
+        ],
+        [
+          "purple_reaper",
+          3
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/celica/",
+      "e": [
+        "axeofsacrifice",
+        "blessing",
+        "holysummoner",
+        "enhancedrestore",
+        "minionkill"
+      ]
+    },
+    "charlotte@top": {
+      "i": [
+        "flashy-boots",
+        "longinus-spear",
+        "the-diminisher",
+        "shield-of-the-lost",
+        "medallion-of-troy",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_berserker",
+          10
+        ],
+        [
+          "purple_assassin",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/charlotte/",
+      "e": [
+        "shadowblade",
+        "deadlyclaw",
+        "desperateduel",
+        "axeofsacrifice",
+        "holyverdict"
+      ]
+    },
+    "chaugnar@sp": {
+      "i": [
+        "mother-earth-spout",
+        "sonic-boots",
+        "rock-shield",
+        "medallion-of-troy",
+        "shield-of-the-lost",
+        "amulet-of-longetivity"
+      ],
+      "r": [
+        [
+          "red_guardian",
+          10
+        ],
+        [
+          "purple_reliever",
+          10
+        ],
+        [
+          "teal_paladin",
+          10
+        ]
+      ],
+      "s": [
+        "sprint"
+      ],
+      "l": "https://aov-builds.com/tuong/chaugnar/",
+      "e": [
+        "towerblessing",
+        "regrowth",
+        "explosiveshield",
+        "devourer",
+        "enhancedrestore"
+      ]
+    },
+    "cresht@sp": {
+      "i": [
+        "mother-earth-cleansing",
+        "gilded-greaves",
+        "mail-of-pain",
+        "gaias-standard",
+        "shield-of-the-lost",
+        "amulet-of-longetivity"
+      ],
+      "r": [
+        [
+          "red_guardian",
+          10
+        ],
+        [
+          "purple_reliever",
+          10
+        ],
+        [
+          "teal_paladin",
+          10
+        ]
+      ],
+      "s": [
+        "enfeeble"
+      ],
+      "l": "https://aov-builds.com/tuong/cresht/",
+      "e": [
+        "towerblessing",
+        "regrowth",
+        "explosiveshield",
+        "devourer",
+        "sacredbead"
+      ]
+    },
+    "darcy@mid": {
+      "i": [
+        "gilded-greaves",
+        "apocalypse",
+        "spooky-mask",
+        "hecates-diadem",
+        "rheas-blessing",
+        "arctic-orb"
+      ],
+      "r": [
+        [
+          "red_nomad",
+          10
+        ],
+        [
+          "purple_fairy",
+          7
+        ],
+        [
+          "purple_cleric",
+          3
+        ],
+        [
+          "teal_degenerate",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/darcy/",
+      "e": [
+        "axeofsacrifice",
+        "holyverdict",
+        "sacredprotection",
+        "markoffrost",
+        "gunslinger"
+      ]
+    },
+    "dextra@top": {
+      "i": [
+        "gilded-greaves",
+        "longinus-spear",
+        "omni-arms",
+        "claves-sancti",
+        "fenrirs-tooth",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_savage",
+          10
+        ],
+        [
+          "purple_reaper",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "sprint"
+      ],
+      "l": "https://aov-builds.com/tuong/dextra/",
+      "e": [
+        "devourer",
+        "deadlyclaw",
+        "curseofdeath",
+        "axeofsacrifice",
+        "holyverdict"
+      ]
+    },
+    "dieuthuyen@mid": {
+      "i": [
+        "enchanted-kicks",
+        "boomstick",
+        "hecates-diadem",
+        "staff-of-nuul",
+        "arctic-orb",
+        "holy-of-holies"
+      ],
+      "r": [
+        [
+          "red_nomad",
+          10
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_degenerate",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/dieu-thuyen/",
+      "e": [
+        "manarefill",
+        "holyverdict",
+        "holythunder",
+        "devourer",
+        "deadlyclaw"
+      ]
+    },
+    "dirak@mid": {
+      "i": [
+        "gilded-greaves",
+        "beriths-agony",
+        "zweihander",
+        "hecates-diadem",
+        "soaring-aura",
+        "apocalypse"
+      ],
+      "r": [
+        [
+          "red_nomad",
+          10
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_degenerate",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/dirak/",
+      "e": [
+        "manarefill",
+        "holyverdict",
+        "sacredprotection",
+        "devourer",
+        "enhancedrestore"
+      ]
+    },
+    "dolia@sp": {
+      "i": [
+        "mother-earth-cleansing",
+        "flashy-boots",
+        "frostys-revenge",
+        "tome-of-the-reaper",
+        "medallion-of-troy",
+        "frost-guard"
+      ],
+      "r": [
+        [
+          "red_nomad",
+          10
+        ],
+        [
+          "purple_fairy",
+          7
+        ],
+        [
+          "purple_reliever",
+          3
+        ],
+        [
+          "teal_hexer",
+          10
+        ]
+      ],
+      "s": [
+        "heal"
+      ],
+      "l": "https://aov-builds.com/tuong/dolia/",
+      "e": [
+        "manarefill",
+        "holyverdict",
+        "holythunder",
+        "rivertreader",
+        "regrowth"
+      ]
+    },
+    "dyadia@sp": {
+      "i": [
+        "mother-earth-cleansing",
+        "flashy-boots",
+        "the-aegis",
+        "gaias-standard",
+        "frostys-revenge",
+        "tome-of-the-reaper"
+      ],
+      "r": [
+        [
+          "red_nomad",
+          10
+        ],
+        [
+          "purple_reliever",
+          10
+        ],
+        [
+          "teal_degenerate",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/dyadia/",
+      "e": [
+        "rivertreader",
+        "regrowth",
+        "forestwanderer",
+        "arcanewhisper",
+        "devourer"
+      ]
+    },
+    "edras@top": {
+      "i": [
+        "sonic-boots",
+        "longinus-spear",
+        "the-diminisher",
+        "muramasa",
+        "medallion-of-troy",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_samurai",
+          7
+        ],
+        [
+          "red_berserker",
+          3
+        ],
+        [
+          "purple_assassin",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/edras/",
+      "e": [
+        "axeofsacrifice",
+        "holyverdict",
+        "holythunder",
+        "raginginferno",
+        "deadlyclaw"
+      ]
+    },
+    "elandorr@ad": {
+      "i": [
+        "war-boots",
+        "claves-sancti",
+        "fafnirs-talon",
+        "slikks-sting",
+        "dawning-star",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_rampage",
+          10
+        ],
+        [
+          "purple_fairy",
+          7
+        ],
+        [
+          "purple_reaper",
+          3
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/elandorr/",
+      "e": [
+        "axeofsacrifice",
+        "holyverdict",
+        "holysummoner",
+        "markoffrost",
+        "gunslinger"
+      ]
+    },
+    "elsu@ad": {
+      "i": [
+        "war-boots",
+        "muramasa",
+        "fafnirs-talon",
+        "fenrirs-tooth",
+        "omni-arms",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_savage",
+          10
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/elsu/",
+      "e": [
+        "axeofsacrifice",
+        "holyverdict",
+        "holythunder",
+        "raginginferno",
+        "deadlyclaw"
+      ]
+    },
+    "enzo@jg": {
+      "i": [
+        "soulreaver",
+        "gilded-greaves",
+        "longinus-spear",
+        "omni-arms",
+        "fenrirs-tooth",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_blitz",
+          10
+        ],
+        [
+          "purple_fairy",
+          7
+        ],
+        [
+          "purple_reaper",
+          3
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "punish"
+      ],
+      "l": "https://aov-builds.com/tuong/enzo/",
+      "e": [
+        "devourer",
+        "deadlyclaw",
+        "desperateduel",
+        "markoffrost",
+        "gunslinger"
+      ]
+    },
+    "erin@ad": {
+      "i": [
+        "enchanted-kicks",
+        "claves-sancti",
+        "slikks-sting",
+        "the-beast",
+        "dawning-star",
+        "arctic-orb"
+      ],
+      "r": [
+        [
+          "red_rampage",
+          10
+        ],
+        [
+          "purple_fairy",
+          7
+        ],
+        [
+          "purple_cleric",
+          3
+        ],
+        [
+          "teal_degenerate",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/erin/",
+      "e": [
+        "axeofsacrifice",
+        "blessing",
+        "sacredprotection",
+        "markoffrost",
+        "gunslinger"
+      ]
+    },
+    "errol@top": {
+      "i": [
+        "gilded-greaves",
+        "longinus-spear",
+        "death-curse",
+        "omni-arms",
+        "fenrirs-tooth",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_berserker",
+          9
+        ],
+        [
+          "red_savage",
+          1
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "flicker",
+        "execute"
+      ],
+      "l": "https://aov-builds.com/tuong/errol/",
+      "e": [
+        "shadowblade",
+        "deadlyclaw",
+        "desperateduel",
+        "markoffrost",
+        "gunslinger"
+      ]
+    },
+    "evita@mid": {
+      "i": [
+        "enchanted-kicks",
+        "tome-of-the-reaper",
+        "boomstick",
+        "hecates-diadem",
+        "staff-of-nuul",
+        "arctic-orb"
+      ],
+      "r": [
+        [
+          "red_nomad",
+          10
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_degenerate",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://cellphones.com.vn/sforum/cach-choi-evita-lien-quan",
+      "e": [
+        "sacredbead",
+        "holyverdict",
+        "holythunder",
+        "raginginferno",
+        "deadlyclaw"
+      ],
+      "n": "Tướng mới: build theo bài hướng dẫn ngày 15/10 của Sforum, AOV-Builds chưa có build cho Evita."
+    },
+    "fennik@ad": {
+      "i": [
+        "war-boots",
+        "fafnirs-talon",
+        "longinus-spear",
+        "dawning-star",
+        "fenrirs-tooth",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_berserker",
+          10
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/fennik/",
+      "e": [
+        "devourer",
+        "deadlyclaw",
+        "devilsawakening",
+        "enhancedrestore",
+        "gunslinger"
+      ]
+    },
+    "florentino@top": {
+      "i": [
+        "sonic-boots",
+        "platinum-gauntlets",
+        "the-diminisher",
+        "gaias-standard",
+        "shield-of-the-lost",
+        "fenrirs-tooth"
+      ],
+      "r": [
+        [
+          "red_savage",
+          10
+        ],
+        [
+          "purple_assassin",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/florentino/",
+      "e": [
+        "shadowblade",
+        "deadlyclaw",
+        "desperateduel",
+        "towerblessing",
+        "regrowth"
+      ]
+    },
+    "flowborn@ad": {
+      "i": [
+        "war-boots",
+        "claves-sancti",
+        "slikks-sting",
+        "dawning-star",
+        "fenrirs-tooth",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_blitz",
+          10
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/flowborn/",
+      "e": [
+        "axeofsacrifice",
+        "blessing",
+        "holysummoner",
+        "devourer",
+        "deadlyclaw"
+      ]
+    },
+    "flowborn@mid": {
+      "i": [
+        "flashy-boots",
+        "beriths-agony",
+        "boomstick",
+        "hecates-diadem",
+        "staff-of-nuul",
+        "holy-of-holies"
+      ],
+      "r": [
+        [
+          "red_wise",
+          10
+        ],
+        [
+          "purple_cleric",
+          5
+        ],
+        [
+          "purple_fairy",
+          5
+        ],
+        [
+          "teal_degenerate",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/flowborn-phep/",
+      "e": [
+        "manarefill",
+        "holyverdict",
+        "holythunder",
+        "raginginferno",
+        "deadlyclaw"
+      ]
+    },
+    "gildur@mid": {
+      "i": [
+        "flashy-boots",
+        "beriths-agony",
+        "boomstick",
+        "hecates-diadem",
+        "staff-of-nuul",
+        "holy-of-holies"
+      ],
+      "r": [
+        [
+          "red_nomad",
+          10
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_degenerate",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/gildur/",
+      "e": [
+        "manarefill",
+        "holyverdict",
+        "holythunder",
+        "raginginferno",
+        "deadlyclaw"
+      ]
+    },
+    "goverra@mid": {
+      "i": [
+        "flashy-boots",
+        "beriths-agony",
+        "hecates-diadem",
+        "frost-guard",
+        "staff-of-nuul",
+        "arctic-orb"
+      ],
+      "r": [
+        [
+          "red_wise",
+          6
+        ],
+        [
+          "red_nomad",
+          4
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_hexer",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/goverra/",
+      "e": [
+        "manarefill",
+        "holyverdict",
+        "sacredprotection",
+        "markoffrost",
+        "minionkill"
+      ],
+      "n": "Nguồn ghi thêm phép Viện Binh Liên Hiệp, chưa có trong dữ liệu ảnh nên chỉ hiện Tốc Biến."
+    },
+    "grakk@sp": {
+      "i": [
+        "mother-earth-cleansing",
+        "gilded-greaves",
+        "the-aegis",
+        "medallion-of-troy",
+        "mail-of-pain",
+        "shield-of-the-lost"
+      ],
+      "r": [
+        [
+          "red_guardian",
+          10
+        ],
+        [
+          "purple_reliever",
+          10
+        ],
+        [
+          "teal_paladin",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/grakk/",
+      "e": [
+        "towerblessing",
+        "naturesgift",
+        "explosiveshield",
+        "arcanewhisper",
+        "devourer"
+      ]
+    },
+    "hayate@ad": {
+      "i": [
+        "war-boots",
+        "blitz-blade",
+        "fafnirs-talon",
+        "frost-hammer",
+        "claves-sancti",
+        "the-diminisher"
+      ],
+      "r": [
+        [
+          "red_blitz",
+          10
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "flicker",
+        "purify"
+      ],
+      "l": "https://aov-builds.com/tuong/hayate/",
+      "e": [
+        "axeofsacrifice",
+        "holyverdict",
+        "holysummoner",
+        "enhancedrestore",
+        "minionkill"
+      ]
+    },
+    "heino@mid": {
+      "i": [
+        "enchanted-kicks",
+        "boomstick",
+        "beriths-agony",
+        "hecates-diadem",
+        "staff-of-nuul",
+        "arctic-orb"
+      ],
+      "r": [
+        [
+          "red_nomad",
+          10
+        ],
+        [
+          "purple_vampire",
+          10
+        ],
+        [
+          "teal_degenerate",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/heino/",
+      "e": [
+        "sacredbead",
+        "holyverdict",
+        "holythunder",
+        "raginginferno",
+        "deadlyclaw"
+      ]
+    },
+    "helen@sp": {
+      "i": [
+        "wildfire-cleansing",
+        "gilded-greaves",
+        "virtues-necklace",
+        "frost-guard",
+        "medallion-of-troy",
+        "shield-of-the-lost"
+      ],
+      "r": [
+        [
+          "red_guardian",
+          10
+        ],
+        [
+          "purple_reliever",
+          10
+        ],
+        [
+          "teal_paladin",
+          10
+        ]
+      ],
+      "s": [
+        "flicker",
+        "heal"
+      ],
+      "l": "https://aov-builds.com/tuong/helen/",
+      "e": [
+        "rivertreader",
+        "regrowth",
+        "forestwanderer",
+        "manarefill",
+        "enhancedrestore"
+      ]
+    },
+    "iggy@mid": {
+      "i": [
+        "enchanted-kicks",
+        "beriths-agony",
+        "boomstick",
+        "spooky-mask",
+        "hecates-diadem",
+        "arctic-orb"
+      ],
+      "r": [
+        [
+          "red_nomad",
+          10
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_degenerate",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/iggy/",
+      "e": [
+        "axeofsacrifice",
+        "holyverdict",
+        "holythunder",
+        "raginginferno",
+        "deadlyclaw"
+      ]
+    },
+    "ignis@mid": {
+      "i": [
+        "gilded-greaves",
+        "beriths-agony",
+        "frostys-revenge",
+        "frost-guard",
+        "staff-of-nuul",
+        "arctic-orb"
+      ],
+      "r": [
+        [
+          "red_nomad",
+          10
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_degenerate",
+          10
+        ]
+      ],
+      "s": [
+        "flicker",
+        "sprint"
+      ],
+      "l": "https://aov-builds.com/tuong/ignis/",
+      "e": [
+        "manarefill",
+        "holyverdict",
+        "sacredprotection",
+        "devourer",
+        "bonecutter"
+      ]
+    },
+    "ilumia@mid": {
+      "i": [
+        "flashy-boots",
+        "boomstick",
+        "beriths-agony",
+        "hecates-diadem",
+        "staff-of-nuul",
+        "arctic-orb"
+      ],
+      "r": [
+        [
+          "red_nomad",
+          10
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_degenerate",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/ilumia/",
+      "e": [
+        "sacredbead",
+        "holyverdict",
+        "holythunder",
+        "raginginferno",
+        "deadlyclaw"
+      ]
+    },
+    "ishar@mid": {
+      "i": [
+        "enchanted-kicks",
+        "boomstick",
+        "hecates-diadem",
+        "staff-of-nuul",
+        "holy-of-holies",
+        "arctic-orb"
+      ],
+      "r": [
+        [
+          "red_nomad",
+          10
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_degenerate",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/ishar/",
+      "e": [
+        "sacredbead",
+        "holyverdict",
+        "holythunder",
+        "raginginferno",
+        "deadlyclaw"
+      ]
+    },
+    "jinna@mid": {
+      "i": [
+        "gilded-greaves",
+        "beriths-agony",
+        "frost-guard",
+        "rheas-blessing",
+        "soaring-aura",
+        "arctic-orb"
+      ],
+      "r": [
+        [
+          "red_nomad",
+          10
+        ],
+        [
+          "purple_cleric",
+          5
+        ],
+        [
+          "purple_fairy",
+          5
+        ],
+        [
+          "teal_degenerate",
+          10
+        ]
+      ],
+      "s": [
+        "sprint"
+      ],
+      "l": "https://aov-builds.com/tuong/jinna/",
+      "e": [
+        "sacredbead",
+        "holyverdict",
+        "sacredprotection",
+        "markoffrost",
+        "gunslinger"
+      ]
+    },
+    "kahlii@mid": {
+      "i": [
+        "flashy-boots",
+        "beriths-agony",
+        "boomstick",
+        "staff-of-nuul",
+        "hecates-diadem",
+        "holy-of-holies"
+      ],
+      "r": [
+        [
+          "red_nomad",
+          10
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_degenerate",
+          10
+        ]
+      ],
+      "s": [
+        "flicker",
+        "sprint",
+        "roar"
+      ],
+      "l": "https://aov-builds.com/tuong/kahlii/",
+      "e": [
+        "axeofsacrifice",
+        "holyverdict",
+        "holythunder",
+        "raginginferno",
+        "deadlyclaw"
+      ]
+    },
+    "kaine@jg": {
+      "i": [
+        "soulreaver",
+        "hermes-select",
+        "rankbreaker",
+        "omni-arms",
+        "fenrirs-tooth",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_savage",
+          1
+        ],
+        [
+          "red_berserker",
+          9
+        ],
+        [
+          "purple_assassin",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "punish"
+      ],
+      "l": "https://aov-builds.com/tuong/kaine/",
+      "e": [
+        "raginginferno",
+        "deadlyclaw",
+        "curseofdeath",
+        "axeofsacrifice",
+        "holyverdict"
+      ]
+    },
+    "kaine@top": {
+      "i": [
+        "hermes-select",
+        "rankbreaker",
+        "fenrirs-tooth",
+        "omni-arms",
+        "muramasa",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_savage",
+          1
+        ],
+        [
+          "red_berserker",
+          9
+        ],
+        [
+          "purple_assassin",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "execute"
+      ],
+      "l": "https://aov-builds.com/tuong/kaine/",
+      "e": [
+        "raginginferno",
+        "deadlyclaw",
+        "curseofdeath",
+        "axeofsacrifice",
+        "holyverdict"
+      ]
+    },
+    "keera@jg": {
+      "i": [
+        "lokis-curse",
+        "enchanted-kicks",
+        "zweihander",
+        "hecates-diadem",
+        "staff-of-nuul",
+        "arctic-orb"
+      ],
+      "r": [
+        [
+          "red_nomad",
+          10
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_degenerate",
+          10
+        ]
+      ],
+      "s": [
+        "punish"
+      ],
+      "l": "https://aov-builds.com/tuong/keera/",
+      "e": [
+        "raginginferno",
+        "deadlyclaw",
+        "curseofdeath",
+        "markoffrost",
+        "gunslinger"
+      ]
+    },
+    "kilgroth@top": {
+      "i": [
+        "war-boots",
+        "claves-sancti",
+        "slikks-sting",
+        "rankbreaker",
+        "fenrirs-tooth",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_rampage",
+          10
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "sprint"
+      ],
+      "l": "https://aov-builds.com/tuong/kilgroth/",
+      "e": [
+        "devourer",
+        "deadlyclaw",
+        "devilsawakening",
+        "enhancedrestore",
+        "gunslinger"
+      ]
+    },
+    "kriknak@jg": {
+      "i": [
+        "soulreaver",
+        "gilded-greaves",
+        "rankbreaker",
+        "omni-arms",
+        "fenrirs-tooth",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_savage",
+          1
+        ],
+        [
+          "red_berserker",
+          9
+        ],
+        [
+          "purple_assassin",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "punish"
+      ],
+      "l": "https://aov-builds.com/tuong/kriknak/",
+      "e": [
+        "devourer",
+        "deadlyclaw",
+        "curseofdeath",
+        "markoffrost",
+        "gunslinger"
+      ]
+    },
+    "krixi@mid": {
+      "i": [
+        "enchanted-kicks",
+        "boomstick",
+        "spooky-mask",
+        "hecates-diadem",
+        "arctic-orb",
+        "holy-of-holies"
+      ],
+      "r": [
+        [
+          "red_nomad",
+          10
+        ],
+        [
+          "purple_fairy",
+          7
+        ],
+        [
+          "purple_cleric",
+          3
+        ],
+        [
+          "teal_degenerate",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/krixi/",
+      "e": [
+        "manarefill",
+        "holyverdict",
+        "holythunder",
+        "raginginferno",
+        "deadlyclaw"
+      ]
+    },
+    "krizzix@sp": {
+      "i": [
+        "mother-earth-cleansing",
+        "gilded-greaves",
+        "the-aegis",
+        "amulet-of-longetivity",
+        "gaias-standard",
+        "shield-of-the-lost"
+      ],
+      "r": [
+        [
+          "red_guardian",
+          10
+        ],
+        [
+          "purple_reliever",
+          10
+        ],
+        [
+          "teal_paladin",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/krizzix/",
+      "e": [
+        "rivertreader",
+        "naturesgift",
+        "naturesrage",
+        "devourer",
+        "arcanewhisper"
+      ]
+    },
+    "lauriel@mid": {
+      "i": [
+        "flashy-boots",
+        "orb-of-the-magi",
+        "beriths-agony",
+        "frost-guard",
+        "soaring-aura",
+        "caranos-vow"
+      ],
+      "r": [
+        [
+          "red_wise",
+          10
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_templar",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/lauriel/",
+      "e": [
+        "devourer",
+        "bonecutter",
+        "devilsawakening",
+        "manarefill",
+        "holyverdict"
+      ]
+    },
+    "laville@ad": {
+      "i": [
+        "war-boots",
+        "blitz-blade",
+        "claves-sancti",
+        "dawning-star",
+        "fenrirs-tooth",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_rampage",
+          10
+        ],
+        [
+          "purple_fairy",
+          8
+        ],
+        [
+          "purple_reaper",
+          2
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "flicker",
+        "sprint"
+      ],
+      "l": "https://aov-builds.com/tuong/laville/",
+      "e": [
+        "axeofsacrifice",
+        "blessing",
+        "holysummoner",
+        "enhancedrestore",
+        "minionkill"
+      ]
+    },
+    "liliana@mid": {
+      "i": [
+        "enchanted-kicks",
+        "boomstick",
+        "apocalypse",
+        "hecates-diadem",
+        "evil-secrets",
+        "arctic-orb"
+      ],
+      "r": [
+        [
+          "red_nomad",
+          10
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_degenerate",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/liliana/",
+      "e": [
+        "sacredbead",
+        "holyverdict",
+        "holythunder",
+        "raginginferno",
+        "deadlyclaw"
+      ]
+    },
+    "lindis@ad": {
+      "i": [
+        "war-boots",
+        "claves-sancti",
+        "slikks-sting",
+        "dawning-star",
+        "fenrirs-tooth",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_rampage",
+          10
+        ],
+        [
+          "purple_fairy",
+          7
+        ],
+        [
+          "purple_reaper",
+          3
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/lindis/",
+      "e": [
+        "raginginferno",
+        "deadlyclaw",
+        "curseofdeath",
+        "axeofsacrifice",
+        "blessing"
+      ]
+    },
+    "lorion@mid": {
+      "i": [
+        "gilded-greaves",
+        "beriths-agony",
+        "frost-guard",
+        "soaring-aura",
+        "rheas-blessing",
+        "arctic-orb"
+      ],
+      "r": [
+        [
+          "red_nomad",
+          10
+        ],
+        [
+          "purple_reliever",
+          10
+        ],
+        [
+          "teal_degenerate",
+          10
+        ]
+      ],
+      "s": [
+        "flicker",
+        "execute"
+      ],
+      "l": "https://aov-builds.com/tuong/lorion/",
+      "e": [
+        "axeofsacrifice",
+        "holyverdict",
+        "sacredprotection",
+        "markoffrost",
+        "minionkill"
+      ]
+    },
+    "lubo@top": {
+      "i": [
+        "sonic-boots",
+        "longinus-spear",
+        "omni-arms",
+        "gaias-standard",
+        "the-diminisher",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_savage",
+          2
+        ],
+        [
+          "red_berserker",
+          8
+        ],
+        [
+          "purple_assassin",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "flicker",
+        "execute"
+      ],
+      "l": "https://aov-builds.com/tuong/lu-bo/",
+      "e": [
+        "shadowblade",
+        "deadlyclaw",
+        "devilsawakening",
+        "axeofsacrifice",
+        "holyverdict"
+      ]
+    },
+    "lumburr@sp": {
+      "i": [
+        "mother-earth-spout",
+        "gilded-greaves",
+        "shield-of-the-lost",
+        "medallion-of-troy",
+        "rock-shield",
+        "amulet-of-longetivity"
+      ],
+      "r": [
+        [
+          "red_guardian",
+          10
+        ],
+        [
+          "purple_reliever",
+          10
+        ],
+        [
+          "teal_paladin",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/lumburr/",
+      "e": [
+        "rivertreader",
+        "naturesgift",
+        "explosiveshield",
+        "arcanewhisper",
+        "devourer"
+      ]
+    },
+    "maloch@top": {
+      "i": [
+        "gilded-greaves",
+        "death-curse",
+        "fafnirs-talon",
+        "medallion-of-troy",
+        "mail-of-pain",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_savage",
+          2
+        ],
+        [
+          "red_samurai",
+          8
+        ],
+        [
+          "purple_assassin",
+          10
+        ],
+        [
+          "teal_templar",
+          10
+        ]
+      ],
+      "s": [
+        "flicker",
+        "sprint"
+      ],
+      "l": "https://aov-builds.com/tuong/maloch/",
+      "e": [
+        "devourer",
+        "deadlyclaw",
+        "devilsawakening",
+        "markoffrost",
+        "gunslinger"
+      ]
+    },
+    "marja@mid": {
+      "i": [
+        "war-boots",
+        "zweihander",
+        "apocalypse",
+        "staff-of-nuul",
+        "holy-of-holies",
+        "arctic-orb"
+      ],
+      "r": [
+        [
+          "red_nomad",
+          10
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_degenerate",
+          10
+        ]
+      ],
+      "s": [
+        "flicker",
+        "purify"
+      ],
+      "l": "https://aov-builds.com/tuong/marja/",
+      "e": [
+        "axeofsacrifice",
+        "holyverdict",
+        "sacredprotection",
+        "raginginferno",
+        "deadlyclaw"
+      ]
+    },
+    "marja@top": {
+      "i": [
+        "sonic-boots",
+        "zweihander",
+        "rheas-blessing",
+        "frost-guard",
+        "shield-of-the-lost",
+        "arctic-orb"
+      ],
+      "r": [
+        [
+          "red_nomad",
+          10
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_degenerate",
+          10
+        ]
+      ],
+      "s": [
+        "flicker",
+        "purify"
+      ],
+      "l": "https://aov-builds.com/tuong/marja/",
+      "e": [
+        "axeofsacrifice",
+        "holyverdict",
+        "sacredprotection",
+        "raginginferno",
+        "deadlyclaw"
+      ]
+    },
+    "max@top": {
+      "i": [
+        "gilded-greaves",
+        "longinus-spear",
+        "beriths-agony",
+        "omni-arms",
+        "fenrirs-tooth",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_berserker",
+          10
+        ],
+        [
+          "purple_assassin",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "execute"
+      ],
+      "l": "https://aov-builds.com/tuong/max/",
+      "e": [
+        "raginginferno",
+        "deadlyclaw",
+        "curseofdeath",
+        "enhancedrestore",
+        "gunslinger"
+      ]
+    },
+    "mganga@mid": {
+      "i": [
+        "gilded-greaves",
+        "beriths-agony",
+        "frostys-revenge",
+        "frost-guard",
+        "staff-of-nuul",
+        "arctic-orb"
+      ],
+      "r": [
+        [
+          "red_nomad",
+          10
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_degenerate",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/mganga/",
+      "e": [
+        "devourer",
+        "deadlyclaw",
+        "curseofdeath",
+        "enhancedrestore",
+        "gunslinger"
+      ]
+    },
+    "mina@sp": {
+      "i": [
+        "mother-earth-cleansing",
+        "gilded-greaves",
+        "shield-of-the-lost",
+        "gaias-standard",
+        "mail-of-pain",
+        "amulet-of-longetivity"
+      ],
+      "r": [
+        [
+          "red_guardian",
+          10
+        ],
+        [
+          "purple_reliever",
+          10
+        ],
+        [
+          "teal_paladin",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/mina/",
+      "e": [
+        "towerblessing",
+        "naturesgift",
+        "explosiveshield",
+        "enhancedrestore",
+        "devourer"
+      ]
+    },
+    "mina@top": {
+      "i": [
+        "gilded-greaves",
+        "mantle-of-ra",
+        "gaias-standard",
+        "rock-shield",
+        "shield-of-the-lost",
+        "mail-of-pain"
+      ],
+      "r": [
+        [
+          "red_guardian",
+          10
+        ],
+        [
+          "purple_reliever",
+          10
+        ],
+        [
+          "teal_paladin",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/mina/",
+      "e": [
+        "towerblessing",
+        "naturesgift",
+        "explosiveshield",
+        "enhancedrestore",
+        "devourer"
+      ]
+    },
+    "ming@sp": {
+      "i": [
+        "mother-earth-spout",
+        "gilded-greaves",
+        "beriths-agony",
+        "frost-guard",
+        "medallion-of-troy",
+        "shield-of-the-lost"
+      ],
+      "r": [
+        [
+          "red_guardian",
+          10
+        ],
+        [
+          "purple_reliever",
+          10
+        ],
+        [
+          "teal_paladin",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/ming/",
+      "e": [
+        "rivertreader",
+        "regrowth",
+        "forestwanderer",
+        "devourer",
+        "enhancedrestore"
+      ]
+    },
+    "moren@ad": {
+      "i": [
+        "war-boots",
+        "claves-sancti",
+        "slikks-sting",
+        "fenrirs-tooth",
+        "dawning-star",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_rampage",
+          10
+        ],
+        [
+          "purple_fairy",
+          7
+        ],
+        [
+          "purple_reaper",
+          3
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/moren/",
+      "e": [
+        "devourer",
+        "bonecutter",
+        "devilsawakening",
+        "sacredbead",
+        "blessing"
+      ]
+    },
+    "murad@jg": {
+      "i": [
+        "soulreaver",
+        "gilded-greaves",
+        "rankbreaker",
+        "omni-arms",
+        "fenrirs-tooth",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_savage",
+          2
+        ],
+        [
+          "red_berserker",
+          8
+        ],
+        [
+          "purple_assassin",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "punish"
+      ],
+      "l": "https://aov-builds.com/tuong/murad/",
+      "e": [
+        "raginginferno",
+        "deadlyclaw",
+        "curseofdeath",
+        "markoffrost",
+        "gunslinger"
+      ]
+    },
+    "nakroth@jg": {
+      "i": [
+        "soulreaver",
+        "gilded-greaves",
+        "longinus-spear",
+        "omni-arms",
+        "claves-sancti",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_rampage",
+          5
+        ],
+        [
+          "red_savage",
+          5
+        ],
+        [
+          "purple_reaper",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "punish"
+      ],
+      "l": "https://aov-builds.com/tuong/nakroth/",
+      "e": [
+        "shadowblade",
+        "deadlyclaw",
+        "devilsawakening",
+        "markoffrost",
+        "gunslinger"
+      ]
+    },
+    "natalya@mid": {
+      "i": [
+        "flashy-boots",
+        "beriths-agony",
+        "rheas-blessing",
+        "frost-guard",
+        "boomstick",
+        "arctic-orb"
+      ],
+      "r": [
+        [
+          "red_nomad",
+          10
+        ],
+        [
+          "purple_cleric",
+          3
+        ],
+        [
+          "purple_fairy",
+          7
+        ],
+        [
+          "teal_degenerate",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/natalya/",
+      "e": [
+        "manarefill",
+        "holyverdict",
+        "sacredprotection",
+        "raginginferno",
+        "deadlyclaw"
+      ]
+    },
+    "ngokhong@jg": {
+      "i": [
+        "soulreaver",
+        "hermes-select",
+        "claves-sancti",
+        "slikks-sting",
+        "muramasa",
+        "fenrirs-tooth"
+      ],
+      "r": [
+        [
+          "red_rampage",
+          10
+        ],
+        [
+          "purple_fairy",
+          7
+        ],
+        [
+          "purple_reaper",
+          3
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "punish"
+      ],
+      "l": "https://aov-builds.com/tuong/ngo-khong/",
+      "e": [
+        "shadowblade",
+        "deadlyclaw",
+        "devilsawakening",
+        "axeofsacrifice",
+        "blessing"
+      ]
+    },
+    "omega@sp": {
+      "i": [
+        "mother-earth-spout",
+        "gilded-greaves",
+        "shield-of-the-lost",
+        "medallion-of-troy",
+        "mantle-of-ra",
+        "amulet-of-longetivity"
+      ],
+      "r": [
+        [
+          "red_guardian",
+          10
+        ],
+        [
+          "purple_reliever",
+          10
+        ],
+        [
+          "teal_paladin",
+          10
+        ]
+      ],
+      "s": [
+        "sprint"
+      ],
+      "l": "https://aov-builds.com/tuong/omega/",
+      "e": [
+        "towerblessing",
+        "regrowth",
+        "naturesrage",
+        "devourer",
+        "deadlyclaw"
+      ]
+    },
+    "omen@top": {
+      "i": [
+        "gilded-greaves",
+        "fafnirs-talon",
+        "medallion-of-troy",
+        "mail-of-pain",
+        "rock-shield",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_blitz",
+          10
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/omen/",
+      "e": [
+        "devourer",
+        "bonecutter",
+        "desperateduel",
+        "towerblessing",
+        "naturesgift"
+      ]
+    },
+    "ormarr@sp": {
+      "i": [
+        "mother-earth-surge",
+        "gilded-greaves",
+        "mantle-of-ra",
+        "medallion-of-troy",
+        "shield-of-the-lost",
+        "mail-of-pain"
+      ],
+      "r": [
+        [
+          "red_guardian",
+          10
+        ],
+        [
+          "purple_reliever",
+          10
+        ],
+        [
+          "teal_paladin",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/ormarr/",
+      "e": [
+        "towerblessing",
+        "regrowth",
+        "naturesrage",
+        "devourer",
+        "enhancedrestore"
+      ]
+    },
+    "paine@jg": {
+      "i": [
+        "lokis-curse",
+        "enchanted-kicks",
+        "zweihander",
+        "frost-guard",
+        "hecates-diadem",
+        "staff-of-nuul"
+      ],
+      "r": [
+        [
+          "red_nomad",
+          10
+        ],
+        [
+          "purple_cleric",
+          10
+        ],
+        [
+          "teal_degenerate",
+          10
+        ]
+      ],
+      "s": [
+        "punish"
+      ],
+      "l": "https://aov-builds.com/tuong/paine/",
+      "e": [
+        "axeofsacrifice",
+        "holyverdict",
+        "sacredprotection",
+        "raginginferno",
+        "deadlyclaw"
+      ]
+    },
+    "preyta@mid": {
+      "i": [
+        "gilded-greaves",
+        "zweihander",
+        "hecates-diadem",
+        "apocalypse",
+        "staff-of-nuul",
+        "frost-guard"
+      ],
+      "r": [
+        [
+          "red_nomad",
+          10
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_degenerate",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/preyta/",
+      "e": [
+        "sacredbead",
+        "holyverdict",
+        "sacredprotection",
+        "markoffrost",
+        "minionkill"
+      ]
+    },
+    "qi@jg": {
+      "i": [
+        "leviathan",
+        "gilded-greaves",
+        "longinus-spear",
+        "omni-arms",
+        "fenrirs-tooth",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_berserker",
+          10
+        ],
+        [
+          "purple_assassin",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "punish"
+      ],
+      "l": "https://gamezingmobile.com/qi-lien-quan/",
+      "e": [
+        "devourer",
+        "deadlyclaw",
+        "devilsawakening",
+        "markoffrost",
+        "gunslinger"
+      ]
+    },
+    "qi@top": {
+      "i": [
+        "gilded-greaves",
+        "longinus-spear",
+        "omni-arms",
+        "medallion-of-troy",
+        "fenrirs-tooth",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_savage",
+          2
+        ],
+        [
+          "red_berserker",
+          8
+        ],
+        [
+          "purple_assassin",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/qi/",
+      "e": [
+        "devourer",
+        "deadlyclaw",
+        "devilsawakening",
+        "markoffrost",
+        "gunslinger"
+      ]
+    },
+    "quillen@jg": {
+      "i": [
+        "soulreaver",
+        "gilded-greaves",
+        "rankbreaker",
+        "omni-arms",
+        "claves-sancti",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_rampage",
+          10
+        ],
+        [
+          "purple_fairy",
+          5
+        ],
+        [
+          "purple_assassin",
+          5
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "punish"
+      ],
+      "l": "https://aov-builds.com/tuong/quillen/",
+      "e": [
+        "shadowblade",
+        "deadlyclaw",
+        "curseofdeath",
+        "axeofsacrifice",
+        "holyverdict"
+      ]
+    },
+    "raz@mid": {
+      "i": [
+        "enchanted-kicks",
+        "boomstick",
+        "hecates-diadem",
+        "spooky-mask",
+        "apocalypse",
+        "arctic-orb"
+      ],
+      "r": [
+        [
+          "red_nomad",
+          10
+        ],
+        [
+          "purple_reliever",
+          10
+        ],
+        [
+          "teal_degenerate",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/raz/",
+      "e": [
+        "axeofsacrifice",
+        "holyverdict",
+        "holythunder",
+        "raginginferno",
+        "deadlyclaw"
+      ]
+    },
+    "richter@top": {
+      "i": [
+        "gilded-greaves",
+        "longinus-spear",
+        "medallion-of-troy",
+        "rock-shield",
+        "fenrirs-tooth",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_berserker",
+          10
+        ],
+        [
+          "purple_assassin",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/richter/",
+      "e": [
+        "backstabbing",
+        "naturesgift",
+        "forestwanderer",
+        "shadowblade",
+        "bonecutter"
+      ]
+    },
+    "rouie@mid": {
+      "i": [
+        "gilded-greaves",
+        "beriths-agony",
+        "frostys-revenge",
+        "frost-guard",
+        "staff-of-nuul",
+        "arctic-orb"
+      ],
+      "r": [
+        [
+          "red_nomad",
+          10
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_degenerate",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/rouie/",
+      "e": [
+        "axeofsacrifice",
+        "holyverdict",
+        "holythunder",
+        "devourer",
+        "deadlyclaw"
+      ]
+    },
+    "rouie@sp": {
+      "i": [
+        "wildfire-spout",
+        "gilded-greaves",
+        "beriths-agony",
+        "frost-guard",
+        "staff-of-nuul",
+        "arctic-orb"
+      ],
+      "r": [
+        [
+          "red_nomad",
+          10
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_degenerate",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/rouie/",
+      "e": [
+        "axeofsacrifice",
+        "holyverdict",
+        "holythunder",
+        "devourer",
+        "deadlyclaw"
+      ]
+    },
+    "rourke@top": {
+      "i": [
+        "fafnirs-talon",
+        "gilded-greaves",
+        "rankbreaker",
+        "omni-arms",
+        "fenrirs-tooth",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_blitz",
+          10
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/rourke/",
+      "e": [
+        "raginginferno",
+        "deadlyclaw",
+        "devilsawakening",
+        "sacredbead",
+        "holyverdict"
+      ]
+    },
+    "roxie@sp": {
+      "i": [
+        "mother-earth-cleansing",
+        "gilded-greaves",
+        "mantle-of-ra",
+        "medallion-of-troy",
+        "the-aegis",
+        "rock-shield"
+      ],
+      "r": [
+        [
+          "red_guardian",
+          10
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_paladin",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/roxie/",
+      "e": [
+        "towerblessing",
+        "naturesgift",
+        "naturesrage",
+        "arcanewhisper",
+        "devourer"
+      ]
+    },
+    "ryoma@jg": {
+      "i": [
+        "soulreaver",
+        "gilded-greaves",
+        "rankbreaker",
+        "omni-arms",
+        "fenrirs-tooth",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_savage",
+          2
+        ],
+        [
+          "red_berserker",
+          8
+        ],
+        [
+          "purple_assassin",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "punish"
+      ],
+      "l": "https://aov-builds.com/tuong/ryoma/",
+      "e": [
+        "raginginferno",
+        "deadlyclaw",
+        "devilsawakening",
+        "markoffrost",
+        "gunslinger"
+      ]
+    },
+    "ryoma@top": {
+      "i": [
+        "gilded-greaves",
+        "longinus-spear",
+        "rankbreaker",
+        "omni-arms",
+        "fenrirs-tooth",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_savage",
+          2
+        ],
+        [
+          "red_berserker",
+          8
+        ],
+        [
+          "purple_assassin",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/ryoma/",
+      "e": [
+        "raginginferno",
+        "deadlyclaw",
+        "devilsawakening",
+        "markoffrost",
+        "gunslinger"
+      ]
+    },
+    "sephera@mid": {
+      "i": [
+        "gilded-greaves",
+        "beriths-agony",
+        "apocalypse",
+        "hecates-diadem",
+        "soaring-aura",
+        "arctic-orb"
+      ],
+      "r": [
+        [
+          "red_nomad",
+          10
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_degenerate",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/sephera/",
+      "e": [
+        "manarefill",
+        "holyverdict",
+        "holythunder",
+        "raginginferno",
+        "deadlyclaw"
+      ]
+    },
+    "sinestrea@jg": {
+      "i": [
+        "soulreaver",
+        "war-boots",
+        "claves-sancti",
+        "the-beast",
+        "rankbreaker",
+        "fafnirs-talon"
+      ],
+      "r": [
+        [
+          "red_savage",
+          10
+        ],
+        [
+          "purple_fairy",
+          5
+        ],
+        [
+          "purple_reaper",
+          5
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "punish"
+      ],
+      "l": "https://aov-builds.com/tuong/sinestrea/",
+      "e": [
+        "shadowblade",
+        "deadlyclaw",
+        "curseofdeath",
+        "sacredbead",
+        "holyverdict"
+      ]
+    },
+    "skud@top": {
+      "i": [
+        "gilded-greaves",
+        "mantle-of-ra",
+        "gaias-standard",
+        "rock-shield",
+        "shield-of-the-lost",
+        "mail-of-pain"
+      ],
+      "r": [
+        [
+          "red_guardian",
+          10
+        ],
+        [
+          "purple_fairy",
+          5
+        ],
+        [
+          "purple_colossus",
+          5
+        ],
+        [
+          "teal_paladin",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/skud/",
+      "e": [
+        "rivertreader",
+        "naturesgift",
+        "explosiveshield",
+        "devourer",
+        "bonecutter"
+      ]
+    },
+    "slimz@ad": {
+      "i": [
+        "war-boots",
+        "claves-sancti",
+        "slikks-sting",
+        "dawning-star",
+        "fafnirs-talon",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_blitz",
+          10
+        ],
+        [
+          "purple_reaper",
+          3
+        ],
+        [
+          "purple_fairy",
+          7
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/slimz/",
+      "e": [
+        "axeofsacrifice",
+        "blessing",
+        "holysummoner",
+        "enhancedrestore",
+        "minionkill"
+      ]
+    },
+    "stuart@ad": {
+      "i": [
+        "war-boots",
+        "omni-arms",
+        "fafnirs-talon",
+        "fenrirs-tooth",
+        "dawning-star",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_savage",
+          2
+        ],
+        [
+          "red_berserker",
+          8
+        ],
+        [
+          "purple_assassin",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/stuart/",
+      "e": [
+        "axeofsacrifice",
+        "holyverdict",
+        "holysummoner",
+        "enhancedrestore",
+        "minionkill"
+      ]
+    },
+    "superman@top": {
+      "i": [
+        "gilded-greaves",
+        "rankbreaker",
+        "odins-will",
+        "gaias-standard",
+        "shield-of-the-lost",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_berserker",
+          10
+        ],
+        [
+          "purple_assassin",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "flicker",
+        "purify"
+      ],
+      "l": "https://aov-builds.com/tuong/superman/",
+      "e": [
+        "rivertreader",
+        "naturesgift",
+        "explosiveshield",
+        "devourer",
+        "bonecutter"
+      ]
+    },
+    "taara@sp": {
+      "i": [
+        "mother-earth-cleansing",
+        "gilded-greaves",
+        "mail-of-pain",
+        "gaias-standard",
+        "rock-shield",
+        "amulet-of-longetivity"
+      ],
+      "r": [
+        [
+          "red_guardian",
+          10
+        ],
+        [
+          "purple_reliever",
+          10
+        ],
+        [
+          "teal_paladin",
+          10
+        ]
+      ],
+      "s": [
+        "enfeeble"
+      ],
+      "l": "https://aov-builds.com/tuong/taara/",
+      "e": [
+        "towerblessing",
+        "regrowth",
+        "explosiveshield",
+        "devourer",
+        "sacredbead"
+      ]
+    },
+    "taara@top": {
+      "i": [
+        "gilded-greaves",
+        "mantle-of-ra",
+        "mail-of-pain",
+        "gaias-standard",
+        "shield-of-the-lost",
+        "amulet-of-longetivity"
+      ],
+      "r": [
+        [
+          "red_guardian",
+          10
+        ],
+        [
+          "purple_reliever",
+          10
+        ],
+        [
+          "teal_paladin",
+          10
+        ]
+      ],
+      "s": [
+        "sprint",
+        "execute",
+        "punish"
+      ],
+      "l": "https://aov-builds.com/tuong/taara/",
+      "o": [
+        "punish"
+      ],
+      "e": [
+        "towerblessing",
+        "regrowth",
+        "explosiveshield",
+        "devourer",
+        "sacredbead"
+      ],
+      "n": "Trừng Trị là phương án thêm, trang nguồn chỉ ghi Tốc Hành và Bộc Phá."
+    },
+    "tachi@jg": {
+      "i": [
+        "soulreaver",
+        "sonic-boots",
+        "the-diminisher",
+        "fenrirs-tooth",
+        "odins-will",
+        "gaias-standard"
+      ],
+      "r": [
+        [
+          "red_guardian",
+          10
+        ],
+        [
+          "purple_colossus",
+          5
+        ],
+        [
+          "purple_fairy",
+          5
+        ],
+        [
+          "teal_paladin",
+          10
+        ]
+      ],
+      "s": [
+        "punish"
+      ],
+      "l": "https://aov-builds.com/tuong/tachi/",
+      "e": [
+        "towerblessing",
+        "regrowth",
+        "forestwanderer",
+        "enhancedrestore",
+        "devourer"
+      ]
+    },
+    "tachi@top": {
+      "i": [
+        "gilded-greaves",
+        "death-curse",
+        "gaias-standard",
+        "shield-of-the-lost",
+        "rock-shield",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_guardian",
+          10
+        ],
+        [
+          "purple_colossus",
+          5
+        ],
+        [
+          "purple_fairy",
+          5
+        ],
+        [
+          "teal_paladin",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/tachi/",
+      "e": [
+        "towerblessing",
+        "regrowth",
+        "forestwanderer",
+        "enhancedrestore",
+        "devourer"
+      ]
+    },
+    "tamyn@jg": {
+      "i": [
+        "soulreaver",
+        "flashy-boots",
+        "omni-arms",
+        "longinus-spear",
+        "odins-will",
+        "the-diminisher"
+      ],
+      "r": [
+        [
+          "red_guardian",
+          10
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "punish"
+      ],
+      "l": "https://aov-builds.com/tuong/tamyn/",
+      "e": [
+        "shadowblade",
+        "bonecutter",
+        "desperateduel",
+        "axeofsacrifice",
+        "holyverdict"
+      ]
+    },
+    "teemee@sp": {
+      "i": [
+        "mother-earth-cleansing",
+        "gilded-greaves",
+        "the-aegis",
+        "medallion-of-troy",
+        "shield-of-the-lost",
+        "amulet-of-longetivity"
+      ],
+      "r": [
+        [
+          "red_guardian",
+          10
+        ],
+        [
+          "purple_reliever",
+          10
+        ],
+        [
+          "teal_paladin",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/teemee/",
+      "e": [
+        "rivertreader",
+        "naturesgift",
+        "naturesrage",
+        "devourer",
+        "bonecutter"
+      ]
+    },
+    "teeri@ad": {
+      "i": [
+        "war-boots",
+        "blitz-blade",
+        "claves-sancti",
+        "fafnirs-talon",
+        "dawning-star",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_rampage",
+          10
+        ],
+        [
+          "purple_fairy",
+          7
+        ],
+        [
+          "purple_reaper",
+          3
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/teeri/",
+      "e": [
+        "axeofsacrifice",
+        "holyverdict",
+        "holysummoner",
+        "enhancedrestore",
+        "minionkill"
+      ]
+    },
+    "telannas@ad": {
+      "i": [
+        "war-boots",
+        "claves-sancti",
+        "slikks-sting",
+        "dawning-star",
+        "fenrirs-tooth",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_rampage",
+          10
+        ],
+        [
+          "purple_fairy",
+          7
+        ],
+        [
+          "purple_reaper",
+          3
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/telannas/",
+      "e": [
+        "devourer",
+        "deadlyclaw",
+        "curseofdeath",
+        "axeofsacrifice",
+        "blessing"
+      ]
+    },
+    "thane@sp": {
+      "i": [
+        "mother-earth-cleansing",
+        "gilded-greaves",
+        "shield-of-the-lost",
+        "medallion-of-troy",
+        "mail-of-pain",
+        "rock-shield"
+      ],
+      "r": [
+        [
+          "red_guardian",
+          10
+        ],
+        [
+          "purple_reliever",
+          10
+        ],
+        [
+          "teal_paladin",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/thane/",
+      "e": [
+        "towerblessing",
+        "naturesgift",
+        "naturesrage",
+        "devourer",
+        "bonecutter"
+      ]
+    },
+    "theflash@jg": {
+      "i": [
+        "lokis-curse",
+        "gilded-greaves",
+        "boomstick",
+        "hecates-diadem",
+        "staff-of-nuul",
+        "rheas-blessing"
+      ],
+      "r": [
+        [
+          "red_nomad",
+          10
+        ],
+        [
+          "purple_cleric",
+          3
+        ],
+        [
+          "purple_fairy",
+          7
+        ],
+        [
+          "teal_degenerate",
+          10
+        ]
+      ],
+      "s": [
+        "punish"
+      ],
+      "l": "https://aov-builds.com/tuong/the-flash/",
+      "e": [
+        "raginginferno",
+        "deadlyclaw",
+        "curseofdeath",
+        "axeofsacrifice",
+        "holyverdict"
+      ]
+    },
+    "thorne@ad": {
+      "i": [
+        "flashy-boots",
+        "fafnirs-talon",
+        "slikks-sting",
+        "dawning-star",
+        "fenrirs-tooth",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_rampage",
+          10
+        ],
+        [
+          "purple_fairy",
+          7
+        ],
+        [
+          "purple_reaper",
+          3
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/thorne/",
+      "e": [
+        "markoffrost",
+        "minionkill",
+        "alchemy",
+        "axeofsacrifice",
+        "blessing"
+      ]
+    },
+    "toro@sp": {
+      "i": [
+        "mother-earth-cleansing",
+        "gilded-greaves",
+        "shield-of-the-lost",
+        "gaias-standard",
+        "rock-shield",
+        "amulet-of-longetivity"
+      ],
+      "r": [
+        [
+          "red_guardian",
+          10
+        ],
+        [
+          "purple_reliever",
+          10
+        ],
+        [
+          "teal_paladin",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/toro/",
+      "e": [
+        "towerblessing",
+        "naturesgift",
+        "naturesrage",
+        "devourer",
+        "enhancedrestore"
+      ]
+    },
+    "toro@top": {
+      "i": [
+        "sonic-boots",
+        "shield-of-the-lost",
+        "gaias-standard",
+        "rock-shield",
+        "mail-of-pain",
+        "amulet-of-longetivity"
+      ],
+      "r": [
+        [
+          "red_guardian",
+          10
+        ],
+        [
+          "purple_reliever",
+          10
+        ],
+        [
+          "teal_paladin",
+          10
+        ]
+      ],
+      "s": [
+        "execute",
+        "flicker"
+      ],
+      "l": "https://lienquanmobile.gg/champions/toro/build/top/",
+      "e": [
+        "towerblessing",
+        "naturesgift",
+        "naturesrage",
+        "devourer",
+        "enhancedrestore"
+      ],
+      "el": "https://aov-builds.com/tuong/toro/"
+    },
+    "trieuvan@jg": {
+      "i": [
+        "soulreaver",
+        "gilded-greaves",
+        "claves-sancti",
+        "death-sickle",
+        "fenrirs-tooth",
+        "the-diminisher"
+      ],
+      "r": [
+        [
+          "red_savage",
+          5
+        ],
+        [
+          "red_berserker",
+          5
+        ],
+        [
+          "purple_assassin",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "punish"
+      ],
+      "l": "https://aov-builds.com/tuong/trieu-van/",
+      "e": [
+        "devourer",
+        "deadlyclaw",
+        "devilsawakening",
+        "markoffrost",
+        "gunslinger"
+      ]
+    },
+    "trieuvan@top": {
+      "i": [
+        "gilded-greaves",
+        "claves-sancti",
+        "the-diminisher",
+        "mail-of-pain",
+        "fenrirs-tooth",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_guardian",
+          10
+        ],
+        [
+          "purple_reliever",
+          10
+        ],
+        [
+          "teal_crusader",
+          10
+        ]
+      ],
+      "s": [
+        "flicker",
+        "execute"
+      ],
+      "l": "https://www.finhay.com.vn/cach-len-do-trieu-van",
+      "e": [
+        "devourer",
+        "deadlyclaw",
+        "devilsawakening",
+        "markoffrost",
+        "gunslinger"
+      ],
+      "n": "Nguồn không tách bảng ngọc riêng cho đường Tà Thần, ở đây dùng bảng ngọc bán tank cùng bài."
+    },
+    "tulen@mid": {
+      "i": [
+        "gilded-greaves",
+        "beriths-agony",
+        "spooky-mask",
+        "hecates-diadem",
+        "rheas-blessing",
+        "arctic-orb"
+      ],
+      "r": [
+        [
+          "red_nomad",
+          10
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_degenerate",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/tulen/",
+      "e": [
+        "axeofsacrifice",
+        "holyverdict",
+        "holythunder",
+        "enhancedrestore",
+        "gunslinger"
+      ]
+    },
+    "valhein@ad": {
+      "i": [
+        "war-boots",
+        "blitz-blade",
+        "frost-hammer",
+        "eclipsing-bow",
+        "fenrirs-tooth",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_blitz",
+          10
+        ],
+        [
+          "purple_reaper",
+          3
+        ],
+        [
+          "purple_fairy",
+          7
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/valhein/",
+      "e": [
+        "markoffrost",
+        "gunslinger",
+        "alchemy",
+        "devourer",
+        "deadlyclaw"
+      ]
+    },
+    "veera@mid": {
+      "i": [
+        "enchanted-kicks",
+        "boomstick",
+        "hecates-diadem",
+        "staff-of-nuul",
+        "arctic-orb",
+        "holy-of-holies"
+      ],
+      "r": [
+        [
+          "red_nomad",
+          10
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_degenerate",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/veera/",
+      "e": [
+        "raginginferno",
+        "deadlyclaw",
+        "curseofdeath",
+        "axeofsacrifice",
+        "blessing"
+      ]
+    },
+    "veres@top": {
+      "i": [
+        "gilded-greaves",
+        "death-curse",
+        "longinus-spear",
+        "omni-arms",
+        "rock-shield",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_savage",
+          2
+        ],
+        [
+          "red_berserker",
+          8
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "flicker",
+        "sprint"
+      ],
+      "l": "https://aov-builds.com/tuong/veres/",
+      "e": [
+        "devourer",
+        "deadlyclaw",
+        "desperateduel",
+        "markoffrost",
+        "gunslinger"
+      ]
+    },
+    "violet@ad": {
+      "i": [
+        "gilded-greaves",
+        "claves-sancti",
+        "omni-arms",
+        "muramasa",
+        "fenrirs-tooth",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_savage",
+          10
+        ],
+        [
+          "purple_fairy",
+          7
+        ],
+        [
+          "purple_reaper",
+          3
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/violet/",
+      "e": [
+        "raginginferno",
+        "deadlyclaw",
+        "curseofdeath",
+        "axeofsacrifice",
+        "blessing"
+      ]
+    },
+    "volkath@top": {
+      "i": [
+        "gilded-greaves",
+        "longinus-spear",
+        "death-curse",
+        "omni-arms",
+        "death-sickle",
+        "fenrirs-tooth"
+      ],
+      "r": [
+        [
+          "red_savage",
+          2
+        ],
+        [
+          "red_berserker",
+          8
+        ],
+        [
+          "purple_assassin",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "execute"
+      ],
+      "l": "https://aov-builds.com/tuong/volkath/",
+      "e": [
+        "raginginferno",
+        "deadlyclaw",
+        "desperateduel",
+        "enhancedrestore",
+        "gunslinger"
+      ]
+    },
+    "wiro@sp": {
+      "i": [
+        "mother-earth-cleansing",
+        "gilded-greaves",
+        "shield-of-the-lost",
+        "medallion-of-troy",
+        "rock-shield",
+        "amulet-of-longetivity"
+      ],
+      "r": [
+        [
+          "red_guardian",
+          10
+        ],
+        [
+          "purple_reliever",
+          10
+        ],
+        [
+          "teal_paladin",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/wiro/",
+      "e": [
+        "towerblessing",
+        "naturesgift",
+        "explosiveshield",
+        "devourer",
+        "bonecutter"
+      ]
+    },
+    "wiro@top": {
+      "i": [
+        "war-boots",
+        "rankbreaker",
+        "omni-arms",
+        "claves-sancti",
+        "fenrirs-tooth",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_blitz",
+          10
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/wiro/",
+      "e": [
+        "shadowblade",
+        "deadlyclaw",
+        "curseofdeath",
+        "axeofsacrifice",
+        "holyverdict"
+      ]
+    },
+    "wisp@ad": {
+      "i": [
+        "war-boots",
+        "blitz-blade",
+        "claves-sancti",
+        "eclipsing-bow",
+        "dawning-star",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_rampage",
+          10
+        ],
+        [
+          "purple_fairy",
+          7
+        ],
+        [
+          "purple_reaper",
+          3
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/wisp/",
+      "e": [
+        "enhancedrestore",
+        "minionkill",
+        "alchemy",
+        "axeofsacrifice",
+        "blessing"
+      ]
+    },
+    "wonderwoman@top": {
+      "i": [
+        "gilded-greaves",
+        "longinus-spear",
+        "death-curse",
+        "omni-arms",
+        "fenrirs-tooth",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_blitz",
+          10
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "flicker",
+        "execute"
+      ],
+      "l": "https://aov-builds.com/tuong/wonder-woman/",
+      "e": [
+        "devourer",
+        "deadlyclaw",
+        "devilsawakening",
+        "markoffrost",
+        "gunslinger"
+      ]
+    },
+    "xeniel@sp": {
+      "i": [
+        "mother-earth-cleansing",
+        "gilded-greaves",
+        "the-aegis",
+        "medallion-of-troy",
+        "mail-of-pain",
+        "rock-shield"
+      ],
+      "r": [
+        [
+          "red_guardian",
+          10
+        ],
+        [
+          "purple_reliever",
+          10
+        ],
+        [
+          "teal_paladin",
+          10
+        ]
+      ],
+      "s": [
+        "flicker",
+        "heal",
+        "enfeeble"
+      ],
+      "l": "https://aov-builds.com/tuong/xeniel/",
+      "e": [
+        "towerblessing",
+        "regrowth",
+        "explosiveshield",
+        "sacredbead",
+        "devourer"
+      ]
+    },
+    "yan@top": {
+      "i": [
+        "gilded-greaves",
+        "longinus-spear",
+        "omni-arms",
+        "medallion-of-troy",
+        "fenrirs-tooth",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_savage",
+          2
+        ],
+        [
+          "red_berserker",
+          8
+        ],
+        [
+          "purple_assassin",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/yan/",
+      "e": [
+        "shadowblade",
+        "deadlyclaw",
+        "devilsawakening",
+        "markoffrost",
+        "gunslinger"
+      ]
+    },
+    "ybneth@sp": {
+      "i": [
+        "mother-earth-cleansing",
+        "gilded-greaves",
+        "gaias-standard",
+        "shield-of-the-lost",
+        "mantle-of-ra",
+        "rock-shield"
+      ],
+      "r": [
+        [
+          "red_guardian",
+          10
+        ],
+        [
+          "purple_reliever",
+          10
+        ],
+        [
+          "teal_paladin",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/ybneth/",
+      "e": [
+        "towerblessing",
+        "regrowth",
+        "naturesrage",
+        "devourer",
+        "bonecutter"
+      ]
+    },
+    "yena@top": {
+      "i": [
+        "gilded-greaves",
+        "longinus-spear",
+        "the-diminisher",
+        "medallion-of-troy",
+        "fenrirs-tooth",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_savage",
+          2
+        ],
+        [
+          "red_berserker",
+          8
+        ],
+        [
+          "purple_assassin",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/yena/",
+      "e": [
+        "shadowblade",
+        "deadlyclaw",
+        "curseofdeath",
+        "axeofsacrifice",
+        "holyverdict"
+      ]
+    },
+    "yorn@ad": {
+      "i": [
+        "war-boots",
+        "claves-sancti",
+        "slikks-sting",
+        "dawning-star",
+        "fenrirs-tooth",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_rampage",
+          10
+        ],
+        [
+          "purple_fairy",
+          7
+        ],
+        [
+          "purple_reaper",
+          3
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/yorn/",
+      "e": [
+        "enhancedrestore",
+        "minionkill",
+        "alchemy",
+        "axeofsacrifice",
+        "blessing"
+      ]
+    },
+    "yue@mid": {
+      "i": [
+        "flashy-boots",
+        "beriths-agony",
+        "boomstick",
+        "hecates-diadem",
+        "staff-of-nuul",
+        "arctic-orb"
+      ],
+      "r": [
+        [
+          "red_nomad",
+          10
+        ],
+        [
+          "purple_cleric",
+          3
+        ],
+        [
+          "purple_fairy",
+          7
+        ],
+        [
+          "teal_degenerate",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/yue/",
+      "e": [
+        "manarefill",
+        "holyverdict",
+        "holythunder",
+        "raginginferno",
+        "deadlyclaw"
+      ]
+    },
+    "zata@mid": {
+      "i": [
+        "flashy-boots",
+        "orb-of-the-magi",
+        "hecates-diadem",
+        "boomstick",
+        "carano-robe",
+        "holy-of-holies"
+      ],
+      "r": [
+        [
+          "red_nomad",
+          10
+        ],
+        [
+          "purple_fairy",
+          10
+        ],
+        [
+          "teal_degenerate",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/zata/",
+      "e": [
+        "sacredbead",
+        "holyverdict",
+        "sacredprotection",
+        "raginginferno",
+        "deadlyclaw"
+      ]
+    },
+    "zephys@jg": {
+      "i": [
+        "soulreaver",
+        "gilded-greaves",
+        "longinus-spear",
+        "omni-arms",
+        "fenrirs-tooth",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_savage",
+          2
+        ],
+        [
+          "red_berserker",
+          8
+        ],
+        [
+          "purple_assassin",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "punish"
+      ],
+      "l": "https://aov-builds.com/tuong/zephys/",
+      "e": [
+        "shadowblade",
+        "deadlyclaw",
+        "curseofdeath",
+        "axeofsacrifice",
+        "holyverdict"
+      ]
+    },
+    "zephys@top": {
+      "i": [
+        "gilded-greaves",
+        "longinus-spear",
+        "omni-arms",
+        "medallion-of-troy",
+        "fenrirs-tooth",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_savage",
+          2
+        ],
+        [
+          "red_berserker",
+          8
+        ],
+        [
+          "purple_assassin",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/zephys/",
+      "e": [
+        "shadowblade",
+        "deadlyclaw",
+        "curseofdeath",
+        "axeofsacrifice",
+        "holyverdict"
+      ]
+    },
+    "zill@jg": {
+      "i": [
+        "lokis-curse",
+        "gilded-greaves",
+        "frost-guard",
+        "hecates-diadem",
+        "staff-of-nuul",
+        "rheas-blessing"
+      ],
+      "r": [
+        [
+          "red_nomad",
+          10
+        ],
+        [
+          "purple_cleric",
+          3
+        ],
+        [
+          "purple_fairy",
+          7
+        ],
+        [
+          "teal_degenerate",
+          10
+        ]
+      ],
+      "s": [
+        "punish"
+      ],
+      "l": "https://aov-builds.com/tuong/zill/",
+      "e": [
+        "raginginferno",
+        "deadlyclaw",
+        "devilsawakening",
+        "axeofsacrifice",
+        "holyverdict"
+      ]
+    },
+    "zill@mid": {
+      "i": [
+        "gilded-greaves",
+        "frost-guard",
+        "hecates-diadem",
+        "staff-of-nuul",
+        "rheas-blessing",
+        "arctic-orb"
+      ],
+      "r": [
+        [
+          "red_nomad",
+          10
+        ],
+        [
+          "purple_cleric",
+          3
+        ],
+        [
+          "purple_fairy",
+          7
+        ],
+        [
+          "teal_degenerate",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/zill/",
+      "e": [
+        "raginginferno",
+        "deadlyclaw",
+        "devilsawakening",
+        "axeofsacrifice",
+        "holyverdict"
+      ]
+    },
+    "zip@sp": {
+      "i": [
+        "mother-earth-surge",
+        "gilded-greaves",
+        "shield-of-the-lost",
+        "medallion-of-troy",
+        "rock-shield",
+        "amulet-of-longetivity"
+      ],
+      "r": [
+        [
+          "red_guardian",
+          10
+        ],
+        [
+          "purple_reliever",
+          10
+        ],
+        [
+          "teal_paladin",
+          10
+        ]
+      ],
+      "s": [
+        "flicker"
+      ],
+      "l": "https://aov-builds.com/tuong/zip/",
+      "e": [
+        "towerblessing",
+        "naturesgift",
+        "explosiveshield",
+        "enhancedrestore",
+        "devourer"
+      ]
+    },
+    "zuka@jg": {
+      "i": [
+        "leviathan",
+        "gilded-greaves",
+        "longinus-spear",
+        "omni-arms",
+        "fenrirs-tooth",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_savage",
+          2
+        ],
+        [
+          "red_berserker",
+          8
+        ],
+        [
+          "purple_assassin",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "punish"
+      ],
+      "l": "https://aov-builds.com/tuong/zuka/",
+      "e": [
+        "shadowblade",
+        "deadlyclaw",
+        "devilsawakening",
+        "markoffrost",
+        "gunslinger"
+      ],
+      "n": "Muốn dồn sát thương hơn thì đổi Rìu Leviathan lấy Kiếm Truy Hồn."
+    },
+    "zuka@top": {
+      "i": [
+        "gilded-greaves",
+        "longinus-spear",
+        "omni-arms",
+        "fenrirs-tooth",
+        "muramasa",
+        "blade-of-eternity"
+      ],
+      "r": [
+        [
+          "red_savage",
+          2
+        ],
+        [
+          "red_berserker",
+          8
+        ],
+        [
+          "purple_assassin",
+          10
+        ],
+        [
+          "teal_dragoon",
+          10
+        ]
+      ],
+      "s": [
+        "flicker",
+        "execute"
+      ],
+      "l": "https://aov-builds.com/tuong/zuka/",
+      "e": [
+        "shadowblade",
+        "deadlyclaw",
+        "devilsawakening",
+        "markoffrost",
+        "gunslinger"
+      ]
+    }
+  }
+}

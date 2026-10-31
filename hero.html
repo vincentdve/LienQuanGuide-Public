@@ -1,0 +1,978 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Chi tiết tướng - Liên Quân Guide</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="js/game-data-loader.js" defer></script>
+    <script src="js/heroes-json.js" defer></script>
+    <script src="js/items.js" defer></script>
+    <script src="js/matchups-preview.js" defer></script>
+    <script src="js/notes.js" defer></script>
+    <script src="js/spells.js" defer></script>
+
+    <style>
+      .hero-detail {
+        padding: 35px 0 60px;
+      }
+
+      .back-link {
+        display: inline-block;
+        margin-bottom: 24px;
+        color: var(--primary);
+      }
+
+      .hero-profile {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        padding: 25px;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+      }
+
+      .profile-avatar {
+        width: 130px;
+        height: 130px;
+        object-fit: cover;
+        border-radius: 12px;
+        flex-shrink: 0;
+      }
+
+      .profile-info h1 {
+        margin: 0 0 12px;
+        color: var(--primary);
+      }
+
+      .profile-info p {
+        margin: 8px 0;
+        color: var(--muted);
+      }
+
+      .detail-section {
+        margin-top: 24px;
+        padding: 24px;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+      }
+
+      .detail-section h2 {
+        margin: 0 0 16px;
+        color: var(--primary);
+        font-size: 20px;
+      }
+
+      .section-placeholder {
+        color: var(--muted);
+        line-height: 1.6;
+      }
+
+      @media (max-width: 650px) {
+        .hero-profile {
+          flex-direction: column;
+          text-align: center;
+        }
+
+        .profile-avatar {
+          width: 110px;
+          height: 110px;
+        }
+
+        .detail-section {
+          padding: 18px;
+        }
+      }
+      /* Chuyển trang cấu hình tướng */
+
+      .hero-page-tabs {
+        display: flex;
+        justify-content: center;
+        gap: 12px;
+        margin-top: 20px;
+      }
+
+      .hero-page-tab {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        min-width: 54px;
+        width: auto;
+        height: 42px;
+        padding: 0 14px;
+        white-space: nowrap;
+
+        background: var(--surface);
+        color: var(--muted);
+
+        border: 1px solid var(--border);
+        border-radius: 8px;
+
+        font-size: 17px;
+        font-weight: bold;
+        transition: 0.2s;
+      }
+
+      .hero-page-tab:hover {
+        border-color: var(--primary);
+        color: var(--primary);
+      }
+
+      .hero-page-tab.active {
+        background: var(--primary);
+        color: #171717;
+        border-color: var(--primary);
+      }
+
+      /* Sao chép cấu hình */
+
+      .hero-page-tabs {
+        flex-wrap: wrap;
+        align-items: center;
+      }
+
+      .hero-copy-wrap {
+        position: relative;
+      }
+
+      .hero-copy-trigger {
+        height: 42px;
+        padding: 0 16px;
+        background: var(--surface);
+        color: var(--primary);
+        border: 1px solid var(--primary);
+        border-radius: 8px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+
+      .hero-copy-trigger:hover {
+        background: var(--surface-hover);
+      }
+
+      .hero-copy-menu {
+        position: absolute;
+        top: calc(100% + 8px);
+        right: 0;
+        z-index: 30;
+
+        display: grid;
+        gap: 6px;
+        min-width: 185px;
+        padding: 8px;
+
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        box-shadow: 0 8px 20px #0005;
+      }
+
+      .hero-copy-menu[hidden] {
+        display: none;
+      }
+
+      .hero-copy-menu button {
+        padding: 11px;
+        background: var(--bg);
+        color: var(--text);
+        border: 1px solid var(--border);
+        border-radius: 7px;
+        cursor: pointer;
+        text-align: left;
+      }
+
+      .hero-copy-menu button:hover {
+        border-color: var(--primary);
+        color: var(--primary);
+      }
+
+      .hero-rename-button {
+        height: 42px;
+        padding: 0 16px;
+        background: var(--surface);
+        color: var(--primary);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+
+      .hero-rename-button:hover {
+        border-color: var(--primary);
+        background: var(--surface-hover);
+      }
+    </style>
+    <script src="js/attack-speed-preview.js" defer></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1>LIÊN QUÂN GUIDE</h1>
+        <p>Sổ tay chiến thuật Liên Quân Mobile</p>
+      </div>
+    </header>
+
+    <main class="container hero-detail">
+      <a href="index.html" class="back-link"> ← Quay lại danh sách tướng </a>
+
+      <div id="hero-content"></div>
+    </main>
+
+    <footer class="footer">
+      <p>Liên Quân Guide - Dự án cá nhân</p>
+    </footer>
+
+    <script>
+      document.addEventListener("lqg:data-ready", () => {
+        const container = document.getElementById("hero-content");
+
+        const params = new URLSearchParams(window.location.search);
+
+        const heroId = params.get("id");
+        const activePage = params.get("page") === "2" ? 2 : 1;
+        const hero = getHeroById(heroId);
+
+        if (!hero) {
+          const message = document.createElement("p");
+          message.textContent = "Không tìm thấy tướng.";
+          container.appendChild(message);
+          return;
+        }
+
+        document.title = `${hero.name} - Liên Quân Guide`;
+
+        const imageName = hero.id === "flowborn" ? "flowborn-ad" : hero.id;
+
+        const profile = document.createElement("section");
+        profile.className = "hero-profile";
+
+        const img = document.createElement("img");
+        img.className = "profile-avatar";
+        img.src = `images/heroes/${imageName}.webp`;
+        img.alt = hero.name;
+
+        img.onerror = () => {
+          img.style.display = "none";
+        };
+
+        const info = document.createElement("div");
+        info.className = "profile-info";
+
+        const name = document.createElement("h1");
+        name.textContent = hero.name;
+
+        const role = document.createElement("p");
+        role.textContent = `Vai trò: ${ROLES[hero.role] || hero.role}`;
+
+        const lanes = document.createElement("p");
+        lanes.textContent =
+          "Vị trí: " + hero.lanes.map((lane) => LANES[lane]).join(", ");
+
+        info.append(name, role, lanes);
+
+        profile.append(img, info);
+        container.appendChild(profile);
+
+        // ===================================
+        // ĐẶT TÊN TRANG CẤU HÌNH
+        // ===================================
+
+        const PAGE_NAMES_STORE = "lqg_notes_v1";
+
+        const pageNameKey = (page) => `__lqg_page_name__${hero.id}__${page}`;
+
+        function readPageName(page) {
+          try {
+            const data = JSON.parse(
+              localStorage.getItem(PAGE_NAMES_STORE) || "{}",
+            );
+
+            const value = data[pageNameKey(page)];
+
+            return typeof value === "string" ? value.trim() : "";
+          } catch {
+            return "";
+          }
+        }
+
+        const pageTabs = document.createElement("div");
+        pageTabs.className = "hero-page-tabs";
+
+        const tabLinks = {};
+
+        [1, 2].forEach((number) => {
+          const tab = document.createElement("a");
+
+          tab.href = `hero.html?id=${encodeURIComponent(hero.id)}&page=${number}`;
+
+          const name = readPageName(number);
+          tab.textContent = `${number}${name ? ` · ${name}` : ""}`;
+
+          tab.className = "hero-page-tab";
+          tab.classList.toggle("active", number === activePage);
+
+          tabLinks[number] = tab;
+          pageTabs.appendChild(tab);
+        });
+
+        const renameButton = document.createElement("button");
+        renameButton.type = "button";
+        renameButton.className = "hero-rename-button";
+        renameButton.textContent = "✎ Đổi tên";
+
+        renameButton.addEventListener("click", () => {
+          const oldName = readPageName(activePage);
+
+          const answer = prompt(`Đặt tên Trang ${activePage}:`, oldName);
+
+          if (answer === null) return;
+
+          const newName = answer.trim();
+
+          if (newName.length > 30) {
+            alert("Tên không được dài quá 30 ký tự.");
+            return;
+          }
+
+          try {
+            const data = JSON.parse(
+              localStorage.getItem(PAGE_NAMES_STORE) || "{}",
+            );
+
+            if (!data || typeof data !== "object" || Array.isArray(data)) {
+              throw new Error("Dữ liệu không hợp lệ.");
+            }
+
+            if (newName) {
+              data[pageNameKey(activePage)] = newName;
+            } else {
+              delete data[pageNameKey(activePage)];
+            }
+
+            localStorage.setItem(PAGE_NAMES_STORE, JSON.stringify(data));
+
+            tabLinks[activePage].textContent =
+              `${activePage}${newName ? ` · ${newName}` : ""}`;
+          } catch (error) {
+            console.error(error);
+            alert("Không thể lưu tên cấu hình.");
+          }
+        });
+
+        pageTabs.appendChild(renameButton);
+        container.appendChild(pageTabs);
+
+        // ===================================
+        // SAO CHÉP TOÀN BỘ CẤU HÌNH
+        // ===================================
+
+        const copyWrap = document.createElement("div");
+        copyWrap.className = "hero-copy-wrap";
+
+        const copyButton = document.createElement("button");
+        copyButton.type = "button";
+        copyButton.className = "hero-copy-trigger";
+        copyButton.textContent = "⧉ Sao chép";
+
+        const copyMenu = document.createElement("div");
+        copyMenu.className = "hero-copy-menu";
+        copyMenu.hidden = true;
+
+        copyButton.addEventListener("click", () => {
+          copyMenu.hidden = !copyMenu.hidden;
+        });
+
+        function copyFullConfig(fromPage, toPage) {
+          const sourceId = fromPage === 2 ? `${hero.id}__page2` : hero.id;
+
+          const targetId = toPage === 2 ? `${hero.id}__page2` : hero.id;
+
+          const keys = [
+            "lqg_builds_v1",
+            "lqg_insignias_v1",
+            "lqg_arcana_v1",
+            "lqg_spells_v1",
+            "lqg_matchups_v1",
+            "lqg_notes_v1",
+          ];
+
+          try {
+            // Chuẩn bị toàn bộ dữ liệu trước khi ghi
+            const updates = keys.map((key) => {
+              const before = localStorage.getItem(key);
+              const data = JSON.parse(before || "{}");
+
+              if (!data || typeof data !== "object" || Array.isArray(data)) {
+                throw new Error(`Dữ liệu ${key} không hợp lệ.`);
+              }
+
+              // Sao chép dữ liệu của phần tương ứng
+              if (Object.hasOwn(data, sourceId)) {
+                data[targetId] = data[sourceId];
+              } else {
+                delete data[targetId];
+              }
+
+              // Trang bị có mảng Core lưu riêng
+              if (key === "lqg_builds_v1") {
+                const sourceCore = `${sourceId}__core`;
+                const targetCore = `${targetId}__core`;
+
+                if (Object.hasOwn(data, sourceCore)) {
+                  data[targetCore] = data[sourceCore];
+                } else {
+                  delete data[targetCore];
+                }
+              }
+
+              return {
+                key,
+                before,
+                after: JSON.stringify(data),
+              };
+            });
+
+            // Ghi dữ liệu, hoàn tác nếu một bước thất bại
+            const written = [];
+
+            try {
+              for (const update of updates) {
+                localStorage.setItem(update.key, update.after);
+                written.push(update);
+              }
+            } catch (error) {
+              let rollbackFailed = false;
+
+              for (const update of written.reverse()) {
+                try {
+                  if (update.before === null) {
+                    localStorage.removeItem(update.key);
+                  } else {
+                    localStorage.setItem(update.key, update.before);
+                  }
+                } catch {
+                  rollbackFailed = true;
+                }
+              }
+
+              if (rollbackFailed) {
+                throw new Error(
+                  "Lỗi lưu và không thể khôi phục đầy đủ. Hãy kiểm tra bản sao lưu.",
+                );
+              }
+
+              throw error;
+            }
+
+            // Mở trang đích sau khi sao chép
+            window.location.href = `hero.html?id=${encodeURIComponent(hero.id)}&page=${toPage}`;
+          } catch (error) {
+            console.error("Lỗi sao chép cấu hình:", error);
+            alert("Không thể sao chép: " + error.message);
+          }
+        }
+
+        [
+          [1, 2],
+          [2, 1],
+        ].forEach(([from, to]) => {
+          const option = document.createElement("button");
+          option.type = "button";
+          option.textContent = `Trang ${from} → Trang ${to}`;
+
+          option.addEventListener("click", () => {
+            copyMenu.hidden = true;
+            copyFullConfig(from, to);
+          });
+
+          copyMenu.appendChild(option);
+        });
+
+        copyWrap.append(copyButton, copyMenu);
+        pageTabs.appendChild(copyWrap);
+
+        // ===================================
+        // HIỂN THỊ PHÙ HIỆU ĐÃ CHỌN
+        // ===================================
+
+        const insigniasPreview = document.createElement("div");
+        insigniasPreview.className = "insignias-preview";
+
+        const insigniasUrl = `insignias.html?id=${encodeURIComponent(hero.id)}&page=${activePage}`;
+
+        insigniasPreview.addEventListener("click", (event) => {
+          if (!event.target.closest("button, a")) {
+            window.location.href = insigniasUrl;
+          }
+        });
+
+        const previewContent = document.createElement("div");
+        previewContent.className = "insignias-preview-content";
+
+        const previewTitle = document.createElement("h3");
+        previewTitle.textContent = "Phù hiệu";
+
+        const previewIcons = document.createElement("div");
+        previewIcons.className = "insignias-preview-icons";
+
+        // Lấy cấu hình phù hiệu đã lưu
+        let savedInsignias = null;
+
+        try {
+          const data = JSON.parse(
+            localStorage.getItem("lqg_insignias_v1") || "{}",
+          );
+
+          savedInsignias =
+            data[activePage === 2 ? `${hero.id}__page2` : hero.id] || null;
+        } catch {
+          savedInsignias = null;
+        }
+
+        // 3 phù hiệu chính + 2 phù hiệu phụ
+        const insigniasStorageId =
+          activePage === 2 ? `${hero.id}__page2` : hero.id;
+
+        const mainIds = Array.isArray(savedInsignias?.main)
+          ? savedInsignias.main
+          : [];
+
+        const subIds = Array.isArray(savedInsignias?.sub)
+          ? savedInsignias.sub
+          : [];
+
+        function addPreviewIcon(id, type, index) {
+          const slot = document.createElement("div");
+          slot.className = `insignia-preview-slot ${type}`;
+
+          if (typeof id === "string" && id) {
+            const image = document.createElement("img");
+            image.src = `images/insignias/e-${id}.webp`;
+            image.alt = `Phù hiệu ${index + 1}`;
+
+            image.onerror = () => {
+              image.remove();
+              const fallback = document.createElement("span");
+              fallback.textContent = "+";
+              slot.prepend(fallback);
+            };
+
+            slot.appendChild(image);
+          } else {
+            slot.textContent = "+";
+          }
+
+          previewIcons.appendChild(slot);
+        }
+
+        // Hiển thị 3 phù hiệu chính
+        for (let i = 0; i < 3; i++) {
+          addPreviewIcon(mainIds[i], "main", i);
+        }
+
+        // Hiển thị 2 phù hiệu phụ
+        for (let i = 0; i < 2; i++) {
+          addPreviewIcon(subIds[i], "sub", i);
+        }
+
+        const insigniaIds = [
+          mainIds[0],
+          mainIds[1],
+          mainIds[2],
+          subIds[0],
+          subIds[1],
+        ];
+
+        [...previewIcons.children].forEach((slot, index) => {
+          const id = insigniaIds[index];
+          if (typeof id !== "string" || !id) return;
+
+          const star = document.createElement("button");
+          star.type = "button";
+          star.className = "insignia-core-star";
+
+          function updateStar(isCore) {
+            star.textContent = isCore ? "★" : "☆";
+            star.classList.toggle("active", isCore);
+            slot.classList.toggle("is-core", isCore);
+            star.setAttribute("aria-pressed", String(isCore));
+            star.title = isCore ? "Bỏ Core" : "Đánh dấu Core";
+          }
+
+          updateStar(
+            Array.isArray(savedInsignias?.core) &&
+              savedInsignias.core[index] === id,
+          );
+
+          star.addEventListener("click", (event) => {
+            event.stopPropagation();
+
+            try {
+              const data = JSON.parse(
+                localStorage.getItem("lqg_insignias_v1") || "{}",
+              );
+
+              const saved = data[insigniasStorageId];
+              if (!saved || typeof saved !== "object") return;
+
+              const currentIds = [
+                saved.main?.[0],
+                saved.main?.[1],
+                saved.main?.[2],
+                saved.sub?.[0],
+                saved.sub?.[1],
+              ];
+
+              if (currentIds[index] !== id) {
+                alert("Phù hiệu đã thay đổi. Hãy tải lại trang.");
+                return;
+              }
+
+              const cores = Array.from({ length: 5 }, (_, i) =>
+                Array.isArray(saved.core) && saved.core[i] === currentIds[i]
+                  ? saved.core[i]
+                  : null,
+              );
+
+              cores[index] = cores[index] === id ? null : id;
+
+              data[insigniasStorageId] = {
+                ...saved,
+                core: cores,
+              };
+
+              localStorage.setItem("lqg_insignias_v1", JSON.stringify(data));
+
+              updateStar(cores[index] === id);
+            } catch (error) {
+              console.error(error);
+              alert("Không thể lưu dấu Core.");
+            }
+          });
+
+          slot.appendChild(star);
+        });
+
+        const arrow = document.createElement("a");
+        arrow.href = insigniasUrl;
+        arrow.className = "insignias-preview-arrow";
+        arrow.textContent = "❯";
+
+        previewContent.append(previewTitle, previewIcons);
+        insigniasPreview.append(previewContent, arrow);
+
+        container.appendChild(insigniasPreview);
+
+        /* ===================================
+            XEM TRƯỚC BẢNG NGỌC
+            =================================== */
+
+        const arcanaPreview = document.createElement("a");
+        arcanaPreview.className = "arcana-preview";
+        arcanaPreview.href = `arcana.html?id=${encodeURIComponent(hero.id)}&page=${activePage}`;
+
+        const arcanaContent = document.createElement("div");
+        arcanaContent.className = "arcana-preview-content";
+
+        const arcanaTitle = document.createElement("h3");
+        arcanaTitle.textContent = "Bảng ngọc";
+
+        const arcanaSummary = document.createElement("div");
+        arcanaSummary.className = "arcana-preview-summary";
+
+        // Đọc bảng ngọc đã lưu
+        let savedArcana = null;
+
+        try {
+          const data = JSON.parse(
+            localStorage.getItem("lqg_arcana_v1") || "{}",
+          );
+
+          savedArcana =
+            data[activePage === 2 ? `${hero.id}__page2` : hero.id] || null;
+        } catch {
+          savedArcana = null;
+        }
+
+        const colors = ["red", "purple", "teal"];
+
+        const validArcana =
+          savedArcana &&
+          colors.every(
+            (color) =>
+              Array.isArray(savedArcana[color]) &&
+              savedArcana[color].length === 10 &&
+              savedArcana[color].every(
+                (id) => typeof id === "string" && id.length > 0,
+              ),
+          );
+
+        if (validArcana) {
+          // Biểu tượng tổng cấp ngọc
+          const level = document.createElement("div");
+          level.className = "arcana-preview-level";
+          level.textContent = "90";
+          level.title = "30 viên ngọc cấp III";
+
+          arcanaSummary.appendChild(level);
+
+          // Gộp các viên ngọc cùng loại
+          colors.forEach((color) => {
+            const counts = new Map();
+
+            savedArcana[color].forEach((id) => {
+              counts.set(id, (counts.get(id) || 0) + 1);
+            });
+
+            counts.forEach((count, id) => {
+              const group = document.createElement("div");
+              group.className = "arcana-preview-group";
+
+              const image = document.createElement("img");
+              image.src = `images/arcana/a-${id}.webp`;
+              image.alt = id;
+              image.loading = "lazy";
+
+              const quantity = document.createElement("span");
+              quantity.textContent = `×${count}`;
+
+              group.append(image, quantity);
+              arcanaSummary.appendChild(group);
+            });
+          });
+        } else {
+          const empty = document.createElement("p");
+          empty.className = "arcana-preview-empty";
+          empty.textContent = "Chưa lưu bảng ngọc";
+          arcanaSummary.appendChild(empty);
+        }
+
+        const arcanaArrow = document.createElement("span");
+        arcanaArrow.className = "arcana-preview-arrow";
+        arcanaArrow.textContent = "❯";
+
+        arcanaContent.append(arcanaTitle, arcanaSummary);
+        arcanaPreview.append(arcanaContent, arcanaArrow);
+
+        container.appendChild(arcanaPreview);
+
+        // Hiển thị phép bổ trợ cho tướng
+        renderSpellSelector(hero, container, activePage);
+
+        const sections = [
+          {
+            title: "Bảng khắc chế",
+            description: "Đánh giá các kèo đối đầu, độ khó và cách khắc chế.",
+          },
+          {
+            title: "Ghi chú cách chơi",
+            description: "Ghi combo, chiến thuật và kinh nghiệm cá nhân.",
+          },
+        ];
+
+        sections.forEach((section) => {
+          const box = document.createElement("section");
+          box.className = "detail-section";
+
+          const heading = document.createElement("h2");
+          heading.textContent = section.title;
+
+          const description = document.createElement("p");
+          description.className = "section-placeholder";
+          description.textContent = section.description;
+
+          box.append(heading, description);
+          container.appendChild(box);
+        });
+        /* =====================================
+            XEM TRƯỚC BỘ TRANG BỊ
+            ===================================== */
+
+        const buildsPreview = document.createElement("div");
+        buildsPreview.className = "insignias-preview builds-preview";
+
+        const buildsUrl = `builds.html?id=${encodeURIComponent(hero.id)}&page=${activePage}`;
+
+        buildsPreview.addEventListener("click", (event) => {
+          if (!event.target.closest("button, a")) {
+            window.location.href = buildsUrl;
+          }
+        });
+
+        const buildsContent = document.createElement("div");
+        buildsContent.className = "insignias-preview-content";
+
+        const buildsTitle = document.createElement("h3");
+
+        const buildsTitleLink = document.createElement("a");
+        buildsTitleLink.href = buildsUrl;
+        buildsTitleLink.textContent = "Trang bị";
+        buildsTitle.appendChild(buildsTitleLink);
+
+        const buildsIcons = document.createElement("div");
+        buildsIcons.className = "builds-preview-icons";
+
+        // Đọc bộ trang bị đã lưu
+
+        // Đọc trang bị và trạng thái Core
+        const buildStorageId = activePage === 2 ? `${hero.id}__page2` : hero.id;
+
+        const coreStorageId = `${buildStorageId}__core`;
+
+        let savedBuild = [];
+        let savedCores = [];
+
+        try {
+          const data = JSON.parse(
+            localStorage.getItem("lqg_builds_v1") || "{}",
+          );
+
+          if (Array.isArray(data[buildStorageId])) {
+            savedBuild = data[buildStorageId];
+          }
+
+          if (Array.isArray(data[coreStorageId])) {
+            savedCores = data[coreStorageId];
+          }
+        } catch (error) {
+          console.warn("Không thể đọc trang bị/Core:", error);
+        }
+
+        let shownItems = 0;
+
+        savedBuild.forEach((id, index) => {
+          const item = typeof id === "string" ? getItemById(id) : null;
+          if (!item) return;
+
+          shownItems++;
+
+          const itemBox = document.createElement("div");
+          itemBox.className = "build-core-item";
+
+          const image = document.createElement("img");
+          image.src = item.image;
+          image.alt = item.name;
+          image.title = item.name;
+
+          const star = document.createElement("button");
+          star.type = "button";
+          star.className = "build-core-star";
+
+          function updateStar(isCore) {
+            itemBox.classList.toggle("is-core", isCore);
+            star.classList.toggle("active", isCore);
+            star.textContent = isCore ? "★" : "☆";
+            star.setAttribute("aria-pressed", String(isCore));
+            star.setAttribute(
+              "aria-label",
+              `${isCore ? "Bỏ Core" : "Đánh dấu Core"}: ${item.name}`,
+            );
+            star.title = `${isCore ? "Bỏ Core" : "Ghim Core"} - ${item.name}`;
+          }
+
+          updateStar(savedCores[index] === item.id);
+
+          star.addEventListener("click", () => {
+            try {
+              // Luôn đọc dữ liệu mới nhất trước khi ghi
+              const data = JSON.parse(
+                localStorage.getItem("lqg_builds_v1") || "{}",
+              );
+
+              const currentBuild = data[buildStorageId];
+
+              if (
+                !Array.isArray(currentBuild) ||
+                currentBuild[index] !== item.id
+              ) {
+                alert("Bộ trang bị đã thay đổi. Hãy tải lại trang.");
+                return;
+              }
+
+              const currentCore = Array.isArray(data[coreStorageId])
+                ? data[coreStorageId]
+                : [];
+
+              const nextCore = Array.from({ length: 12 }, (_, i) =>
+                typeof currentBuild[i] === "string" &&
+                currentCore[i] === currentBuild[i]
+                  ? currentCore[i]
+                  : null,
+              );
+
+              const nextIsCore = nextCore[index] !== item.id;
+              nextCore[index] = nextIsCore ? item.id : null;
+
+              data[coreStorageId] = nextCore;
+
+              localStorage.setItem("lqg_builds_v1", JSON.stringify(data));
+
+              updateStar(nextIsCore);
+            } catch (error) {
+              console.error(error);
+              alert("Không thể lưu dấu Core.");
+            }
+          });
+
+          itemBox.append(image, star);
+          buildsIcons.appendChild(itemBox);
+        });
+
+        // Chưa có bộ trang bị
+        if (shownItems === 0) {
+          const empty = document.createElement("span");
+          empty.textContent = "Chưa chọn trang bị";
+          buildsIcons.appendChild(empty);
+        }
+
+        const buildsArrow = document.createElement("a");
+        buildsArrow.href = buildsUrl;
+        buildsArrow.className = "insignias-preview-arrow";
+        buildsArrow.textContent = "❯";
+        buildsArrow.setAttribute(
+          "aria-label",
+          "Mở trang chỉnh sửa bộ trang bị",
+        );
+
+        buildsContent.append(buildsTitle, buildsIcons);
+        buildsPreview.append(buildsContent, buildsArrow);
+
+        container.appendChild(buildsPreview);
+
+        /* =====================================
+            SẮP XẾP THỨ TỰ CÁC CHỨC NĂNG
+            ===================================== */
+
+        function findSection(title) {
+          return [...container.querySelectorAll(".detail-section")].find(
+            (section) =>
+              section.querySelector("h2")?.textContent.trim() === title,
+          );
+        }
+
+        const orderedSections = [
+          container.querySelector(".builds-preview"),
+          container.querySelector(".insignias-preview"),
+          container.querySelector(".arcana-preview"),
+          container.querySelector(".spell-preview"),
+          findSection("Bảng khắc chế"),
+          findSection("Ghi chú cách chơi"),
+        ];
+
+        // Di chuyển các mục theo đúng thứ tự
+        orderedSections.forEach((section) => {
+          if (section) {
+            container.appendChild(section);
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

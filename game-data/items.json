@@ -1,0 +1,2030 @@
+[
+  {
+    "id": "amulet-of-longetivity",
+    "name": "Phù Chú Trường Sinh",
+    "category": "def",
+    "imageSlug": "amulet-of-longetivity",
+    "englishName": "Amulet of Longevity",
+    "price": 2190,
+    "stats": [
+      "+1500 Máu tối đa",
+      "+150 Giáp",
+      "+100 Giáp phép"
+    ],
+    "passives": [
+      {
+        "name": "Trường sinh",
+        "description": "Mỗi 2 giây hồi 1% máu tối đa. Nếu trong 3 giây không bị tướng địch hoặc trụ tấn công, hiệu quả hồi phục sẽ trở thành 4%."
+      }
+    ]
+  },
+  {
+    "id": "ancient-scriptures",
+    "name": "Sách cổ",
+    "category": "mag",
+    "imageSlug": "ancient-scriptures",
+    "englishName": "",
+    "price": 540,
+    "stats": [
+      "+80 Công phép"
+    ],
+    "passives": []
+  },
+  {
+    "id": "apocalypse",
+    "name": "Gươm Tận Thế",
+    "category": "mag",
+    "imageSlug": "apocalypse",
+    "englishName": "Apocalypse",
+    "price": 1800,
+    "stats": [
+      "+180 Công phép",
+      "+10% Giảm hồi chiêu",
+      "+5% Tốc chạy"
+    ],
+    "passives": [
+      {
+        "name": "Sức mạnh nguyên tố",
+        "description": "Trong vòng 5 giây sau khi tung chiêu, đòn đánh kế tiếp gây thêm (30% công vật lý + 80% công phép) sát thương phép."
+      }
+    ]
+  },
+  {
+    "id": "arcane-hammer",
+    "name": "Chùy cổ",
+    "category": "atk",
+    "imageSlug": "arcane-hammer",
+    "englishName": "",
+    "price": 740,
+    "stats": [
+      "+25 Công vật lý",
+      "+15% Tốc đánh"
+    ],
+    "passives": []
+  },
+  {
+    "id": "arctic-orb",
+    "name": "Quả Cầu Băng Sương",
+    "category": "mag",
+    "imageSlug": "arctic-orb",
+    "englishName": "Arctic Orb",
+    "price": 2200,
+    "stats": [
+      "+200 Công phép",
+      "+12% Hút máu phép"
+    ],
+    "passives": [
+      {
+        "name": "Phong ấn",
+        "description": "Kích hoạt: Trở thành bất khả xâm phạm và bất động trong 1.5 giây; Sau khi kết thúc sẽ nhận 1 lá chắn giúp chặn 540-1100 (+50% công phép) trong 1 giây."
+      }
+    ]
+  },
+  {
+    "id": "astral-spear",
+    "name": "Thương đấu sĩ",
+    "category": "atk",
+    "imageSlug": "astral-spear",
+    "englishName": "",
+    "price": 830,
+    "stats": [
+      "+50 Công vật lý",
+      "+60 Xuyên giáp (nội tại)"
+    ],
+    "passives": []
+  },
+  {
+    "id": "belt-of-clarity",
+    "name": "Đai kháng phép",
+    "category": "def",
+    "imageSlug": "belt-of-clarity",
+    "englishName": "",
+    "price": 1000,
+    "stats": [
+      "+700 Máu tối đa",
+      "+110 Giáp phép"
+    ],
+    "passives": []
+  },
+  {
+    "id": "beriths-agony",
+    "name": "Mặt Nạ Berith",
+    "category": "mag",
+    "imageSlug": "beriths-agony",
+    "englishName": "Berith's Agony",
+    "price": 1800,
+    "stats": [
+      "+140 Công phép",
+      "+10% Giảm hồi chiêu",
+      "+600 Máu tối đa"
+    ],
+    "passives": [
+      {
+        "name": "Thống khổ",
+        "description": "Chiêu thức trúng đích khiến kẻ địch chịu 80 (+2% máu hiện tại mục tiêu) thành sát thương phép mỗi giây, hiệu ứng kéo dài trong 3 giây. (Sát thương tối đa lên Quái rừng: 200)"
+      }
+    ]
+  },
+  {
+    "id": "blade-of-eternity",
+    "name": "Giáp Hộ Mệnh",
+    "category": "def",
+    "imageSlug": "blade-of-eternity",
+    "englishName": "Blade of Eternity",
+    "price": 2400,
+    "stats": [
+      "+120 Giáp"
+    ],
+    "passives": [
+      {
+        "name": "Phục sinh",
+        "description": "Tướng sẽ sống lại sau 2 giây tại nơi bị hạ gục với 2100-3500 Máu. Đặc biệt mỗi trận chỉ có tác dụng 2 lần."
+      },
+      {
+        "name": "Chiến khí",
+        "description": "Tăng sát thương bản thân gây ra thêm 10%."
+      }
+    ]
+  },
+  {
+    "id": "blitz-blade",
+    "name": "Gươm Sấm Sét",
+    "category": "atk",
+    "imageSlug": "blitz-blade",
+    "englishName": "Blitz Blade",
+    "price": 1840,
+    "stats": [
+      "+35% Tốc đánh",
+      "+8% Tốc chạy"
+    ],
+    "passives": [
+      {
+        "name": "Chớp giật",
+        "description": "Đòn đánh thường gây thêm 45-87 sát thương phép. Mỗi 3 đòn đánh thường sé phóng một chùm sét gây 150-430 sát thương phép lên 1 mục tiêu và lan ra các mục tiêu khác trong phạm vi."
+      }
+    ]
+  },
+  {
+    "id": "bloodied-club",
+    "name": "Chùy máu",
+    "category": "atk",
+    "imageSlug": "bloodied-club",
+    "englishName": "",
+    "price": 410,
+    "stats": [
+      "+10 Công vật lý",
+      "+8% Hút máu"
+    ],
+    "passives": []
+  },
+  {
+    "id": "bloodthirsty-blade",
+    "name": "Huyết ảnh đao",
+    "category": "atk",
+    "imageSlug": "bloodthirsty-blade",
+    "englishName": "",
+    "price": 830,
+    "stats": [
+      "+30 Công vật lý",
+      "+10% Hút máu"
+    ],
+    "passives": []
+  },
+  {
+    "id": "boomstick",
+    "name": "Trượng Bùng Nổ",
+    "category": "mag",
+    "imageSlug": "boomstick",
+    "englishName": "Boomstick",
+    "price": 1800,
+    "stats": [
+      "+200 Công phép",
+      "+5% Tốc chạy"
+    ],
+    "passives": [
+      {
+        "name": "Vang vọng",
+        "description": "Tạo nên một vùng nổ nhỏ gây 120 (+40% công phép) sát thương phép xung quanh mục tiêu bị trúng chiêu."
+      }
+    ]
+  },
+  {
+    "id": "boots-of-speed",
+    "name": "Giày thép",
+    "category": "boot",
+    "imageSlug": "boots-of-speed",
+    "englishName": "",
+    "price": 250,
+    "stats": [
+      "+30 Tốc chạy"
+    ],
+    "passives": []
+  },
+  {
+    "id": "bow-of-slaughter",
+    "name": "Cung Tà Ma",
+    "category": "atk",
+    "imageSlug": "bow-of-slaughter",
+    "englishName": "Bow of Slaughter",
+    "price": 2250,
+    "stats": [
+      "+90 Công vật lý",
+      "+10% Tỉ lệ chí mạng",
+      "+10% Hút máu"
+    ],
+    "passives": [
+      {
+        "name": "Hấp huyết",
+        "description": "Kích hoạt: Tăng 60% hút máu trong 3 giây; 60 giây hồi chiêu (chỉ hữu hiệu với tướng đánh xa)"
+      }
+    ]
+  },
+  {
+    "id": "carano-robe",
+    "name": "Ma Pháp Trường Bào",
+    "category": "mag",
+    "imageSlug": "carano-robe",
+    "englishName": "Carano Robe",
+    "price": 2160,
+    "stats": [
+      "+120 Công phép",
+      "+900 Máu tối đa"
+    ],
+    "passives": [
+      {
+        "name": "Linh thế",
+        "description": "Nhận 26-40 (+2% máu bản thân) công phép, tối đa không vượt quá 100 điểm."
+      },
+      {
+        "name": "Phá phép",
+        "description": "Nhận 32-60 (+3% máu bản thân thêm) xuyên giáp phép, tối đa không vượt quá 150 điểm."
+      }
+    ]
+  },
+  {
+    "id": "caranos-vow",
+    "name": "Thệ Ước Carano",
+    "category": "mag",
+    "imageSlug": "caranos-vow",
+    "englishName": "Carano's Vow",
+    "price": 2050,
+    "stats": [
+      "+180 Công phép",
+      "+12% Hút máu phép",
+      "+5% Tốc chạy"
+    ],
+    "passives": [
+      {
+        "name": "Bảo hộ khẩn cấp",
+        "description": "Khi máu dưới 30%, lập tức hóa giải khống chế đồng thời nhận lá chắn chặn 510-1000 (+100% công phép + 8% máu thêm) sát thương trong 4 giây và tăng 30% tốc chạy trong thời gian hiệu lực."
+      }
+    ]
+  },
+  {
+    "id": "chain-hammer",
+    "name": "Chùy xích",
+    "category": "atk",
+    "imageSlug": "chain-hammer",
+    "englishName": "",
+    "price": 450,
+    "stats": [
+      "+40 Công vật lý"
+    ],
+    "passives": []
+  },
+  {
+    "id": "chaos-bow",
+    "name": "Huyết cung",
+    "category": "atk",
+    "imageSlug": "chaos-bow",
+    "englishName": "",
+    "price": 1100,
+    "stats": [
+      "+40 Công vật lý",
+      "+10% Tốc đánh"
+    ],
+    "passives": []
+  },
+  {
+    "id": "claves-sancti",
+    "name": "Thánh Kiếm",
+    "category": "atk",
+    "imageSlug": "claves-sancti",
+    "englishName": "Claves Sancti",
+    "price": 2120,
+    "stats": [
+      "+100 Công vật lý"
+    ],
+    "passives": [
+      {
+        "name": "Thánh kiếm",
+        "description": "Sau khi đánh chí mạng giúp tăng (3-45) tốc chạy trong 1.5 giây (chỉ hữu hiệu khi dùng bởi tướng đánh xa)."
+      },
+      {
+        "name": "Nội tại Duy nhất",
+        "description": "+25% Tỷ lệ chí mạng"
+      },
+      {
+        "name": "Nội tại Duy nhất",
+        "description": "Sát thương chí mạng tăng 40%"
+      }
+    ]
+  },
+  {
+    "id": "cleaving-claymore",
+    "name": "Kiếm dài",
+    "category": "atk",
+    "imageSlug": "cleaving-claymore",
+    "englishName": "",
+    "price": 910,
+    "stats": [
+      "+80 Công vật lý"
+    ],
+    "passives": []
+  },
+  {
+    "id": "dagger",
+    "name": "Dao găm",
+    "category": "atk",
+    "imageSlug": "dagger",
+    "englishName": "",
+    "price": 290,
+    "stats": [
+      "+10% Tốc đánh"
+    ],
+    "passives": []
+  },
+  {
+    "id": "dawning-star",
+    "name": "Diệt Thần Cung",
+    "category": "atk",
+    "imageSlug": "dawning-star",
+    "englishName": "Dawning Star",
+    "price": 2980,
+    "stats": [
+      "+50 Công vật lý",
+      "+30% Tốc đánh",
+      "+10% Tỉ lệ chí mạng"
+    ],
+    "passives": [
+      {
+        "name": "Phá thần",
+        "description": "Đòn đánh thường kèm 50 sát thương vật lý (gấp đôi với tướng đánh xa)."
+      },
+      {
+        "name": "Xuyên thấu",
+        "description": "Tăng 20% xuyên giáp (gấp đôi với tướng đánh xa)."
+      }
+    ]
+  },
+  {
+    "id": "death-curse",
+    "name": "Đao Truy Hồn",
+    "category": "atk",
+    "imageSlug": "death-curse",
+    "englishName": "Death Curse",
+    "price": 1900,
+    "stats": [
+      "+80 Công vật lý",
+      "+10% Giảm hồi chiêu",
+      "+800 Máu tối đa"
+    ],
+    "passives": [
+      {
+        "name": "Tróc nã",
+        "description": "Đòn đánh thường / tung chiêu gây sát thương sẽ khiến mục tiêu bị giảm 40% hiệu quả hồi máu, kéo dài 3 giây."
+      }
+    ]
+  },
+  {
+    "id": "death-sickle",
+    "name": "Liềm Đoạt Mệnh",
+    "category": "atk",
+    "imageSlug": "death-sickle",
+    "englishName": "Death Sickle",
+    "price": 2000,
+    "stats": [
+      "+75 Công vật lý",
+      "+15% Tốc đánh",
+      "+500 Máu tối đa"
+    ],
+    "passives": [
+      {
+        "name": "Thần linh can thiệp",
+        "description": "Miễn nhiễm sát thương chí tử và vô địch 0.75s đồng thời tăng 25% tốc chạy & 25% tốc đánh. Sau 4 phút mang theo, thời gian hiệu ứng vô địch sẽ kéo dài đến 1.5s."
+      }
+    ]
+  },
+  {
+    "id": "devils-handshake",
+    "name": "Vuốt Hung Tàn",
+    "category": "atk",
+    "imageSlug": "devils-handshake",
+    "englishName": "Devil's Handshake",
+    "price": 1960,
+    "stats": [
+      "+30% Tốc đánh",
+      "+20% Tỉ lệ chí mạng",
+      "+5% Tốc chạy"
+    ],
+    "passives": [
+      {
+        "name": "Hung bạo",
+        "description": "Các đòn đánh thường trúng giúp tăng tốc đánh thêm 10%, kéo dài 2 giây, cộng dồn tối đa 5 lần."
+      }
+    ]
+  },
+  {
+    "id": "earth-gem",
+    "name": "Thổ hệ bảo thạch",
+    "category": "sup",
+    "imageSlug": "earth-gem",
+    "englishName": "",
+    "price": 900,
+    "stats": [
+      "+600 Máu tối đa",
+      "+5% Tốc chạy"
+    ],
+    "passives": []
+  },
+  {
+    "id": "eclipsing-bow",
+    "name": "Xạ Nhật Cung",
+    "category": "atk",
+    "imageSlug": "eclipsing-bow",
+    "englishName": "Eclipsing Bow",
+    "price": 2000,
+    "stats": [
+      "+30% Tốc đánh",
+      "+10% Tỉ lệ chí mạng",
+      "+5% Tốc chạy"
+    ],
+    "passives": [
+      {
+        "name": "Xạ nhật",
+        "description": "Kích hoạt: Tăng phạm vi tầm bắn của đòn đánh thường thêm 150 và 20% tốc chạy trong 5 giây (chỉ có tác dụng với tướng đánh xa)."
+      },
+      {
+        "name": "Ngắm chuẩn",
+        "description": "Đòn đánh thường gây thêm 50 sát thương vật lý (tăng gấp đôi với tướng đánh xa)."
+      }
+    ]
+  },
+  {
+    "id": "elemental-gem",
+    "name": "Nguyên tố bảo thạch",
+    "category": "sup",
+    "imageSlug": "elemental-gem",
+    "englishName": "",
+    "price": 300,
+    "stats": [
+      "+5% Tốc chạy"
+    ],
+    "passives": []
+  },
+  {
+    "id": "enchanted-kicks",
+    "name": "Giày Phù Thuỷ",
+    "category": "boot",
+    "imageSlug": "enchanted-kicks",
+    "englishName": "Enchanted Kicks",
+    "price": 700,
+    "stats": [],
+    "passives": [
+      {
+        "name": "Nội tại duy nhất",
+        "description": "+60 Tốc chạy"
+      },
+      {
+        "name": "Nội tại duy nhất",
+        "description": "+100 Xuyên giáp phép"
+      }
+    ]
+  },
+  {
+    "id": "enchanted-scroll",
+    "name": "Sớ ma thuật",
+    "category": "mag",
+    "imageSlug": "enchanted-scroll",
+    "englishName": "",
+    "price": 820,
+    "stats": [
+      "+120 Công phép"
+    ],
+    "passives": []
+  },
+  {
+    "id": "evil-secrets",
+    "name": "Xuyên Tâm Lệnh",
+    "category": "mag",
+    "imageSlug": "evil-secrets",
+    "englishName": "Evil Secrets",
+    "price": 1980,
+    "stats": [
+      "+140 Công phép",
+      "+500 Máu tối đa"
+    ],
+    "passives": [
+      {
+        "name": "Oán chú",
+        "description": "Tung chiêu thức trúng đích sẽ giảm 10% công phép và 100 giáp phép của mục tiêu trong 3 giây."
+      }
+    ]
+  },
+  {
+    "id": "fafnirs-talon",
+    "name": "Kiếm Fafnir",
+    "category": "atk",
+    "imageSlug": "fafnirs-talon",
+    "englishName": "Fafnir's Talon",
+    "price": 2040,
+    "stats": [
+      "+60 Công vật lý",
+      "+30% Tốc đánh",
+      "+10% Hút máu"
+    ],
+    "passives": [
+      {
+        "name": "Hơi thở rồng",
+        "description": "Đòn đánh thường gây thêm sát thương vật lý tương đương 8% Máu hiện tại của mục tiêu (tối đa lên 80 quái rừng)."
+      }
+    ]
+  },
+  {
+    "id": "fenrirs-tooth",
+    "name": "Nanh Fenrir",
+    "category": "atk",
+    "imageSlug": "fenrirs-tooth",
+    "englishName": "Fenrir's Tooth",
+    "price": 2800,
+    "stats": [
+      "+180 Công vật lý",
+      "+5% Giảm hồi chiêu"
+    ],
+    "passives": [
+      {
+        "name": "Chinh Phạt",
+        "description": "Khi máu của mục tiêu xuống dưới 50% sẽ chịu thêm 30% sát thương."
+      }
+    ]
+  },
+  {
+    "id": "fire-gem",
+    "name": "Hỏa hệ bảo thạch",
+    "category": "sup",
+    "imageSlug": "fire-gem",
+    "englishName": "",
+    "price": 900,
+    "stats": [
+      "+600 Máu tối đa",
+      "+5% Tốc chạy"
+    ],
+    "passives": []
+  },
+  {
+    "id": "flashy-boots",
+    "name": "Giày Thuật Sĩ",
+    "category": "boot",
+    "imageSlug": "flashy-boots",
+    "englishName": "Flashy Boots",
+    "price": 700,
+    "stats": [
+      "+15% Giảm hồi chiêu"
+    ],
+    "passives": [
+      {
+        "name": "Nội tại duy nhất",
+        "description": "+60 Tốc chạy"
+      },
+      {
+        "name": "Nội tại duy nhất",
+        "description": "Giảm 15% hồi chiêu tối đa kỹ năng phụ trợ."
+      }
+    ]
+  },
+  {
+    "id": "frost-cape",
+    "name": "Áo Choàng Băng Giá",
+    "category": "def",
+    "imageSlug": "frost-cape",
+    "englishName": "Frost Cape",
+    "price": 1970,
+    "stats": [
+      "+10% Giảm hồi chiêu",
+      "+800 Máu tối đa",
+      "+200 Giáp"
+    ],
+    "passives": [
+      {
+        "name": "Sức mạnh nguyên tố",
+        "description": "Sau khi tung chiêu, trong 5 giây sẽ khiến đòn đánh kế gây thêm 100 (+30% công vật lý) sát thương vật lý lan trong phạm vi 3m quanh mục tiêu kèm 30% làm chậm địch (tướng đánh xa làm chậm chỉ được 20%) trong 0.5 giây."
+      }
+    ]
+  },
+  {
+    "id": "frost-guard",
+    "name": "Băng Nhẫn Skadi",
+    "category": "mag",
+    "imageSlug": "frost-guard",
+    "englishName": "Frost Guard",
+    "price": 2100,
+    "stats": [
+      "+140 Công phép",
+      "+600 Máu tối đa",
+      "+5% Tốc chạy"
+    ],
+    "passives": [
+      {
+        "name": "Giáp băng",
+        "description": "Nhận (+50% công phép) giáp, giáp phép, nhưng không vượt quá 230 điểm."
+      }
+    ]
+  },
+  {
+    "id": "frost-hammer",
+    "name": "Chuỳ Băng",
+    "category": "atk",
+    "imageSlug": "frost-hammer",
+    "englishName": "Frost Hammer",
+    "price": 2060,
+    "stats": [
+      "+60 Công vật lý",
+      "+30% Tốc đánh",
+      "+900 Máu tối đa"
+    ],
+    "passives": [
+      {
+        "name": "Đóng băng",
+        "description": "Đòn đánh thường và tung chiêu khiến địch giảm 5%-10% tốc chạy trong 1.5 giây, cộng dồn 2 lần."
+      },
+      {
+        "name": "Hàn khí",
+        "description": "Đánh thường và tung chiêu gây thêm 140-280 (+45% công vật lý thêm) sát thương vật lý lên mục tiêu; hồi chiêu 3 giây."
+      }
+    ]
+  },
+  {
+    "id": "frostys-revenge",
+    "name": "Trượng Băng",
+    "category": "mag",
+    "imageSlug": "frostys-revenge",
+    "englishName": "Frosty's Revenge",
+    "price": 2020,
+    "stats": [
+      "+140 Công phép",
+      "+850 Máu tối đa",
+      "+5% Tốc chạy"
+    ],
+    "passives": [
+      {
+        "name": "Giá băng",
+        "description": "Chiêu thức gây sát thương đồng thời làm chậm 20% Tốc chạy của đối thủ trong 2 giây."
+      }
+    ]
+  },
+  {
+    "id": "gaias-standard",
+    "name": "Giáp Gaia",
+    "category": "def",
+    "imageSlug": "gaias-standard",
+    "englishName": "Gaia's Standard",
+    "price": 2180,
+    "stats": [
+      "+1200 Máu tối đa",
+      "+200 Giáp phép"
+    ],
+    "passives": [
+      {
+        "name": "Hồi phục",
+        "description": "Nếu chịu sát thương, tướng sẽ hồi 4% máu tối đa trong 2 giây; 10 giây hồi chiêu."
+      },
+      {
+        "name": "Huyết thống",
+        "description": "Mỗi 10% máu bị mất sẽ tăng 5% hiệu ứng hồi phục."
+      }
+    ]
+  },
+  {
+    "id": "gilded-greaves",
+    "name": "Giày Kiên Cường",
+    "category": "boot",
+    "imageSlug": "gilded-greaves",
+    "englishName": "Gilded Greaves",
+    "price": 700,
+    "stats": [
+      "+90 Giáp phép"
+    ],
+    "passives": [
+      {
+        "name": "Nội tại duy nhất",
+        "description": "+60 Tốc chạy"
+      },
+      {
+        "name": "Nội tại duy nhất",
+        "description": "+35% Kháng hiệu ứng"
+      }
+    ]
+  },
+  {
+    "id": "gladiators-gauntlets",
+    "name": "Găng giác đấu",
+    "category": "def",
+    "imageSlug": "gladiators-gauntlets",
+    "englishName": "",
+    "price": 220,
+    "stats": [
+      "+90 Giáp phép"
+    ],
+    "passives": []
+  },
+  {
+    "id": "gloves",
+    "name": "Găng tay",
+    "category": "atk",
+    "imageSlug": "gloves",
+    "englishName": "",
+    "price": 300,
+    "stats": [
+      "+8% Tỷ lệ chí mạng"
+    ],
+    "passives": []
+  },
+  {
+    "id": "gnoll-cleaver",
+    "name": "Rìu Gnoll",
+    "category": "jg",
+    "imageSlug": "gnoll-cleaver",
+    "englishName": "",
+    "price": 700,
+    "stats": [
+      "+400 Máu tối đa"
+    ],
+    "passives": []
+  },
+  {
+    "id": "greaves-of-protection",
+    "name": "Giáp chân",
+    "category": "def",
+    "imageSlug": "greaves-of-protection",
+    "englishName": "",
+    "price": 900,
+    "stats": [
+      "+1000 Máu tối đa"
+    ],
+    "passives": []
+  },
+  {
+    "id": "heart-of-incubus",
+    "name": "Tim Incubus",
+    "category": "def",
+    "imageSlug": "heart-of-incubus",
+    "englishName": "",
+    "price": 720,
+    "stats": [
+      "+150 Giáp"
+    ],
+    "passives": []
+  },
+  {
+    "id": "hecates-diadem",
+    "name": "Vương Miện Hecate",
+    "category": "mag",
+    "imageSlug": "hecates-diadem",
+    "englishName": "Hecate's Diadem",
+    "price": 2400,
+    "stats": [
+      "+240 Công phép"
+    ],
+    "passives": [
+      {
+        "name": "Thuật sư",
+        "description": "+35% Công phép"
+      }
+    ]
+  },
+  {
+    "id": "hercules-madness",
+    "name": "Hercule thịnh nộ",
+    "category": "def",
+    "imageSlug": "hercules-madness",
+    "englishName": "",
+    "price": 2000,
+    "stats": [
+      "+80 Công vật lý",
+      "+240 Giáp"
+    ],
+    "passives": []
+  },
+  {
+    "id": "hermes-select",
+    "name": "Giày Hermes",
+    "category": "boot",
+    "imageSlug": "hermes-select",
+    "englishName": "Hermes Select",
+    "price": 700,
+    "stats": [
+      "+300 Máu tối đa"
+    ],
+    "passives": [
+      {
+        "name": "Nội tại duy nhất",
+        "description": "+70 Tốc chạy"
+      },
+      {
+        "name": "Nhanh nhạy",
+        "description": "Tăng 60 Tốc chạy khi thoát khỏi trạng thái giao tranh."
+      }
+    ]
+  },
+  {
+    "id": "holy-of-holies",
+    "name": "Sách Thánh",
+    "category": "mag",
+    "imageSlug": "holy-of-holies",
+    "englishName": "Holy of Holies",
+    "price": 2610,
+    "stats": [
+      "+350 Công phép",
+      "+10% Giảm hồi chiêu"
+    ],
+    "passives": [
+      {
+        "name": "Pháp thế",
+        "description": "Mỗi 100 công phép tăng 0.5% tỷ lệ sát thương và 0.5% tỷ lệ miễn thương,"
+      }
+    ]
+  },
+  {
+    "id": "knights-plate",
+    "name": "Giáp hiệp sĩ",
+    "category": "def",
+    "imageSlug": "knights-plate",
+    "englishName": "",
+    "price": 730,
+    "stats": [
+      "+210 Giáp"
+    ],
+    "passives": []
+  },
+  {
+    "id": "kukri",
+    "name": "Rựa thợ săn",
+    "category": "jg",
+    "imageSlug": "kukri",
+    "englishName": "",
+    "price": 250,
+    "stats": [],
+    "passives": []
+  },
+  {
+    "id": "lapis-ring",
+    "name": "Nhẫn Lapis",
+    "category": "mag",
+    "imageSlug": "lapis-ring",
+    "englishName": "",
+    "price": 220,
+    "stats": [
+      "+300 Năng lượng tối đa"
+    ],
+    "passives": []
+  },
+  {
+    "id": "leviathan",
+    "name": "Rìu Leviathan",
+    "category": "jg",
+    "imageSlug": "leviathan",
+    "englishName": "Leviathan",
+    "price": 2000,
+    "stats": [
+      "+5% Giảm hồi chiêu",
+      "+1200 Máu tối đa",
+      "+6% Tốc chạy"
+    ],
+    "passives": [
+      {
+        "name": "Nội tại duy nhất",
+        "description": "Nhận hiệu ứng tê tái."
+      },
+      {
+        "name": "Hỏa diệm",
+        "description": "Gây 2% máu tối đa thành sát thương phép mỗi giây lên những kẻ địch cạnh bên (tăng 100% sát thương lên quái)."
+      },
+      {
+        "name": "Lùng diệt",
+        "description": "Bản thân hoặc đồng đội lân cận hạ mỗi con quái rừng giúp tăng 25 máu tối đa và 0.2% giảm hồi chiêu, tối đa cộng dồn 25 lần."
+      },
+      {
+        "name": "Săn bắt",
+        "description": "Đòn đánh thường hoặc tung chiêu sẽ gây thêm 60-172 sát thương chuẩn lên quái rừng mỗi 0.5 giây, kéo dài 2 giây. Nhận thêm 35% kinh nghiệm khi tiêu diệt quái rừng."
+      },
+      {
+        "name": "Khiêm nhường",
+        "description": "Khi xung quanh có đồng đội, họ sẽ nhận toàn bộ vàng và EXP từ lính, bản thân chỉ nhận 50% vàng và EXP. Hiệu ứng này sẽ bị xóa vào phút thứ 4. Sát thương lên lính giảm 25% (cũng xóa vào phút thứ 4)."
+      }
+    ]
+  },
+  {
+    "id": "light-armor",
+    "name": "Giáp nhẹ",
+    "category": "def",
+    "imageSlug": "light-armor",
+    "englishName": "",
+    "price": 220,
+    "stats": [
+      "+90 Giáp"
+    ],
+    "passives": []
+  },
+  {
+    "id": "light-shield",
+    "name": "Khiên Thánh Quang",
+    "category": "def",
+    "imageSlug": "light-shield",
+    "englishName": "",
+    "price": null,
+    "stats": [
+      "+10% Giảm hồi chiêu",
+      "+180 Giáp",
+      "+1000 Máu tối đa"
+    ],
+    "passives": []
+  },
+  {
+    "id": "lokis-curse",
+    "name": "Gươm Loki",
+    "category": "jg",
+    "imageSlug": "lokis-curse",
+    "englishName": "Loki's Curse",
+    "price": 2000,
+    "stats": [
+      "+150 Công phép",
+      "+5% Giảm hồi chiêu",
+      "+7% Tốc chạy"
+    ],
+    "passives": [
+      {
+        "name": "Nội tại duy nhất",
+        "description": "Nhận hiệu ứng tê tái."
+      },
+      {
+        "name": "Sức mạnh nguyên tố",
+        "description": "Sau khi tung chiêu, đòn đánh thường tiếp theo gây thêm (35% công vật lý + 50% công phép) sát thương phép."
+      },
+      {
+        "name": "Lùng diệt",
+        "description": "Bản thân hoặc đồng đội lân cận hạ mỗi con quái rừng giúp tăng 4 công phép và 0.2% giảm hồi chiêu, tối đa cộng dồn 25 lần."
+      },
+      {
+        "name": "Săn bắt",
+        "description": "Đòn đánh thường hoặc tung chiêu sẽ gây thêm 60-172 sát thương chuẩn lên quái rừng mỗi 0.5 giây, kéo dài 2 giây. Nhận thêm 35% kinh nghiệm khi tiêu diệt quái rừng."
+      },
+      {
+        "name": "Khiêm nhường",
+        "description": "Khi xung quanh có đồng đội, họ sẽ nhận toàn bộ vàng và EXP từ lính, bản thân chỉ nhận 50% vàng và EXP. Hiệu ứng này sẽ bị xóa vào phút thứ 4. Sát thương lên lính giảm 25% (cũng xóa vào phút thứ 4)."
+      }
+    ]
+  },
+  {
+    "id": "longinus-spear",
+    "name": "Thương Longinus",
+    "category": "atk",
+    "imageSlug": "longinus-spear",
+    "englishName": "Longinus Spear",
+    "price": 2030,
+    "stats": [
+      "+80 Công vật lý",
+      "+15% Giảm hồi chiêu",
+      "+500 Máu tối đa"
+    ],
+    "passives": [
+      {
+        "name": "Phá giáp",
+        "description": "+60 Xuyên giáp"
+      },
+      {
+        "name": "Toái giáp",
+        "description": "Gây sát thương sẽ trừ 6% Giáp của nạn nhân, cộng dồn lên đến 4 lần, kéo dài 5 giây."
+      }
+    ]
+  },
+  {
+    "id": "magic-ring",
+    "name": "Nhẫn ma pháp",
+    "category": "mag",
+    "imageSlug": "magic-ring",
+    "englishName": "",
+    "price": 300,
+    "stats": [
+      "+5% Giảm hồi chiêu"
+    ],
+    "passives": []
+  },
+  {
+    "id": "mail-of-pain",
+    "name": "Giáp Thống Khổ",
+    "category": "def",
+    "imageSlug": "mail-of-pain",
+    "englishName": "Mail of Pain",
+    "price": 2020,
+    "stats": [
+      "+50 Công vật lý",
+      "+700 Máu tối đa",
+      "+300 Giáp"
+    ],
+    "passives": [
+      {
+        "name": "Phản pháo",
+        "description": "Kích hoạt: Tăng hiệu ứng nội tại [Phản phệ] lên 25%, kéo dài 3 giây. Hồi chiêu 75 giây."
+      },
+      {
+        "name": "Phản phệ",
+        "description": "Chịu sát thương sẽ phản lại 5% thành Sát thương chuẩn lên kẻ địch. (Giảm đến tối đa 50% theo khoảng cách)"
+      }
+    ]
+  },
+  {
+    "id": "mantle-of-ra",
+    "name": "Áo Choàng Thần Ra",
+    "category": "def",
+    "imageSlug": "mantle-of-ra",
+    "englishName": "Mantle of Ra",
+    "price": 2060,
+    "stats": [
+      "+1000 Máu tối đa",
+      "+225 Giáp",
+      "+60 Hồi máu mỗi 5 giây"
+    ],
+    "passives": [
+      {
+        "name": "Hỏa diệm",
+        "description": "Gây 2% máu tối đa thành sát thương phép mỗi giây lên những kẻ địch cạnh bên (tăng 50% sát thương lên quái và lính)."
+      },
+      {
+        "name": "Tróc nã",
+        "description": "Hỏa diệm gây sát thương thiêu đốt và giảm 40% hiệu ứng hồi máu của địch trong 3 giây,"
+      }
+    ]
+  },
+  {
+    "id": "medallion-of-troy",
+    "name": "Huân Chương Troy",
+    "category": "def",
+    "imageSlug": "medallion-of-troy",
+    "englishName": "Medallion of Troy",
+    "price": 2320,
+    "stats": [
+      "+10% Giảm hồi chiêu"
+    ],
+    "passives": [
+      {
+        "name": "Hộ thân",
+        "description": "Rời khỏi giao tranh nhận được một lớp bảo hộ giúp hấp thu 460-1300 sát thương phép."
+      },
+      {
+        "name": "Nội lực",
+        "description": "Nhận 0-112 giáp phép (tăng theo cấp)."
+      }
+    ]
+  },
+  {
+    "id": "monsters-bane",
+    "name": "Gươm hiến tế",
+    "category": "jg",
+    "imageSlug": "monsters-bane",
+    "englishName": "",
+    "price": 700,
+    "stats": [
+      "+40 Công phép"
+    ],
+    "passives": []
+  },
+  {
+    "id": "mother-earth-barrier",
+    "name": "Đại địa thần khiên",
+    "category": "sup",
+    "imageSlug": "mother-earth-barrier",
+    "englishName": "",
+    "price": 1900,
+    "stats": [
+      "+1200 Máu tối đa",
+      "+8% Tốc chạy"
+    ],
+    "passives": []
+  },
+  {
+    "id": "mother-earth-cleansing",
+    "name": "Đại Địa Mở Trói",
+    "category": "sup",
+    "imageSlug": "mother-earth-cleansing",
+    "englishName": "Mother Earth: Cleansing",
+    "price": 1900,
+    "stats": [
+      "+1200 Máu tối đa",
+      "+8% Tốc chạy"
+    ],
+    "passives": [
+      {
+        "name": "Mở trói",
+        "description": "Hóa giải tất cả hiệu ứng khống chế cho bản thân và đồng đội trong phạm vi đồng thời miễn khống trong 0.5 giây."
+      },
+      {
+        "name": "Tưởng thưởng",
+        "description": "Tăng 32-60 thuộc tính chủ đạo (1 thuộc tính chủ đạo = 1 công vật lý hoặc 2 công phép). Tăng 400-820 máu tối đa."
+      },
+      {
+        "name": "Nguyên lực",
+        "description": "Tăng 32-60 song giáp cho bản thân và đồng đội lân cận."
+      },
+      {
+        "name": "Hậu cần",
+        "description": "Mỗi 3 giây tăng thêm 8 điểm kinh nghiệm và tăng thêm 8 vàng cho tướng có vàng ít nhất đội. Nếu vàng rơi từ lính không được nhận, 50% số vàng đó sẽ rơi trên mặt đất. Có thể nhặt tối đa 600 vàng đồng thời có thể hút vàng trên toàn bản đồ 1 lần. Khi tích lũy đủ 600 vàng từ việc nhặt vàng sẽ mở khóa chiêu \"Cộng hưởng\", kích hoạt chủ động giúp bản thân và một tướng đồng minh nhận được rất nhiều vàng và EXP (cả trận chỉ được dùng một lần)."
+      },
+      {
+        "name": "Khiêm nhường",
+        "description": "Khi xung quanh có đồng đội, nếu lính và quái rừng bị tiêu diệt sẽ giúp đồng đội nhận toàn bộ vàng và kinh nghiệm còn bản thân sẽ nhận được 30%-50% vàng và kinh nghiệm (Tăng theo thời gian, đến 13 phút sẽ đạt tối đa)."
+      }
+    ]
+  },
+  {
+    "id": "mother-earth-magic-eye",
+    "name": "Đại địa ma nhãn",
+    "category": "sup",
+    "imageSlug": "mother-earth-magic-eye",
+    "englishName": "",
+    "price": 1900,
+    "stats": [
+      "+1200 Máu tối đa",
+      "+8% Tốc chạy"
+    ],
+    "passives": []
+  },
+  {
+    "id": "mother-earth-spout",
+    "name": "Đại Địa Hồi Huyết",
+    "category": "sup",
+    "imageSlug": "mother-earth-spout",
+    "englishName": "Mother Earth: Spout",
+    "price": 1900,
+    "stats": [
+      "+1200 Máu tối đa",
+      "+8% Tốc chạy"
+    ],
+    "passives": [
+      {
+        "name": "Hồi huyết",
+        "description": "Kích hoạt: Bản thân gắn liên kết với 1 tướng đồng minh (ít máu nhất trong phạm vi) và trong 5 giây hồi 500-1000+20% máu tối đa cùng 25% năng lượng tối đa cho cả 2. Vượt quá cự ly nhất định liên kết sẽ đứt. Bị tướng địch tấn công hoặc tấn công tướng địch, hiêu quả hồi phục chỉ còn 20% hiệu lực. Mỗi 50 giây dự trữ 1 lần, tối đa dự trữ 2 lần."
+      },
+      {
+        "name": "Tưởng thưởng",
+        "description": "Tăng 32-60 thuộc tính chủ đạo (1 thuộc tính chủ đạo = 1 công vật lý hoặc 2 công phép). Tăng 400-820 máu tối đa."
+      },
+      {
+        "name": "Nguyên lực",
+        "description": "Tăng 32-60 song giáp cho bản thân và đồng đội lân cận."
+      },
+      {
+        "name": "Hậu cần",
+        "description": "Mỗi 3 giây tăng thêm 8 điểm kinh nghiệm và tăng thêm 8 vàng cho tướng có vàng ít nhất đội. Nếu vàng rơi từ lính không được nhận, 50% số vàng đó sẽ rơi trên mặt đất. Có thể nhặt tối đa 600 vàng đồng thời có thể hút vàng trên toàn bản đồ 1 lần. Khi tích lũy đủ 600 vàng từ việc nhặt vàng sẽ mở khóa chiêu \"Cộng hưởng\", kích hoạt chủ động giúp bản thân và một tướng đồng minh nhận được rất nhiều vàng và EXP (cả trận chỉ được dùng một lần)."
+      },
+      {
+        "name": "Khiêm nhường",
+        "description": "Khi xung quanh có đồng đội, nếu lính và quái rừng bị tiêu diệt sẽ giúp đồng đội nhận toàn bộ vàng và kinh nghiệm còn bản thân sẽ nhận được 30%-50% vàng và kinh nghiệm (Tăng theo thời gian, đến 13 phút sẽ đạt tối đa)."
+      }
+    ]
+  },
+  {
+    "id": "mother-earth-surge",
+    "name": "Đại Địa Thần Tốc",
+    "category": "sup",
+    "imageSlug": "mother-earth-surge",
+    "englishName": "Mother Earth: Surge",
+    "price": 1900,
+    "stats": [
+      "+1200 Máu tối đa",
+      "+8% Tốc chạy"
+    ],
+    "passives": [
+      {
+        "name": "Thần tốc",
+        "description": "Kích hoạt: Tốc chạy của các tướng đồng minh trong phạm vi sẽ tăng dần trong vòng 2 giây, lên tới 20%-100%, kéo dài 4 giây. Khi đi ngang qua một tướng đồng minh không được tăng tốc, hiệu ứng này sẽ được đồng bộ với tướng đồng minh. Khi tấn công hoặc bị tướng địch đánh trúng sẽ chỉ giữ lại 20% tốc độ tăng thêm."
+      },
+      {
+        "name": "Tưởng thưởng",
+        "description": "Tăng 32-60 thuộc tính chủ đạo (1 thuộc tính chủ đạo = 1 công vật lý hoặc 2 công phép). Tăng 400-820 máu tối đa."
+      },
+      {
+        "name": "Nguyên lực",
+        "description": "Tăng 32-60 song giáp cho bản thân và đồng đội lân cận."
+      },
+      {
+        "name": "Hậu cần",
+        "description": "Mỗi 3 giây tăng thêm 8 điểm kinh nghiệm và tăng thêm 8 vàng cho tướng có vàng ít nhất đội. Nếu vàng rơi từ lính không được nhận, 50% số vàng đó sẽ rơi trên mặt đất. Có thể nhặt tối đa 600 vàng đồng thời có thể hút vàng trên toàn bản đồ 1 lần. Khi tích lũy đủ 600 vàng từ việc nhặt vàng sẽ mở khóa chiêu \"Cộng hưởng\", kích hoạt chủ động giúp bản thân và một tướng đồng minh nhận được rất nhiều vàng và EXP (cả trận chỉ được dùng một lần)."
+      },
+      {
+        "name": "Khiêm nhường",
+        "description": "Khi xung quanh có đồng đội, nếu lính và quái rừng bị tiêu diệt sẽ giúp đồng đội nhận toàn bộ vàng và kinh nghiệm còn bản thân sẽ nhận được 30%-50% vàng và kinh nghiệm (Tăng theo thời gian, đến 13 phút sẽ đạt tối đa)."
+      }
+    ]
+  },
+  {
+    "id": "mr-stabby",
+    "name": "Đao truy kích",
+    "category": "jg",
+    "imageSlug": "mr-stabby",
+    "englishName": "",
+    "price": 700,
+    "stats": [
+      "+25 Công vật lý"
+    ],
+    "passives": []
+  },
+  {
+    "id": "muramasa",
+    "name": "Kiếm Muramasa",
+    "category": "atk",
+    "imageSlug": "muramasa",
+    "englishName": "Muramasa",
+    "price": 2020,
+    "stats": [
+      "+80 Công vật lý",
+      "+10% Giảm hồi chiêu",
+      "+500 Máu tối đa"
+    ],
+    "passives": [
+      {
+        "name": "Xuyên thấu",
+        "description": "+35% Xuyên giáp"
+      }
+    ]
+  },
+  {
+    "id": "necklace-of-vitality",
+    "name": "Dây chuyền hồng ngọc",
+    "category": "def",
+    "imageSlug": "necklace-of-vitality",
+    "englishName": "",
+    "price": 540,
+    "stats": [
+      "+600 Máu tối đa"
+    ],
+    "passives": []
+  },
+  {
+    "id": "odins-will",
+    "name": "Giáp Cuồng Nộ",
+    "category": "def",
+    "imageSlug": "odins-will",
+    "englishName": "Odin's Will",
+    "price": 1900,
+    "stats": [
+      "+1200 Máu tối đa",
+      "+225 Giáp",
+      "+5% Tốc chạy"
+    ],
+    "passives": [
+      {
+        "name": "Điên cuồng",
+        "description": "Sau khi chịu sát thương, gia tăng 1% tốc chạy và sát thương gây ra thêm 2%, hiệu ứng có thể cộng dồn 5 lần, kéo dài 3 giây."
+      }
+    ]
+  },
+  {
+    "id": "omni-arms",
+    "name": "Phức Hợp Kiếm",
+    "category": "atk",
+    "imageSlug": "omni-arms",
+    "englishName": "Omni Arms",
+    "price": 2150,
+    "stats": [
+      "+70 Công vật lý",
+      "+15% Tốc đánh",
+      "+10% Giảm hồi chiêu",
+      "+600 Máu tối đa"
+    ],
+    "passives": [
+      {
+        "name": "Sức mạnh nguyên tố",
+        "description": "Trong vòng 5 giây sau khi tung chiêu, đòn đánh thường tiếp theo của tướng gây thêm 100% công vật lý sát thương vật lý."
+      },
+      {
+        "name": "Cuồng bạo",
+        "description": "Đòn đánh thường tăng 10% tốc chạy."
+      }
+    ]
+  },
+  {
+    "id": "orb-of-the-magi",
+    "name": "Ngọc Đại Pháp Sư",
+    "category": "mag",
+    "imageSlug": "orb-of-the-magi",
+    "englishName": "Orb of the Magi",
+    "price": 1800,
+    "stats": [
+      "+140 Công phép",
+      "+10% Giảm hồi chiêu"
+    ],
+    "passives": [
+      {
+        "name": "Trường tồn",
+        "description": "Mỗi 30 giây nhận thêm 12 Công phép, và 120 Máu. Hiệu ứng cộng dồn tối đa 10 lần."
+      },
+      {
+        "name": "Tưởng thưởng anh hùng",
+        "description": "Khi tướng lên cấp, hồi phục 20% Máu và 10% Năng lượng trong 3 giây."
+      }
+    ]
+  },
+  {
+    "id": "orrery",
+    "name": "Cầu chiêm tinh",
+    "category": "mag",
+    "imageSlug": "orrery",
+    "englishName": "",
+    "price": 800,
+    "stats": [
+      "+80 Công phép"
+    ],
+    "passives": []
+  },
+  {
+    "id": "pendant-of-faith",
+    "name": "Dây chuyền ma thuật",
+    "category": "mag",
+    "imageSlug": "pendant-of-faith",
+    "englishName": "",
+    "price": 120,
+    "stats": [
+      "+10 Hồi năng lượng/5s"
+    ],
+    "passives": []
+  },
+  {
+    "id": "phoenix-tear",
+    "name": "Phượng hoàng lệ",
+    "category": "mag",
+    "imageSlug": "phoenix-tear",
+    "englishName": "",
+    "price": 500,
+    "stats": [
+      "+50 Công phép"
+    ],
+    "passives": []
+  },
+  {
+    "id": "platinum-gauntlets",
+    "name": "Găng Bạch Kim",
+    "category": "def",
+    "imageSlug": "platinum-gauntlets",
+    "englishName": "Platinum Gauntlets",
+    "price": 660,
+    "stats": [
+      "+10% Giảm hồi chiêu",
+      "+110 Giáp"
+    ],
+    "passives": []
+  },
+  {
+    "id": "rankbreaker",
+    "name": "Thương Xuyên Phá",
+    "category": "atk",
+    "imageSlug": "rankbreaker",
+    "englishName": "Rankbreaker",
+    "price": 1900,
+    "stats": [
+      "+110 Công vật lý"
+    ],
+    "passives": [
+      {
+        "name": "Khinh công",
+        "description": "Rời khỏi trạng thái giao tranh giúp tăng 10% tốc chạy."
+      },
+      {
+        "name": "Nghiền ép",
+        "description": "Tăng 40-180 chỉ số xuyên giáp."
+      }
+    ]
+  },
+  {
+    "id": "rheas-blessing",
+    "name": "Trượng Rhea",
+    "category": "mag",
+    "imageSlug": "rheas-blessing",
+    "englishName": "Rhea's Blessing",
+    "price": 2050,
+    "stats": [
+      "+160 Công phép",
+      "+24% Hút máu phép",
+      "+800 Máu tối đa"
+    ],
+    "passives": [
+      {
+        "name": "Chuyển hóa",
+        "description": "Mỗi 2% hút máu phép giúp tăng 1% giảm hồi chiêu."
+      }
+    ]
+  },
+  {
+    "id": "ring-of-vitality",
+    "name": "Nhẫn hồng ngọc",
+    "category": "def",
+    "imageSlug": "ring-of-vitality",
+    "englishName": "",
+    "price": 300,
+    "stats": [
+      "+300 Máu tối đa"
+    ],
+    "passives": []
+  },
+  {
+    "id": "rock-shield",
+    "name": "Nham Thuẫn",
+    "category": "def",
+    "imageSlug": "rock-shield",
+    "englishName": "Rock Shield",
+    "price": 1980,
+    "stats": [
+      "+1200 Máu tối đa",
+      "+240 Giáp"
+    ],
+    "passives": [
+      {
+        "name": "Tích tụ",
+        "description": "Kích hoạt: Nhận lá chắn tương đương (30% máu tối đa + 10% máu đã mất) trong 3 giây và giảm 70% sát thương gây ra trong thời gian này. Hồi chiêu 60 giây (ó thể dùng khi bị khống chế)"
+      }
+    ]
+  },
+  {
+    "id": "scorching-wind",
+    "name": "Cung Bão Tố",
+    "category": "jg",
+    "imageSlug": "scorching-wind",
+    "englishName": "Scorching Wind",
+    "price": 2000,
+    "stats": [
+      "+30% Tốc đánh",
+      "+15% Hút máu",
+      "+7% Tốc chạy"
+    ],
+    "passives": [
+      {
+        "name": "Nội tại duy nhất",
+        "description": "Nhận hiệu ứng tê tái."
+      },
+      {
+        "name": "Lốc xoáy",
+        "description": "Mỗi đòn đánh thường tích một điểm cộng dồn hiệu ứng lên nạn nhân, thứ sẽ gây thêm 15-19 sát thương phép; tối đa cộng dồn hiệu ứng 6 lần."
+      },
+      {
+        "name": "Lùng diệt",
+        "description": "Bản thân hoặc đồng đội lân cận hạ mỗi con quái rừng giúp tăng 0.8% tốc đánh và 0.2% hút máu, tối đa cộng dồn 25 lần."
+      },
+      {
+        "name": "Săn bắt",
+        "description": "Đòn đánh thường hoặc tung chiêu sẽ gây thêm 60-172 sát thương chuẩn lên quái rừng mỗi 0.5 giây, kéo dài 2 giây. Nhận thêm 35% kinh nghiệm khi tiêu diệt quái rừng."
+      },
+      {
+        "name": "Khiêm nhường",
+        "description": "Khi xung quanh có đồng đội, họ sẽ nhận toàn bộ vàng và EXP từ lính, bản thân chỉ nhận 50% vàng và EXP. Hiệu ứng này sẽ bị xóa vào phút thứ 4. Sát thương lên lính giảm 25% (cũng xóa vào phút thứ 4)."
+      }
+    ]
+  },
+  {
+    "id": "shield-of-the-lost",
+    "name": "Khiên Thất Truyền",
+    "category": "def",
+    "imageSlug": "shield-of-the-lost",
+    "englishName": "Shield of the Lost",
+    "price": 2100,
+    "stats": [
+      "+1200 Máu tối đa",
+      "+275 Giáp"
+    ],
+    "passives": [
+      {
+        "name": "Lính gác",
+        "description": "Nếu tướng chịu sát thương, giảm 30% Tốc đánh và 15% Tốc chạy của những đối thủ đã ra đòn."
+      }
+    ]
+  },
+  {
+    "id": "short-sword",
+    "name": "Kiếm ngắn",
+    "category": "atk",
+    "imageSlug": "short-sword",
+    "englishName": "",
+    "price": 250,
+    "stats": [
+      "+20 Công vật lý"
+    ],
+    "passives": []
+  },
+  {
+    "id": "shuriken",
+    "name": "Phi tiêu",
+    "category": "atk",
+    "imageSlug": "shuriken",
+    "englishName": "",
+    "price": 750,
+    "stats": [
+      "+20% Tốc đánh"
+    ],
+    "passives": []
+  },
+  {
+    "id": "slikks-sting",
+    "name": "Song Đao Bão Táp",
+    "category": "atk",
+    "imageSlug": "slikks-sting",
+    "englishName": "Slikk's Sting",
+    "price": 1920,
+    "stats": [
+      "+35% Tốc đánh",
+      "+25% Tỉ lệ chí mạng",
+      "+7% Tốc chạy"
+    ],
+    "passives": [
+      {
+        "name": "Cuồng phong",
+        "description": "Tăng 35% Kháng hiệu ứng trong 2 giây sau khi đánh chí mạng."
+      }
+    ]
+  },
+  {
+    "id": "soaring-aura",
+    "name": "Gươm Hiền Triết",
+    "category": "mag",
+    "imageSlug": "soaring-aura",
+    "englishName": "Soaring Aura",
+    "price": 2100,
+    "stats": [
+      "+140 Công phép",
+      "+10% Giảm hồi chiêu",
+      "+600 Máu tối đa"
+    ],
+    "passives": [
+      {
+        "name": "Diệt thần",
+        "description": "Tung chiêu hoặc đánh thường trúng tướng địch sẽ cộng dồn 10-24 xuyên giáp phép, tối đa cộng dồn 10 lần, kéo dài 3 giây."
+      }
+    ]
+  },
+  {
+    "id": "sonic-boots",
+    "name": "Giày Hộ Vệ",
+    "category": "boot",
+    "imageSlug": "sonic-boots",
+    "englishName": "Sonic Boots",
+    "price": 700,
+    "stats": [
+      "+110 Giáp"
+    ],
+    "passives": [
+      {
+        "name": "Nội tại duy nhất",
+        "description": "+60 Tốc chạy"
+      },
+      {
+        "name": "Nội tại duy nhất",
+        "description": "Giảm 10% sát thương vật lý phải chịu."
+      }
+    ]
+  },
+  {
+    "id": "soulreaver",
+    "name": "Kiếm Truy Hồn",
+    "category": "jg",
+    "imageSlug": "soulreaver",
+    "englishName": "Soulreaver",
+    "price": 2000,
+    "stats": [
+      "+90 Công vật lý",
+      "+5% Giảm hồi chiêu",
+      "+8% Tốc chạy"
+    ],
+    "passives": [
+      {
+        "name": "Nội tại duy nhất",
+        "description": "Nhận hiệu ứng tê tái."
+      },
+      {
+        "name": "Xuyên chắn",
+        "description": "+60 xuyên giáp"
+      },
+      {
+        "name": "Lùng diệt",
+        "description": "Bản thân hoặc đồng đội lân cận hạ mỗi con quái rừng giúp tăng 2 công vật lý và 0.2% giảm hồi chiêu, tối đa cộng dồn 25 lần."
+      },
+      {
+        "name": "Săn bắt",
+        "description": "Đòn đánh thường hoặc tung chiêu sẽ gây thêm 60-172 sát thương chuẩn lên quái rừng mỗi 0.5 giây, kéo dài 2 giây. Nhận thêm 35% kinh nghiệm khi tiêu diệt quái rừng."
+      },
+      {
+        "name": "Khiêm nhường",
+        "description": "Khi xung quanh có đồng đội, họ sẽ nhận toàn bộ vàng và EXP từ lính, bản thân chỉ nhận 50% vàng và EXP. Hiệu ứng này sẽ bị xóa vào phút thứ 4. Sát thương lên lính giảm 25% (cũng xóa vào phút thứ 4)."
+      }
+    ]
+  },
+  {
+    "id": "spell-tome",
+    "name": "Sách phép",
+    "category": "mag",
+    "imageSlug": "spell-tome",
+    "englishName": "",
+    "price": 300,
+    "stats": [
+      "+40 Công phép"
+    ],
+    "passives": []
+  },
+  {
+    "id": "spooky-mask",
+    "name": "Mặt Nạ Ma Quái",
+    "category": "mag",
+    "imageSlug": "spooky-mask",
+    "englishName": "Spooky Mask",
+    "price": 960,
+    "stats": [
+      "+100 Công phép"
+    ],
+    "passives": [
+      {
+        "name": "Diệt thần",
+        "description": "+75 Xuyên giáp phép"
+      }
+    ]
+  },
+  {
+    "id": "staff-of-nuul",
+    "name": "Trượng Hỗn Mang",
+    "category": "mag",
+    "imageSlug": "staff-of-nuul",
+    "englishName": "Staff of Nuul",
+    "price": 2050,
+    "stats": [
+      "+180 Công phép",
+      "+10% Giảm hồi chiêu"
+    ],
+    "passives": [
+      {
+        "name": "Nội tại duy nhất",
+        "description": "+40% Xuyên giáp phép"
+      }
+    ]
+  },
+  {
+    "id": "stealth-bracer",
+    "name": "Vô Ảnh Tiễn",
+    "category": "atk",
+    "imageSlug": "stealth-bracer",
+    "englishName": "",
+    "price": null,
+    "stats": [
+      "+40 Công vật lý",
+      "+20% Tốc đánh",
+      "+20% Tỷ lệ chí mạng",
+      "+650 Máu tối đa"
+    ],
+    "passives": []
+  },
+  {
+    "id": "talisman-of-strength",
+    "name": "Bùa sức mạnh",
+    "category": "def",
+    "imageSlug": "talisman-of-strength",
+    "englishName": "",
+    "price": 140,
+    "stats": [
+      "+30 Hồi máu/5s"
+    ],
+    "passives": []
+  },
+  {
+    "id": "tempest-blades",
+    "name": "Song đao",
+    "category": "atk",
+    "imageSlug": "tempest-blades",
+    "englishName": "",
+    "price": 780,
+    "stats": [
+      "+25% Tốc đánh",
+      "+5% Tốc chạy"
+    ],
+    "passives": []
+  },
+  {
+    "id": "the-aegis",
+    "name": "Khiên Huyền Thoại",
+    "category": "def",
+    "imageSlug": "the-aegis",
+    "englishName": "The Aegis",
+    "price": 2180,
+    "stats": [
+      "+20% Giảm hồi chiêu",
+      "+360 Giáp",
+      "+400 Năng lượng tối đa"
+    ],
+    "passives": [
+      {
+        "name": "Trói buộc tinh thần",
+        "description": "Giảm 30% tốc đánh của kẻ địch lân cận trong phạm vi 5m."
+      }
+    ]
+  },
+  {
+    "id": "the-beast",
+    "name": "Quỷ Kiếm",
+    "category": "atk",
+    "imageSlug": "the-beast",
+    "englishName": "The Beast",
+    "price": 1800,
+    "stats": [
+      "+100 Công vật lý",
+      "+25% Hút máu",
+      "+600 Máu tối đa"
+    ],
+    "passives": [
+      {
+        "name": "Huyết yến",
+        "description": "Khi bản thân thấp hơn 30% máu, trong 5 giây tích lũy hồi 400-610 máu tối đa."
+      }
+    ]
+  },
+  {
+    "id": "the-diminisher",
+    "name": "Thương Khung Kiếm",
+    "category": "atk",
+    "imageSlug": "the-diminisher",
+    "englishName": "The Diminisher",
+    "price": 2120,
+    "stats": [
+      "+100 Công vật lý",
+      "+10% Giảm hồi chiêu",
+      "+500 Máu tối đa"
+    ],
+    "passives": [
+      {
+        "name": "Bất khuất",
+        "description": "Nhận 35% miễn thương trong 3 giây, có thể dùng khi bị khống chế."
+      },
+      {
+        "name": "Trì trệ",
+        "description": "Tung chiêu trúng sẽ làm chậm tướng địch đầu tiên 30% và giảm 20% sát thương hắn gây ra trong 3 giây."
+      }
+    ]
+  },
+  {
+    "id": "tome-of-the-reaper",
+    "name": "Sách Truy Hồn",
+    "category": "mag",
+    "imageSlug": "tome-of-the-reaper",
+    "englishName": "Tome of the Reaper",
+    "price": 1900,
+    "stats": [
+      "+140 Công phép",
+      "+10% Giảm hồi chiêu",
+      "+600 Máu tối đa"
+    ],
+    "passives": [
+      {
+        "name": "Tróc nã",
+        "description": "Đòn đánh thường / tung chiêu gây sát thương sẽ khiến mục tiêu bị giảm 40% hiệu quả hồi máu, kéo dài 3 giây."
+      }
+    ]
+  },
+  {
+    "id": "trick-blade",
+    "name": "Gươm nguyên tố",
+    "category": "mag",
+    "imageSlug": "trick-blade",
+    "englishName": "",
+    "price": 820,
+    "stats": [
+      "+40 Công phép",
+      "+10% Giảm hồi chiêu"
+    ],
+    "passives": []
+  },
+  {
+    "id": "uriels-brand",
+    "name": "Gươm Uriel",
+    "category": "atk",
+    "imageSlug": "uriels-brand",
+    "englishName": "",
+    "price": 2000,
+    "stats": [
+      "+80 Công vật lý",
+      "+25% Tốc đánh",
+      "+200 Giáp phép"
+    ],
+    "passives": []
+  },
+  {
+    "id": "virtues-bracelet",
+    "name": "Vòng đức hạnh",
+    "category": "mag",
+    "imageSlug": "virtues-bracelet",
+    "englishName": "",
+    "price": 720,
+    "stats": [
+      "+60 Công phép",
+      "+20 Hồi năng lượng/5s",
+      "+5% Giảm hồi chiêu"
+    ],
+    "passives": []
+  },
+  {
+    "id": "virtues-necklace",
+    "name": "Dây Chuyền Lục Bảo",
+    "category": "mag",
+    "imageSlug": "virtues-necklace",
+    "englishName": "Virtue's Necklace",
+    "price": 1800,
+    "stats": [
+      "+160 Công phép",
+      "+15% Giảm hồi chiêu",
+      "+25 Hồi năng lượng mỗi 5 giây"
+    ],
+    "passives": [
+      {
+        "name": "Hiền giả",
+        "description": "Mỗi giây hồi 1% năng lượng."
+      }
+    ]
+  },
+  {
+    "id": "vlads-impaler",
+    "name": "Huyết trượng",
+    "category": "mag",
+    "imageSlug": "vlads-impaler",
+    "englishName": "",
+    "price": 800,
+    "stats": [
+      "+80 Công phép",
+      "+12% Hút máu phép"
+    ],
+    "passives": []
+  },
+  {
+    "id": "war-boots",
+    "name": "Giày Du Mục",
+    "category": "boot",
+    "imageSlug": "war-boots",
+    "englishName": "War Boots",
+    "price": 700,
+    "stats": [
+      "+20% Tốc đánh"
+    ],
+    "passives": [
+      {
+        "name": "Nội tại duy nhất",
+        "description": "+60 Tốc chạy"
+      },
+      {
+        "name": "Nội tại duy nhất",
+        "description": "Đánh thường hồi 20 máu (hồi chiêu: 0.3 giây) (Giảm một nửa hiệu ứng đối với đơn vị không phải tướng)."
+      }
+    ]
+  },
+  {
+    "id": "whispering-wind",
+    "name": "Cung Gió Lốc",
+    "category": "jg",
+    "imageSlug": "whispering-wind",
+    "englishName": "",
+    "price": 700,
+    "stats": [
+      "+12% Tốc đánh"
+    ],
+    "passives": []
+  },
+  {
+    "id": "wildfire-barrier",
+    "name": "Liệt hỏa thần khiên",
+    "category": "sup",
+    "imageSlug": "wildfire-barrier",
+    "englishName": "",
+    "price": 1900,
+    "stats": [
+      "+1200 Máu tối đa",
+      "+8% Tốc chạy"
+    ],
+    "passives": []
+  },
+  {
+    "id": "wildfire-cleansing",
+    "name": "Liệt Hoả Mở Trói",
+    "category": "sup",
+    "imageSlug": "wildfire-cleansing",
+    "englishName": "Wildfire: Cleansing",
+    "price": 1900,
+    "stats": [
+      "+1200 Máu tối đa",
+      "+8% Tốc chạy"
+    ],
+    "passives": [
+      {
+        "name": "Mở trói",
+        "description": "Hóa giải tất cả hiệu ứng khống chế cho bản thân và đồng đội trong phạm vi đồng thời miễn khống trong 0.5 giây."
+      },
+      {
+        "name": "Tưởng thưởng",
+        "description": "Tăng 32-60 thuộc tính chủ đạo (1 thuộc tính chủ đạo = 1 công vật lý hoặc 2 công phép). Tăng 400-820 máu tối đa."
+      },
+      {
+        "name": "Cực ảnh",
+        "description": "Tăng 5% tốc đánh và 5% giảm hồi chiêu cho bản thân và đồng đội."
+      },
+      {
+        "name": "Hậu cần",
+        "description": "Mỗi 3 giây tăng thêm 8 điểm kinh nghiệm và tăng thêm 8 vàng cho tướng có vàng ít nhất đội. Nếu vàng rơi từ lính không được nhận, 50% số vàng đó sẽ rơi trên mặt đất. Có thể nhặt tối đa 600 vàng đồng thời có thể hút vàng trên toàn bản đồ 1 lần. Khi tích lũy đủ 600 vàng từ việc nhặt vàng sẽ mở khóa chiêu \"Cộng hưởng\", kích hoạt chủ động giúp bản thân và một tướng đồng minh nhận được rất nhiều vàng và EXP (cả trận chỉ được dùng một lần)."
+      },
+      {
+        "name": "Khiêm nhường",
+        "description": "Khi xung quanh có đồng đội, nếu lính và quái rừng bị tiêu diệt sẽ giúp đồng đội nhận toàn bộ vàng và kinh nghiệm còn bản thân sẽ nhận được 30%-50% vàng và kinh nghiệm (Tăng theo thời gian, đến 13 phút sẽ đạt tối đa)."
+      }
+    ]
+  },
+  {
+    "id": "wildfire-magic-eye",
+    "name": "Liệt hỏa ma nhãn",
+    "category": "sup",
+    "imageSlug": "wildfire-magic-eye",
+    "englishName": "",
+    "price": 1900,
+    "stats": [
+      "+1200 Máu tối đa",
+      "+8% Tốc chạy"
+    ],
+    "passives": []
+  },
+  {
+    "id": "wildfire-spout",
+    "name": "Liệt Hoả Hồi Huyết",
+    "category": "sup",
+    "imageSlug": "wildfire-spout",
+    "englishName": "Wildfire: Spout",
+    "price": 1900,
+    "stats": [
+      "+1200 Máu tối đa",
+      "+8% Tốc chạy"
+    ],
+    "passives": [
+      {
+        "name": "Hồi huyết",
+        "description": "Active: Bản thân gắn liên kết với 1 tướng đồng minh (ít máu nhất trong phạm vi) và trong 5 giây hồi 500-1000+20% máu tối đa cùng 25% năng lượng tối đa cho cả 2. Vượt quá cự ly nhất định liên kết sẽ đứt. Bị tướng địch tấn công hoặc tấn công tướng địch, hiêu quả hồi phục chỉ còn 20% hiệu lực. Mỗi 50 giây dự trữ 1 lần, tối đa dự trữ 2 lần."
+      },
+      {
+        "name": "Tưởng thưởng",
+        "description": "Tăng 32-60 thuộc tính chủ đạo (1 thuộc tính chủ đạo = 1 công vật lý hoặc 2 công phép). Tăng 400-820 máu tối đa."
+      },
+      {
+        "name": "Cực ảnh",
+        "description": "Tăng 5% tốc đánh và 5% giảm hồi chiêu cho bản thân và đồng đội."
+      },
+      {
+        "name": "Hậu cần",
+        "description": "Mỗi 3 giây tăng thêm 8 điểm kinh nghiệm và tăng thêm 8 vàng cho tướng có vàng ít nhất đội. Nếu vàng rơi từ lính không được nhận, 50% số vàng đó sẽ rơi trên mặt đất. Có thể nhặt tối đa 600 vàng đồng thời có thể hút vàng trên toàn bản đồ 1 lần. Khi tích lũy đủ 600 vàng từ việc nhặt vàng sẽ mở khóa chiêu \"Cộng hưởng\", kích hoạt chủ động giúp bản thân và một tướng đồng minh nhận được rất nhiều vàng và EXP (cả trận chỉ được dùng một lần)."
+      },
+      {
+        "name": "Khiêm nhường",
+        "description": "Khi xung quanh có đồng đội, nếu lính và quái rừng bị tiêu diệt sẽ giúp đồng đội nhận toàn bộ vàng và kinh nghiệm còn bản thân sẽ nhận được 30%-50% vàng và kinh nghiệm (Tăng theo thời gian, đến 13 phút sẽ đạt tối đa)."
+      }
+    ]
+  },
+  {
+    "id": "wildfire-surge",
+    "name": "Liệt hỏa thần tốc",
+    "category": "sup",
+    "imageSlug": "wildfire-surge",
+    "englishName": "",
+    "price": 1900,
+    "stats": [
+      "+1200 Máu tối đa",
+      "+8% Tốc chạy"
+    ],
+    "passives": []
+  },
+  {
+    "id": "zweihander",
+    "name": "Thập Tự Kiếm",
+    "category": "mag",
+    "imageSlug": "zweihander",
+    "englishName": "Zweihander",
+    "price": 1900,
+    "stats": [
+      "+180 Công phép",
+      "+20% Tốc đánh",
+      "+5% Tốc chạy"
+    ],
+    "passives": [
+      {
+        "name": "Cấp nhận",
+        "description": "Đòn đánh thường kế tiếp tăng 15% tốc đánh cộng thêm trong 4 giây; cộng dồn 2 lần."
+      },
+      {
+        "name": "Thánh quang",
+        "description": "Đòn đánh thường gây 40 (+20% công phép) sát thương phép."
+      }
+    ]
+  }
+]

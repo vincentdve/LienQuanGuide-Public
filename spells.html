@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Phép bổ trợ - Liên Quân Guide</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="js/game-data-loader.js" defer></script>
+    <script src="js/heroes-json.js" defer></script>
+    <script src="js/spells.js" defer></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1>LIÊN QUÂN GUIDE</h1>
+        <p>Thiết lập phép bổ trợ</p>
+      </div>
+    </header>
+
+    <main class="container spell-page">
+      <a id="spell-back" href="index.html" class="spell-back">
+        ← Quay lại tướng
+      </a>
+
+      <div id="spell-hero" class="spell-hero"></div>
+
+      <div class="spell-layout">
+        <!-- BÊN TRÁI: 11 PHÉP -->
+        <section class="spell-list-panel">
+          <h2>Phép bổ trợ</h2>
+
+          <div id="spell-list" class="spell-list"></div>
+        </section>
+
+        <!-- BÊN PHẢI: THÔNG TIN -->
+        <aside class="spell-info-panel">
+          <div id="spell-info"></div>
+
+          <button id="spell-use" type="button">Sử dụng phép này</button>
+
+          <p id="spell-status" role="status"></p>
+        </aside>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>Liên Quân Guide - Dự án cá nhân</p>
+    </footer>
+  </body>
+</html>

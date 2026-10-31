@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Phù hiệu - Liên Quân Guide</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="js/game-data-loader.js" defer></script>
+    <script src="js/heroes-json.js" defer></script>
+    <script src="js/insignias.js" defer></script>
+
+    <style>
+      .insignias-page {
+        padding: 25px 0 60px;
+      }
+
+      .insignias-back {
+        color: var(--primary);
+        display: inline-block;
+        margin-bottom: 22px;
+      }
+
+      .insignias-profile {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 25px;
+      }
+
+      .insignias-profile img {
+        width: 75px;
+        height: 75px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 2px solid var(--primary);
+      }
+
+      .insignias-profile h2 {
+        margin: 0 0 6px;
+        color: var(--primary);
+      }
+
+      .insignias-profile p {
+        margin: 0;
+        color: var(--muted);
+      }
+
+      .insignias-layout {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) 300px;
+        gap: 20px;
+      }
+
+      .insignias-board,
+      .insignias-info {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 22px;
+        min-width: 0;
+      }
+
+      .insignias-board h3 {
+        color: var(--primary);
+        margin-top: 0;
+      }
+
+      .insignias-branches {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-bottom: 24px;
+      }
+
+      .insignias-branches button {
+        padding: 10px 13px;
+        border-radius: 8px;
+        background: var(--bg);
+        border: 1px solid var(--border);
+        color: var(--text);
+        cursor: pointer;
+      }
+
+      .insignias-branches button.active {
+        border-color: var(--primary);
+        color: var(--primary);
+      }
+
+      .insignias-path {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        padding: 25px 8px;
+        border-radius: 12px;
+        background: var(--bg);
+        overflow-x: auto;
+      }
+
+      .insignias-path.main-path {
+        border: 1px solid #a34847;
+      }
+
+      .insignias-path.secondary-path {
+        border: 1px solid #467d59;
+      }
+
+      .insignias-path .path-node {
+        flex-shrink: 0;
+        width: 70px;
+        min-height: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .path-line {
+        height: 3px;
+        width: 30px;
+        min-width: 10px;
+        flex: 1;
+        background: var(--primary);
+        opacity: 0.7;
+      }
+
+      .insignias-separator {
+        margin: 30px 0;
+        border-top: 1px solid var(--border);
+      }
+
+      .insignias-info {
+        align-self: start;
+      }
+
+      .insignias-info h3 {
+        color: var(--primary);
+        margin-top: 0;
+      }
+
+      .insignias-info img {
+        width: 85px;
+        height: 85px;
+        object-fit: contain;
+        display: block;
+        margin-bottom: 15px;
+      }
+
+      .insignias-info p {
+        line-height: 1.7;
+        color: var(--muted);
+        overflow-wrap: anywhere;
+      }
+
+      .insignias-options {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(95px, 1fr));
+        gap: 12px;
+      }
+
+      .insignias-options button {
+        background: var(--bg);
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        color: var(--text);
+        padding: 12px 6px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .insignias-options img {
+        width: 55px;
+        height: 55px;
+        object-fit: contain;
+      }
+
+      .insignias-options span {
+        font-size: 12px;
+        text-align: center;
+      }
+
+      .insignias-options button.selected {
+        border-color: var(--primary);
+        background: var(--surface-hover);
+      }
+
+      .insignias-actions {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 20px;
+      }
+
+      #save-insignias {
+        padding: 12px 30px;
+        border: 0;
+        border-radius: 8px;
+        font-weight: bold;
+        background: var(--primary);
+        color: #171717;
+        cursor: pointer;
+      }
+
+      @media (max-width: 800px) {
+        .insignias-layout {
+          grid-template-columns: 1fr;
+        }
+
+        .insignias-board,
+        .insignias-info {
+          padding: 15px;
+        }
+
+        .insignias-path .path-node {
+          width: 55px;
+        }
+
+        .path-line {
+          width: 12px;
+        }
+      }
+    </style>
+    <link rel="stylesheet" href="css/insignias-popup.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1>LIÊN QUÂN GUIDE</h1>
+        <p>Thiết lập phù hiệu</p>
+      </div>
+    </header>
+
+    <main class="container insignias-page">
+      <a id="back-to-hero" href="index.html" class="insignias-back">
+        ← Quay lại tướng
+      </a>
+
+      <div id="insignias-profile" class="insignias-profile"></div>
+
+      <div class="insignias-layout">
+        <section class="insignias-board">
+          <h3>Nhánh phù hiệu chính</h3>
+
+          <div id="main-branches" class="insignias-branches"></div>
+
+          <div id="main-path" class="insignias-path main-path"></div>
+
+          <div class="insignias-separator"></div>
+
+          <h3>Nhánh phù hiệu phụ</h3>
+
+          <div id="secondary-branches" class="insignias-branches"></div>
+
+          <div id="secondary-path" class="insignias-path secondary-path"></div>
+
+          <div class="insignias-separator"></div>
+
+          <h3 id="options-title">Lựa chọn phù hiệu</h3>
+
+          <div id="insignias-options" class="insignias-options"></div>
+
+          <div class="insignias-actions">
+            <button id="save-insignias" type="button">Lưu phù hiệu</button>
+          </div>
+
+          <p id="insignias-status" role="status"></p>
+        </section>
+
+        <aside class="insignias-info">
+          <h3>Thông tin phù hiệu</h3>
+
+          <div id="insignias-description">
+            <p>Chọn một phù hiệu để xem chi tiết.</p>
+          </div>
+        </aside>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>Liên Quân Guide - Dự án cá nhân</p>
+    </footer>
+  </body>
+</html>

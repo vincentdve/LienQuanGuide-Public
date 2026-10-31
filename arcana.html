@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Bảng ngọc - Liên Quân Guide</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="js/game-data-loader.js" defer></script>
+    <script src="js/heroes-json.js" defer></script>
+    <script src="js/arcana.js" defer></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1>LIÊN QUÂN GUIDE</h1>
+        <p>Thiết lập bảng ngọc</p>
+      </div>
+    </header>
+
+    <main class="container arcana-page">
+      <a id="arcana-back" href="index.html" class="back-link">
+        ← Quay lại tướng
+      </a>
+
+      <div id="arcana-profile"></div>
+
+      <div class="arcana-layout">
+        <!-- Vòng tròn 30 viên ngọc -->
+        <section class="arcana-board">
+          <h2>Bảng ngọc</h2>
+
+          <div id="arcana-circle" class="arcana-circle">
+            <div class="arcana-center">
+              <span>90</span>
+              <small>30 viên cấp III</small>
+            </div>
+          </div>
+
+          <div id="arcana-picker" class="arcana-picker">
+            <h3>Chọn ngọc</h3>
+            <div id="arcana-options"></div>
+          </div>
+        </section>
+
+        <!-- Thông tin ngọc -->
+        <aside class="arcana-sidebar">
+          <h2>Thuộc tính ngọc</h2>
+
+          <div id="arcana-stats"></div>
+
+          <h3>Ngọc đang chọn</h3>
+          <div id="arcana-details"></div>
+
+          <button id="save-arcana" type="button">Lưu bảng ngọc</button>
+
+          <p id="arcana-status" role="status"></p>
+        </aside>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>Liên Quân Guide - Dự án cá nhân</p>
+    </footer>
+  </body>
+</html>
