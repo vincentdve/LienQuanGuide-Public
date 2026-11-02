@@ -92,6 +92,23 @@ document.addEventListener("lqg:data-ready", () => {
     index: 0,
   };
 
+  function isComplete() {
+    return COLOR_ORDER.every((color) =>
+      build[color].length === 10 &&
+      build[color].every((id) => typeof id === "string" && BARC[id]?.[0] === color),
+    );
+  }
+
+  function renderProgress() {
+    const count = COLOR_ORDER.reduce(
+      (total, color) => total + build[color].filter((id) => BARC[id]?.[0] === color).length,
+      0,
+    );
+    circle.querySelector(".arcana-center span").textContent = String(count * 3);
+    circle.querySelector(".arcana-center small").textContent = `${count}/30 viên cấp III`;
+    document.getElementById("save-arcana").disabled = !isComplete();
+  }
+
   // ==============================
   // 2. HÌNH ẢNH NGỌC
   // ==============================
@@ -200,16 +217,17 @@ document.addEventListener("lqg:data-ready", () => {
             selected.color === color && selected.index === index;
 
           button.classList.toggle("selected", isSelected);
+          button.classList.toggle("empty", !id);
 
           button.setAttribute(
             "aria-label",
-            `Ngọc ${COLORS[color]} số ${index + 1}: ${getGemName(id)}`,
+            `Ngọc ${COLORS[color]} số ${index + 1}: ${id ? getGemName(id) : "Ô trống"}`,
           );
 
           button.setAttribute("aria-pressed", String(isSelected));
 
-          button.title = getGemName(id);
-          button.appendChild(createGemImage(id));
+          button.title = id ? getGemName(id) : "Chọn ngọc";
+          if (id) button.appendChild(createGemImage(id));
 
           button.addEventListener("click", () => {
             selected = { color, index };
@@ -261,6 +279,15 @@ document.addEventListener("lqg:data-ready", () => {
 
       button.addEventListener("click", () => {
         build[color][selected.index] = id;
+
+        const nextIndex = COLOR_ORDER.indexOf(color) * 10 + selected.index + 1;
+        if (nextIndex < 30) {
+          selected = {
+            color: COLOR_ORDER[Math.floor(nextIndex / 10)],
+            index: nextIndex % 10,
+          };
+        }
+        renderProgress();
 
         status.textContent = "Có thay đổi chưa được lưu.";
 
@@ -367,16 +394,17 @@ document.addEventListener("lqg:data-ready", () => {
     const color = selected.color;
     const id = build[color][selected.index];
 
-    const img = createGemImage(id);
-    img.className = "arcana-detail-image";
+    const img = id ? createGemImage(id) : null;
+    if (img) img.className = "arcana-detail-image";
 
     const title = document.createElement("h4");
     title.textContent = `Ngọc ${COLORS[color]} ${selected.index + 1}/10`;
 
     const description = document.createElement("p");
-    description.textContent = BARC[id]?.[1] || "";
+    description.textContent = BARC[id]?.[1] || "Ô trống — hãy chọn một viên ngọc.";
 
-    detailsBox.append(img, title, description);
+    if (img) detailsBox.appendChild(img);
+    detailsBox.append(title, description);
   }
 
   // ==============================
@@ -384,13 +412,7 @@ document.addEventListener("lqg:data-ready", () => {
   // ==============================
 
   document.getElementById("save-arcana").addEventListener("click", () => {
-    const valid = COLOR_ORDER.every(
-      (color) =>
-        build[color].length === 10 &&
-        build[color].every((id) => BARC[id]?.[0] === color),
-    );
-
-    if (!valid) {
+    if (!isComplete()) {
       status.textContent = "Bảng ngọc phải đủ 10 viên mỗi màu.";
       return;
     }
@@ -429,6 +451,17 @@ document.addEventListener("lqg:data-ready", () => {
 
   actionRow.appendChild(cancelButton);
 
+  document.getElementById("clear-arcana").addEventListener("click", () => {
+    COLOR_ORDER.forEach((color) => { build[color].fill(null); });
+    selected = { color: "red", index: 0 };
+    status.textContent = "Đã xóa bản nháp. Chọn đủ 10 viên mỗi màu để lưu.";
+    renderCircle();
+    renderOptions();
+    renderStats();
+    renderDetails();
+    renderProgress();
+  });
+
   cancelButton.addEventListener("click", () => {
     window.location.href = backUrl;
   });
@@ -438,6 +471,7 @@ document.addEventListener("lqg:data-ready", () => {
   // ==============================
 
   renderProfile();
+  renderProgress();
   renderCircle();
   renderOptions();
   renderStats();

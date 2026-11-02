@@ -2955,6 +2955,7 @@ main {
   margin-top: 0;
 }
 
+#clear-arcana,
 #cancel-arcana {
   background: var(--surface-hover);
   color: var(--text);
@@ -2963,6 +2964,29 @@ main {
 
 #cancel-arcana:hover {
   border-color: var(--primary);
+}
+
+#clear-arcana {
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.arcana-slot.empty::after {
+  content: "+";
+  color: var(--gem-color);
+  font-size: 20px;
+}
+
+#save-arcana:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.arcana-save-hint {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.5;
 }
 
 /* Nút Lưu / Hủy phép bổ trợ */
