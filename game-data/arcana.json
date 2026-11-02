@@ -103,5 +103,50 @@
     "id": "teal_templar",
     "color": "teal",
     "description": "Giảm hồi chiêu +1%"
+  },
+  {
+    "id": "red_attack_lifesteal",
+    "color": "red",
+    "description": "Công vật lý +2.5 · Hút máu +0.5%"
+  },
+  {
+    "id": "red_magic_attack_speed",
+    "color": "red",
+    "description": "Công phép +4.2 · Tốc đánh +0.6%"
+  },
+  {
+    "id": "purple_crit_hp",
+    "color": "purple",
+    "description": "Tỉ lệ chí mạng +0.5% · Máu tối đa +60"
+  },
+  {
+    "id": "purple_hp_regen",
+    "color": "purple",
+    "description": "Máu tối đa +60 · Hồi máu/5 giây +4.5"
+  },
+  {
+    "id": "purple_lifesteal_magic_defense",
+    "color": "purple",
+    "description": "Hút máu +1% · Giáp phép +4.1"
+  },
+  {
+    "id": "teal_spellvamp_armor",
+    "color": "teal",
+    "description": "Hút máu phép +0.7% · Giáp +5.9"
+  },
+  {
+    "id": "teal_armor",
+    "color": "teal",
+    "description": "Giáp +9"
+  },
+  {
+    "id": "teal_magic_defense",
+    "color": "teal",
+    "description": "Giáp phép +9"
+  },
+  {
+    "id": "teal_armor_magic_defense",
+    "color": "red",
+    "description": "Giáp +5 · Giáp phép +5"
   }
 ]
