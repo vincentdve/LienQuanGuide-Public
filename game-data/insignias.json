@@ -60,7 +60,7 @@
     "name": "Ma chú",
     "branch": "lokheim",
     "tier": 3,
-    "description": "Tung chiêu hoặc đòn đánh thường trúng tướng địch sẽ cộng dồn 1.5 giây dấu ấn, đủ 3 dấu ấn sẽ gây trong phạm vi 2.5m quanh mục tiêu 44-100 (+25% cộng vật lý thêm) (+15% công phép) sát thương phép. Sau 1 giây gây tiếp trong phạm vi 2.5m quanh mục tiêu sát thương phép tương đương 6% máu đã mất của nạn nhân (mỗi 100 công vật lý thêm hoặc 200 công phép tăng 1%)"
+    "description": "Tung chiêu hoặc đòn đánh thường trúng tướng địch sẽ cộng dồn 1.5 giây dấu ấn, đủ 3 dấu ấn sẽ gây trong phạm vi 2.5m quanh mục tiêu 36-96 (+25% cộng vật lý thêm) (+15% công phép) sát thương phép. Sau 1 giây gây tiếp trong phạm vi 2.5m quanh mục tiêu sát thương phép tương đương 6% máu đã mất của nạn nhân (mỗi 100 công vật lý thêm hoặc 200 công phép tăng 1%)"
   },
   {
     "id": "deadlyclaw",
@@ -88,7 +88,7 @@
     "name": "Hấp huyết",
     "branch": "lokheim",
     "tier": 1,
-    "description": "Hạ hoặc phụ sẽ được hồi 9% máu bản thân đã mất và 15 năng lượng·"
+    "description": "Hạ hoặc phụ sẽ được hồi 9% máu bản thân đã mất và 15% năng lượng·"
   },
   {
     "id": "enhancedrestore",
@@ -151,7 +151,7 @@
     "name": "Quả cầu băng sương",
     "branch": "leagueofhumans",
     "tier": 1,
-    "description": "Nhận Quả cầu băng sương. Sau khi sử dụng sẽ được miễn sát thương nhưng không thể công kích, di chuyển và khi kết thúc sẽ nhận được lá chắn 540-1100 (+50% Công Phép) Sát thương"
+    "description": "Nhận Quả cầu băng sương. Sau khi sử dụng sẽ được miễn sát thương nhưng không thể công kích, di chuyển và khi kết thúc sẽ nhận được lá chắn"
   },
   {
     "id": "minionkill",
@@ -222,5 +222,12 @@
     "branch": "afata",
     "tier": 1,
     "description": "Bản thân được nhận 15% kháng hiệu ứng và 10% miễn thương"
+  },
+  {
+    "id": "rebirth",
+    "name": "Chuyển Sinh",
+    "branch": "leagueofhumans",
+    "tier": 3,
+    "description": "Chuyển Sinh có tối đa 2 lần sử dụng, thời gian hồi chiêu khoảng 100–310 giây, hết hiệu lực sau phút 12 và chuyển số lượt chưa dùng thành 300/600 vàng"
   }
 ]

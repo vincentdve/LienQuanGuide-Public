@@ -60,7 +60,12 @@
       "+25 Công vật lý",
       "+15% Tốc đánh"
     ],
-    "passives": []
+    "passives": [
+      {
+        "name": "Cuồng bạo",
+        "description": "Đòn đánh thường tăng 10% tốc chạy - Nội tại duy nhất"
+      }
+    ]
   },
   {
     "id": "arctic-orb",
@@ -88,10 +93,14 @@
     "englishName": "",
     "price": 830,
     "stats": [
-      "+50 Công vật lý",
-      "+60 Xuyên giáp (nội tại)"
+      "+50 Công vật lý"
     ],
-    "passives": []
+    "passives": [
+      {
+        "name": "Phá giáp",
+        "description": "+60 Xuyên giáp - Nội tại duy nhất"
+      }
+    ]
   },
   {
     "id": "belt-of-clarity",
@@ -104,7 +113,12 @@
       "+700 Máu tối đa",
       "+110 Giáp phép"
     ],
-    "passives": []
+    "passives": [
+      {
+        "name": "Hồi phục",
+        "description": "Khi chịu sát thương, hồi 4% máu tối đa trong 2 giây. Hồi chiêu 15 giây."
+      }
+    ]
   },
   {
     "id": "beriths-agony",
@@ -188,7 +202,12 @@
       "+30 Công vật lý",
       "+10% Hút máu"
     ],
-    "passives": []
+    "passives": [
+      {
+        "name": "Huyết yến",
+        "description": "Khi máu dưới 30%, hồi 400–610 máu trong 5 giây. Hồi chiêu 20 giây."
+      }
+    ]
   },
   {
     "id": "boomstick",
@@ -303,7 +322,12 @@
       "+40 Công vật lý",
       "+10% Tốc đánh"
     ],
-    "passives": []
+    "passives": [
+      {
+        "name": "Xuyên thấu",
+        "description": "Tăng 10% xuyên giáp, gấp đôi với tướng đánh xa."
+      }
+    ]
   },
   {
     "id": "claves-sancti",
@@ -322,11 +346,7 @@
       },
       {
         "name": "Nội tại Duy nhất",
-        "description": "+25% Tỷ lệ chí mạng"
-      },
-      {
-        "name": "Nội tại Duy nhất",
-        "description": "Sát thương chí mạng tăng 40%"
+        "description": "+25% Tỷ lệ chí mạng Sát thương chí mạng tăng 40%"
       }
     ]
   },
@@ -411,7 +431,7 @@
     "passives": [
       {
         "name": "Thần linh can thiệp",
-        "description": "Miễn nhiễm sát thương chí tử và vô địch 0.75s đồng thời tăng 25% tốc chạy & 25% tốc đánh. Sau 4 phút mang theo, thời gian hiệu ứng vô địch sẽ kéo dài đến 1.5s."
+        "description": "Miễn nhiễm sát thương chí tử và vô địch 0.75s đồng thời tăng 25% tốc chạy & 25% tốc đánh. Sau 4 phút mang theo, thời gian hiệu ứng vô địch sẽ kéo dài đến 1.5s. Hồi chiêu 120 giây"
       }
     ]
   },
@@ -445,7 +465,24 @@
       "+600 Máu tối đa",
       "+5% Tốc chạy"
     ],
-    "passives": []
+    "passives": [
+      {
+        "name": "Tưởng thưởng",
+        "description": "Tăng 16–30 thuộc tính chủ đạo (1 thuộc tính chủ đạo = 1 công vật lý hoặc 2 công phép). Tăng 200–410 máu tối đa."
+      },
+      {
+        "name": "Nguyên lực",
+        "description": "Tăng 32-60 song giáp cho bản thân và đồng đội lân cận."
+      },
+      {
+        "name": "Hậu cần",
+        "description": "Mỗi 3 giây tăng thêm 6 điểm kinh nghiệm và tăng thêm 6 vàng cho tướng có vàng ít nhất đội."
+      },
+      {
+        "name": "Khiêm nhường",
+        "description": "Khi xung quanh có đồng đội, nếu lính và quái rừng bị tiêu diệt sẽ giúp đồng đội nhận toàn bộ vàng và kinh nghiệm còn bản thân sẽ nhận được 30%-50% vàng và kinh nghiệm (Tăng theo thời gian, đến 13 phút sẽ đạt tối đa)."
+      }
+    ]
   },
   {
     "id": "eclipsing-bow",
@@ -480,7 +517,16 @@
     "stats": [
       "+5% Tốc chạy"
     ],
-    "passives": []
+    "passives": [
+      {
+        "name": "Hậu cần",
+        "description": "Mỗi 3 giây tăng thêm 6 điểm kinh nghiệm và tăng thêm 6 vàng cho tướng có vàng ít nhất đội."
+      },
+      {
+        "name": "Khiêm nhường",
+        "description": "Khi xung quanh có đồng đội, nếu lính và quái rừng bị tiêu diệt sẽ giúp đồng đội nhận toàn bộ vàng và kinh nghiệm còn bản thân sẽ nhận được 30%-50% vàng và kinh nghiệm (Tăng theo thời gian, đến 13 phút sẽ đạt tối đa)."
+      }
+    ]
   },
   {
     "id": "enchanted-kicks",
@@ -493,11 +539,7 @@
     "passives": [
       {
         "name": "Nội tại duy nhất",
-        "description": "+60 Tốc chạy"
-      },
-      {
-        "name": "Nội tại duy nhất",
-        "description": "+100 Xuyên giáp phép"
+        "description": "+60 Tốc chạy +100 Xuyên giáp phép"
       }
     ]
   },
@@ -579,7 +621,24 @@
       "+600 Máu tối đa",
       "+5% Tốc chạy"
     ],
-    "passives": []
+    "passives": [
+      {
+        "name": "Tưởng thưởng",
+        "description": "Tăng 16–30 thuộc tính chủ đạo (1 thuộc tính chủ đạo = 1 công vật lý hoặc 2 công phép). Tăng 200–410 máu tối đa."
+      },
+      {
+        "name": "Cực ảnh",
+        "description": "Tăng 5% tốc đánh và 5% giảm hồi chiêu cho bản thân và đồng đội."
+      },
+      {
+        "name": "Hậu cần",
+        "description": "Mỗi 3 giây tăng thêm 6 điểm kinh nghiệm và tăng thêm 6 vàng cho tướng có vàng ít nhất đội."
+      },
+      {
+        "name": "Khiêm nhường",
+        "description": "Khi xung quanh có đồng đội, nếu lính và quái rừng bị tiêu diệt sẽ giúp đồng đội nhận toàn bộ vàng và kinh nghiệm còn bản thân sẽ nhận được 30%-50% vàng và kinh nghiệm (Tăng theo thời gian, đến 13 phút sẽ đạt tối đa)."
+      }
+    ]
   },
   {
     "id": "flashy-boots",
@@ -594,11 +653,7 @@
     "passives": [
       {
         "name": "Nội tại duy nhất",
-        "description": "+60 Tốc chạy"
-      },
-      {
-        "name": "Nội tại duy nhất",
-        "description": "Giảm 15% hồi chiêu tối đa kỹ năng phụ trợ."
+        "description": "+60 Tốc chạy Giảm 15% hồi chiêu tối đa kỹ năng phụ trợ."
       }
     ]
   },
@@ -717,11 +772,7 @@
     "passives": [
       {
         "name": "Nội tại duy nhất",
-        "description": "+60 Tốc chạy"
-      },
-      {
-        "name": "Nội tại duy nhất",
-        "description": "+35% Kháng hiệu ứng"
+        "description": "+60 Tốc chạy +35% Kháng hiệu ứng"
       }
     ]
   },
@@ -759,7 +810,28 @@
     "stats": [
       "+400 Máu tối đa"
     ],
-    "passives": []
+    "passives": [
+      {
+        "name": "Nội tại duy nhất",
+        "description": "Nhận hiệu ứng tê tái."
+      },
+      {
+        "name": "Hỏa diệm",
+        "description": "Gây 50–78 sát thương phép mỗi giây lên những kẻ địch cạnh bên, tăng 100% sát thương lên quái và lính."
+      },
+      {
+        "name": "Lùng diệt",
+        "description": "Bản thân hoặc đồng đội lân cận hạ mỗi con quái rừng giúp tăng 25 máu tối đa và 0.2% giảm hồi chiêu, tối đa cộng dồn 15 lần."
+      },
+      {
+        "name": "Săn bắt",
+        "description": "Đòn đánh thường hoặc tung chiêu sẽ gây thêm 60-172 sát thương chuẩn lên quái rừng mỗi 0.5 giây, kéo dài 2 giây. Nhận thêm 35% kinh nghiệm khi tiêu diệt quái rừng."
+      },
+      {
+        "name": "Khiêm nhường",
+        "description": "Khi xung quanh có đồng đội, họ sẽ nhận toàn bộ vàng và EXP từ lính, bản thân chỉ nhận 50% vàng và EXP. Hiệu ứng này sẽ bị xóa vào phút thứ 4. Sát thương lên lính giảm 25% (cũng xóa vào phút thứ 4)."
+      }
+    ]
   },
   {
     "id": "greaves-of-protection",
@@ -783,7 +855,12 @@
     "stats": [
       "+150 Giáp"
     ],
-    "passives": []
+    "passives": [
+      {
+        "name": "Hỏa diệm",
+        "description": "Gây 50–78 sát thương phép mỗi giây quanh bản thân, tăng 50% lên lính và quái."
+      }
+    ]
   },
   {
     "id": "hecates-diadem",
@@ -813,7 +890,12 @@
       "+80 Công vật lý",
       "+240 Giáp"
     ],
-    "passives": []
+    "passives": [
+      {
+        "name": "Cuồng nộ",
+        "description": "Dưới 40% máu, tăng 20% hút máu cho tướng đánh gần và nhận lá chắn 880–2000 trong 8 giây. Hồi chiêu 60 giây."
+      }
+    ]
   },
   {
     "id": "hermes-select",
@@ -864,7 +946,12 @@
     "stats": [
       "+210 Giáp"
     ],
-    "passives": []
+    "passives": [
+      {
+        "name": "Lính gác",
+        "description": "Khi bị tấn công, giảm 15% tốc đánh của đối thủ."
+      }
+    ]
   },
   {
     "id": "kukri",
@@ -874,7 +961,16 @@
     "englishName": "",
     "price": 250,
     "stats": [],
-    "passives": []
+    "passives": [
+      {
+        "name": "Thợ săn",
+        "description": "Hạ quái rừng giúp tăng 20% kinh nghiệm. Đòn đánh thường hoặc chiêu trúng đích gây thêm 50–120 sát thương chuẩn lên quái rừng mỗi 0,5 giây trong 2 giây."
+      },
+      {
+        "name": "Khiêm nhường",
+        "description": "Khi xung quanh có đồng đội, họ sẽ nhận toàn bộ vàng và EXP từ lính, bản thân chỉ nhận 50% vàng và EXP. Hiệu ứng này sẽ bị xóa vào phút thứ 4. Sát thương lên lính giảm 25% (cũng xóa vào phút thứ 4)."
+      }
+    ]
   },
   {
     "id": "lapis-ring",
@@ -941,13 +1037,18 @@
     "category": "def",
     "imageSlug": "light-shield",
     "englishName": "",
-    "price": null,
+    "price": 2040,
     "stats": [
       "+10% Giảm hồi chiêu",
       "+180 Giáp",
       "+1000 Máu tối đa"
     ],
-    "passives": []
+    "passives": [
+      {
+        "name": "Quang thuẫn",
+        "description": "Gây sát thương lên tướng địch tạo lá chắn 250–530 + 4% máu tối đa cho bản thân và đồng minh thấp máu nhất gần đó, kéo dài 3 giây. Không có đồng minh gần, lá chắn tăng 50%. Hồi chiêu 10/12,5 giây cho đánh gần/xa."
+      }
+    ]
   },
   {
     "id": "lokis-curse",
@@ -1096,7 +1197,24 @@
     "stats": [
       "+40 Công phép"
     ],
-    "passives": []
+    "passives": [
+      {
+        "name": "Nội tại duy nhất",
+        "description": "Nhận hiệu ứng tê tái."
+      },
+      {
+        "name": "Lùng diệt",
+        "description": "Bản thân hoặc đồng đội lân cận hạ mỗi con quái rừng giúp tăng 4 công phép và 0.2% giảm hồi chiêu, tối đa cộng dồn 15 lần."
+      },
+      {
+        "name": "Săn bắt",
+        "description": "Đòn đánh thường hoặc tung chiêu sẽ gây thêm 60-172 sát thương chuẩn lên quái rừng mỗi 0.5 giây, kéo dài 2 giây. Nhận thêm 35% kinh nghiệm khi tiêu diệt quái rừng."
+      },
+      {
+        "name": "Khiêm nhường",
+        "description": "Khi xung quanh có đồng đội, họ sẽ nhận toàn bộ vàng và EXP từ lính, bản thân chỉ nhận 50% vàng và EXP. Hiệu ứng này sẽ bị xóa vào phút thứ 4. Sát thương lên lính giảm 25% (cũng xóa vào phút thứ 4)."
+      }
+    ]
   },
   {
     "id": "mother-earth-barrier",
@@ -1109,7 +1227,28 @@
       "+1200 Máu tối đa",
       "+8% Tốc chạy"
     ],
-    "passives": []
+    "passives": [
+      {
+        "name": "Thần Khiên",
+        "description": "Kích hoạt: Tạo lá chắn hấp thụ 680–1800 sát thương cho bản thân và đồng minh gần trong 3 giây. Hồi chiêu 60 giây."
+      },
+      {
+        "name": "Tưởng thưởng",
+        "description": "Tăng 32-60 thuộc tính chủ đạo (1 thuộc tính chủ đạo = 1 công vật lý hoặc 2 công phép). Tăng 400-820 máu tối đa."
+      },
+      {
+        "name": "Nguyên lực",
+        "description": "Tăng 32-60 song giáp cho bản thân và đồng đội lân cận."
+      },
+      {
+        "name": "Hậu cần",
+        "description": "Mỗi 3 giây tăng thêm 8 điểm kinh nghiệm và tăng thêm 8 vàng cho tướng có vàng ít nhất đội. Nếu vàng rơi từ lính không được nhận, 50% số vàng đó sẽ rơi trên mặt đất. Có thể nhặt tối đa 600 vàng đồng thời có thể hút vàng trên toàn bản đồ 1 lần. Khi tích lũy đủ 600 vàng từ việc nhặt vàng sẽ mở khóa chiêu \"Cộng hưởng\", kích hoạt chủ động giúp bản thân và một tướng đồng minh nhận được rất nhiều vàng và EXP (cả trận chỉ được dùng một lần)."
+      },
+      {
+        "name": "Khiêm nhường",
+        "description": "Khi xung quanh có đồng đội, nếu lính và quái rừng bị tiêu diệt sẽ giúp đồng đội nhận toàn bộ vàng và kinh nghiệm còn bản thân sẽ nhận được 30%-50% vàng và kinh nghiệm (Tăng theo thời gian, đến 13 phút sẽ đạt tối đa)."
+      }
+    ]
   },
   {
     "id": "mother-earth-cleansing",
@@ -1125,7 +1264,7 @@
     "passives": [
       {
         "name": "Mở trói",
-        "description": "Hóa giải tất cả hiệu ứng khống chế cho bản thân và đồng đội trong phạm vi đồng thời miễn khống trong 0.5 giây."
+        "description": "Hóa giải tất cả hiệu ứng khống chế cho bản thân và đồng đội trong phạm vi đồng thời miễn khống trong 0.5 giây. Hồi chiêu 90 giây."
       },
       {
         "name": "Tưởng thưởng",
@@ -1156,7 +1295,28 @@
       "+1200 Máu tối đa",
       "+8% Tốc chạy"
     ],
-    "passives": []
+    "passives": [
+      {
+        "name": "Ma Nhãn",
+        "description": "Kích hoạt: Soi tầm nhìn chuẩn trong 4 giây, gây hai lần sát thương phép bằng 8% máu hiện tại và làm chậm 50%. Hồi chiêu 45 giây."
+      },
+      {
+        "name": "Tưởng thưởng",
+        "description": "Tăng 32-60 thuộc tính chủ đạo (1 thuộc tính chủ đạo = 1 công vật lý hoặc 2 công phép). Tăng 400-820 máu tối đa."
+      },
+      {
+        "name": "Nguyên lực",
+        "description": "Tăng 32-60 song giáp cho bản thân và đồng đội lân cận."
+      },
+      {
+        "name": "Hậu cần",
+        "description": "Mỗi 3 giây tăng thêm 8 điểm kinh nghiệm và tăng thêm 8 vàng cho tướng có vàng ít nhất đội. Nếu vàng rơi từ lính không được nhận, 50% số vàng đó sẽ rơi trên mặt đất. Có thể nhặt tối đa 600 vàng đồng thời có thể hút vàng trên toàn bản đồ 1 lần. Khi tích lũy đủ 600 vàng từ việc nhặt vàng sẽ mở khóa chiêu \"Cộng hưởng\", kích hoạt chủ động giúp bản thân và một tướng đồng minh nhận được rất nhiều vàng và EXP (cả trận chỉ được dùng một lần)."
+      },
+      {
+        "name": "Khiêm nhường",
+        "description": "Khi xung quanh có đồng đội, nếu lính và quái rừng bị tiêu diệt sẽ giúp đồng đội nhận toàn bộ vàng và kinh nghiệm còn bản thân sẽ nhận được 30%-50% vàng và kinh nghiệm (Tăng theo thời gian, đến 13 phút sẽ đạt tối đa)."
+      }
+    ]
   },
   {
     "id": "mother-earth-spout",
@@ -1206,7 +1366,7 @@
     "passives": [
       {
         "name": "Thần tốc",
-        "description": "Kích hoạt: Tốc chạy của các tướng đồng minh trong phạm vi sẽ tăng dần trong vòng 2 giây, lên tới 20%-100%, kéo dài 4 giây. Khi đi ngang qua một tướng đồng minh không được tăng tốc, hiệu ứng này sẽ được đồng bộ với tướng đồng minh. Khi tấn công hoặc bị tướng địch đánh trúng sẽ chỉ giữ lại 20% tốc độ tăng thêm."
+        "description": "Kích hoạt: Tốc chạy của các tướng đồng minh trong phạm vi sẽ tăng dần trong vòng 2 giây, lên tới 20%-100%, kéo dài 4 giây. Khi đi ngang qua một tướng đồng minh không được tăng tốc, hiệu ứng này sẽ được đồng bộ với tướng đồng minh. Khi tấn công hoặc bị tướng địch đánh trúng sẽ chỉ giữ lại 20% tốc độ tăng thêm. Hồi chiêu 75 giây."
       },
       {
         "name": "Tưởng thưởng",
@@ -1236,7 +1396,24 @@
     "stats": [
       "+25 Công vật lý"
     ],
-    "passives": []
+    "passives": [
+      {
+        "name": "Nội tại duy nhất",
+        "description": "Nhận hiệu ứng tê tái."
+      },
+      {
+        "name": "Lùng diệt",
+        "description": "Bản thân hoặc đồng đội lân cận hạ mỗi con quái rừng giúp tăng 2 công vật lý và 0.2% giảm hồi chiêu, tối đa cộng dồn 15 lần."
+      },
+      {
+        "name": "Săn bắt",
+        "description": "Đòn đánh thường hoặc tung chiêu sẽ gây thêm 60-172 sát thương chuẩn lên quái rừng mỗi 0.5 giây, kéo dài 2 giây. Nhận thêm 35% kinh nghiệm khi tiêu diệt quái rừng."
+      },
+      {
+        "name": "Khiêm nhường",
+        "description": "Khi xung quanh có đồng đội, họ sẽ nhận toàn bộ vàng và EXP từ lính, bản thân chỉ nhận 50% vàng và EXP. Hiệu ứng này sẽ bị xóa vào phút thứ 4. Sát thương lên lính giảm 25% (cũng xóa vào phút thứ 4)."
+      }
+    ]
   },
   {
     "id": "muramasa",
@@ -1344,7 +1521,12 @@
     "stats": [
       "+80 Công phép"
     ],
-    "passives": []
+    "passives": [
+      {
+        "name": "Vang vọng",
+        "description": "Tung chiêu tạo 180 sát thương phép diện rộng, hồi chiêu 5 giây."
+      }
+    ]
   },
   {
     "id": "pendant-of-faith",
@@ -1368,7 +1550,12 @@
     "stats": [
       "+50 Công phép"
     ],
-    "passives": []
+    "passives": [
+      {
+        "name": "Tưởng thưởng anh hùng",
+        "description": "Lên cấp hồi 20% máu và 10% năng lượng trong 3 giây."
+      }
+    ]
   },
   {
     "id": "platinum-gauntlets",
@@ -1528,7 +1715,12 @@
     "stats": [
       "+20% Tốc đánh"
     ],
-    "passives": []
+    "passives": [
+      {
+        "name": "Điểm yếu",
+        "description": "Đánh thường gây thêm 21–35 sát thương vật lý khi đánh gần, 42–70 khi đánh xa. Hồi chiêu 0,3 giây."
+      }
+    ]
   },
   {
     "id": "slikks-sting",
@@ -1581,11 +1773,7 @@
     "passives": [
       {
         "name": "Nội tại duy nhất",
-        "description": "+60 Tốc chạy"
-      },
-      {
-        "name": "Nội tại duy nhất",
-        "description": "Giảm 10% sát thương vật lý phải chịu."
+        "description": "+60 Tốc chạy Giảm 10% sát thương vật lý phải chịu."
       }
     ]
   },
@@ -1677,14 +1865,19 @@
     "category": "atk",
     "imageSlug": "stealth-bracer",
     "englishName": "",
-    "price": null,
+    "price": 2040,
     "stats": [
       "+40 Công vật lý",
       "+20% Tốc đánh",
       "+20% Tỷ lệ chí mạng",
       "+650 Máu tối đa"
     ],
-    "passives": []
+    "passives": [
+      {
+        "name": "Vô hình",
+        "description": "Kích hoạt tàng hình 2,5 giây (tướng đánh gần 1 giây), tăng 30% tốc chạy và hồi 130–260 máu mỗi 0,5 giây; tấn công sẽ thoát tàng hình. Hồi chiêu 75 giây."
+      }
+    ]
   },
   {
     "id": "talisman-of-strength",
@@ -1764,11 +1957,11 @@
     "passives": [
       {
         "name": "Bất khuất",
-        "description": "Nhận 35% miễn thương trong 3 giây, có thể dùng khi bị khống chế."
+        "description": "Giảm 40% sát thương nhận vào trong 2 giây, kích hoạt được khi bị khống chế, hồi chiêu 90 giây."
       },
       {
         "name": "Trì trệ",
-        "description": "Tung chiêu trúng sẽ làm chậm tướng địch đầu tiên 30% và giảm 20% sát thương hắn gây ra trong 3 giây."
+        "description": "Chiêu trúng tướng đầu tiên làm chậm 30% và giảm 20% sát thương gây ra trong 3 giây, hồi chiêu 8 giây."
       }
     ]
   },
@@ -1816,7 +2009,16 @@
       "+25% Tốc đánh",
       "+200 Giáp phép"
     ],
-    "passives": []
+    "passives": [
+      {
+        "name": "Bảo hộ ma pháp",
+        "description": "Dưới 40% máu, nhận lá chắn chống 600–2000 sát thương phép, 25% kháng hiệu ứng và 30% tốc chạy trong 5 giây. Hồi chiêu 75 giây."
+      },
+      {
+        "name": "Cuồng bạo",
+        "description": "Đánh thường tăng 10% tốc chạy."
+      }
+    ]
   },
   {
     "id": "virtues-bracelet",
@@ -1877,11 +2079,7 @@
     "passives": [
       {
         "name": "Nội tại duy nhất",
-        "description": "+60 Tốc chạy"
-      },
-      {
-        "name": "Nội tại duy nhất",
-        "description": "Đánh thường hồi 20 máu (hồi chiêu: 0.3 giây) (Giảm một nửa hiệu ứng đối với đơn vị không phải tướng)."
+        "description": "+60 Tốc chạy Đánh thường hồi 20 máu (hồi chiêu: 0.3 giây) (Giảm một nửa hiệu ứng đối với đơn vị không phải tướng)."
       }
     ]
   },
@@ -1895,7 +2093,24 @@
     "stats": [
       "+12% Tốc đánh"
     ],
-    "passives": []
+    "passives": [
+      {
+        "name": "Nội tại duy nhất",
+        "description": "Nhận hiệu ứng tê tái."
+      },
+      {
+        "name": "Lùng diệt",
+        "description": "Bản thân hoặc đồng đội lân cận hạ mỗi con quái rừng giúp tăng 0.8% tốc đánh và 0.2% hút máu, tối đa cộng dồn 15 lần."
+      },
+      {
+        "name": "Săn bắt",
+        "description": "Đòn đánh thường hoặc tung chiêu sẽ gây thêm 60-172 sát thương chuẩn lên quái rừng mỗi 0.5 giây, kéo dài 2 giây. Nhận thêm 35% kinh nghiệm khi tiêu diệt quái rừng."
+      },
+      {
+        "name": "Khiêm nhường",
+        "description": "Khi xung quanh có đồng đội, họ sẽ nhận toàn bộ vàng và EXP từ lính, bản thân chỉ nhận 50% vàng và EXP. Hiệu ứng này sẽ bị xóa vào phút thứ 4. Sát thương lên lính giảm 25% (cũng xóa vào phút thứ 4)."
+      }
+    ]
   },
   {
     "id": "wildfire-barrier",
@@ -1908,7 +2123,28 @@
       "+1200 Máu tối đa",
       "+8% Tốc chạy"
     ],
-    "passives": []
+    "passives": [
+      {
+        "name": "Thần Khiên",
+        "description": "Kích hoạt: Tạo lá chắn hấp thụ 680–1800 sát thương cho bản thân và đồng minh gần trong 3 giây. Hồi chiêu 60 giây."
+      },
+      {
+        "name": "Tưởng thưởng",
+        "description": "Tăng 32-60 thuộc tính chủ đạo (1 thuộc tính chủ đạo = 1 công vật lý hoặc 2 công phép). Tăng 400-820 máu tối đa."
+      },
+      {
+        "name": "Cực ảnh",
+        "description": "Tăng 5% tốc đánh và 5% giảm hồi chiêu cho bản thân và đồng đội."
+      },
+      {
+        "name": "Hậu cần",
+        "description": "Mỗi 3 giây tăng thêm 8 điểm kinh nghiệm và tăng thêm 8 vàng cho tướng có vàng ít nhất đội. Nếu vàng rơi từ lính không được nhận, 50% số vàng đó sẽ rơi trên mặt đất. Có thể nhặt tối đa 600 vàng đồng thời có thể hút vàng trên toàn bản đồ 1 lần. Khi tích lũy đủ 600 vàng từ việc nhặt vàng sẽ mở khóa chiêu \"Cộng hưởng\", kích hoạt chủ động giúp bản thân và một tướng đồng minh nhận được rất nhiều vàng và EXP (cả trận chỉ được dùng một lần)."
+      },
+      {
+        "name": "Khiêm nhường",
+        "description": "Khi xung quanh có đồng đội, nếu lính và quái rừng bị tiêu diệt sẽ giúp đồng đội nhận toàn bộ vàng và kinh nghiệm còn bản thân sẽ nhận được 30%-50% vàng và kinh nghiệm (Tăng theo thời gian, đến 13 phút sẽ đạt tối đa)."
+      }
+    ]
   },
   {
     "id": "wildfire-cleansing",
@@ -1924,7 +2160,7 @@
     "passives": [
       {
         "name": "Mở trói",
-        "description": "Hóa giải tất cả hiệu ứng khống chế cho bản thân và đồng đội trong phạm vi đồng thời miễn khống trong 0.5 giây."
+        "description": "Hóa giải tất cả hiệu ứng khống chế cho bản thân và đồng đội trong phạm vi đồng thời miễn khống trong 0.5 giây. Hồi chiêu 90 giây."
       },
       {
         "name": "Tưởng thưởng",
@@ -1955,7 +2191,28 @@
       "+1200 Máu tối đa",
       "+8% Tốc chạy"
     ],
-    "passives": []
+    "passives": [
+      {
+        "name": "Ma Nhãn",
+        "description": "Kích hoạt: Soi tầm nhìn chuẩn trong 4 giây, gây hai lần sát thương phép bằng 8% máu hiện tại và làm chậm 50%. Hồi chiêu 45 giây."
+      },
+      {
+        "name": "Tưởng thưởng",
+        "description": "Tăng 32-60 thuộc tính chủ đạo (1 thuộc tính chủ đạo = 1 công vật lý hoặc 2 công phép). Tăng 400-820 máu tối đa."
+      },
+      {
+        "name": "Cực ảnh",
+        "description": "Tăng 5% tốc đánh và 5% giảm hồi chiêu cho bản thân và đồng đội."
+      },
+      {
+        "name": "Hậu cần",
+        "description": "Mỗi 3 giây tăng thêm 8 điểm kinh nghiệm và tăng thêm 8 vàng cho tướng có vàng ít nhất đội. Nếu vàng rơi từ lính không được nhận, 50% số vàng đó sẽ rơi trên mặt đất. Có thể nhặt tối đa 600 vàng đồng thời có thể hút vàng trên toàn bản đồ 1 lần. Khi tích lũy đủ 600 vàng từ việc nhặt vàng sẽ mở khóa chiêu \"Cộng hưởng\", kích hoạt chủ động giúp bản thân và một tướng đồng minh nhận được rất nhiều vàng và EXP (cả trận chỉ được dùng một lần)."
+      },
+      {
+        "name": "Khiêm nhường",
+        "description": "Khi xung quanh có đồng đội, nếu lính và quái rừng bị tiêu diệt sẽ giúp đồng đội nhận toàn bộ vàng và kinh nghiệm còn bản thân sẽ nhận được 30%-50% vàng và kinh nghiệm (Tăng theo thời gian, đến 13 phút sẽ đạt tối đa)."
+      }
+    ]
   },
   {
     "id": "wildfire-spout",
@@ -2002,7 +2259,28 @@
       "+1200 Máu tối đa",
       "+8% Tốc chạy"
     ],
-    "passives": []
+    "passives": [
+      {
+        "name": "Thần tốc",
+        "description": "Kích hoạt: Tốc chạy của các tướng đồng minh trong phạm vi sẽ tăng dần trong vòng 2 giây, lên tới 20%-100%, kéo dài 4 giây. Khi đi ngang qua một tướng đồng minh không được tăng tốc, hiệu ứng này sẽ được đồng bộ với tướng đồng minh. Khi tấn công hoặc bị tướng địch đánh trúng sẽ chỉ giữ lại 20% tốc độ tăng thêm. Hồi chiêu 75 giây."
+      },
+      {
+        "name": "Tưởng thưởng",
+        "description": "Tăng 32-60 thuộc tính chủ đạo (1 thuộc tính chủ đạo = 1 công vật lý hoặc 2 công phép). Tăng 400-820 máu tối đa."
+      },
+      {
+        "name": "Cực ảnh",
+        "description": "Tăng 5% tốc đánh và 5% giảm hồi chiêu cho bản thân và đồng đội."
+      },
+      {
+        "name": "Hậu cần",
+        "description": "Mỗi 3 giây tăng thêm 8 điểm kinh nghiệm và tăng thêm 8 vàng cho tướng có vàng ít nhất đội. Nếu vàng rơi từ lính không được nhận, 50% số vàng đó sẽ rơi trên mặt đất. Có thể nhặt tối đa 600 vàng đồng thời có thể hút vàng trên toàn bản đồ 1 lần. Khi tích lũy đủ 600 vàng từ việc nhặt vàng sẽ mở khóa chiêu \"Cộng hưởng\", kích hoạt chủ động giúp bản thân và một tướng đồng minh nhận được rất nhiều vàng và EXP (cả trận chỉ được dùng một lần)."
+      },
+      {
+        "name": "Khiêm nhường",
+        "description": "Khi xung quanh có đồng đội, nếu lính và quái rừng bị tiêu diệt sẽ giúp đồng đội nhận toàn bộ vàng và kinh nghiệm còn bản thân sẽ nhận được 30%-50% vàng và kinh nghiệm (Tăng theo thời gian, đến 13 phút sẽ đạt tối đa)."
+      }
+    ]
   },
   {
     "id": "zweihander",
